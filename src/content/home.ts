@@ -11,6 +11,7 @@ export const homeHero = {
   subtitle: "nach neuestem Stand der Technik",
   bullets: ["schnelle Montage", "Flexibilität am Dach", "exzellenter Service"],
   image: "/images/hero-produkte.webp",
+  bgImage: "/images/hero-bg.jpg",
 };
 
 export const homeProductsIntro = {
@@ -259,5 +260,10 @@ export const homeSeo: { title: string; intro: string; blocks: SeoBlock[] } = {
 export const homeCta = {
   title: "Vereinbaren Sie noch heute einen Beratungstermin!",
   slogan: "Make Your Installers HAPPY!",
+  sloganParts: [
+    { text: "Make Your", color: "green" },
+    { text: "Installers", color: "green" },
+    { text: "HAPPY!", color: "amber" },
+  ] as { text: string; color: "amber" | "green" }[],
   button: { label: "Hier Termin vereinbaren", href: "/kontakt/" } as CtaLink,
 };
