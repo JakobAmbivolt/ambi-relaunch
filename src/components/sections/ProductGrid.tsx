@@ -21,7 +21,7 @@ export function ProductGrid() {
         <Reveal delay={0.1}>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {homeProducts.map((product) => (
-              <ProductCard key={product.slug} product={product} />
+              <ProductCard key={product.slug} product={product} variant="tagged" />
             ))}
           </div>
         </Reveal>
