@@ -28,7 +28,7 @@ export function EfficiencyCards() {
                 <div className="relative h-14 w-14">
                   <Image
                     src={card.icon}
-                    alt={card.title}
+                    alt=""
                     fill
                     className="object-contain"
                     sizes="56px"

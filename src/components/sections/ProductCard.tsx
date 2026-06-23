@@ -21,7 +21,7 @@ export function ProductCard({ product }: { product: ProductCardData }) {
       <div className="flex flex-1 flex-col p-5">
         <h3 className="text-lg font-bold text-ink">{product.title}</h3>
         <p className="mt-2 flex-1 text-sm text-text">{product.teaser}</p>
-        <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-amber transition-gap group-hover:gap-2">
+        <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-amber transition-all group-hover:gap-2">
           Mehr erfahren
           <Icon name="arrow" className="h-4 w-4" />
         </span>

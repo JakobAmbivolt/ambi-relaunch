@@ -31,6 +31,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Reveal-Inhalte ohne JavaScript sichtbar lassen (SEO / no-JS) */
+@media (scripting: none) {
+  .js-reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
 /* Reduced motion: Animationen entschärfen */
 @media (prefers-reduced-motion: reduce) {
   *,

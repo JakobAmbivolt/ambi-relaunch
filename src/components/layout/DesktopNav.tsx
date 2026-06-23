@@ -6,17 +6,28 @@ import { Icon } from "@/components/ui/Icon";
 import { Button } from "@/components/ui/Button";
 
 export function DesktopNav() {
-  const [open, setOpen] = useState(false);
+  const [openKey, setOpenKey] = useState<string | null>(null);
   return (
     <nav className="hidden items-center gap-8 lg:flex" aria-label="Hauptnavigation">
       {mainNav.map((item) =>
         item.children ? (
-          <div key={item.href} className="relative" onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
-            <button className="flex items-center gap-1 py-2 text-sm font-medium text-ink hover:text-amber"
-              aria-expanded={open} aria-haspopup="true" onFocus={() => setOpen(true)}>
+          <div
+            key={item.href}
+            className="relative"
+            onMouseEnter={() => setOpenKey(item.href)}
+            onMouseLeave={() => setOpenKey(null)}
+            onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget as Node)) setOpenKey(null); }}
+            onKeyDown={(e) => { if (e.key === "Escape") setOpenKey(null); }}
+          >
+            <button
+              className="flex items-center gap-1 py-2 text-sm font-medium text-ink hover:text-amber"
+              aria-expanded={openKey === item.href}
+              aria-haspopup="true"
+              onFocus={() => setOpenKey(item.href)}
+            >
               {item.label}<Icon name="chevron" className="h-4 w-4" />
             </button>
-            {open && (
+            {openKey === item.href && (
               <ul className="absolute left-0 top-full z-40 min-w-64 border-t-2 border-amber bg-white py-2 shadow-lg">
                 {item.children.map((c) => (
                   <li key={c.href}>
