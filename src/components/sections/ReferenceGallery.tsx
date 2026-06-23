@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import Image from "next/image";
 
 type Project = { name: string; image: string | null; kwp?: string };
@@ -17,6 +17,10 @@ function Lightbox({
   const [index, setIndex] = useState(startIndex);
   const current = projects[index];
 
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
+  const prevButtonRef = useRef<HTMLButtonElement>(null);
+  const nextButtonRef = useRef<HTMLButtonElement>(null);
+
   const prev = useCallback(
     () => setIndex((i) => (i - 1 + projects.length) % projects.length),
     [projects.length]
@@ -25,6 +29,11 @@ function Lightbox({
     () => setIndex((i) => (i + 1) % projects.length),
     [projects.length]
   );
+
+  // Move focus to close button whenever the lightbox opens or the slide changes.
+  useEffect(() => {
+    closeButtonRef.current?.focus();
+  }, [index]);
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -40,16 +49,41 @@ function Lightbox({
     };
   }, [onClose, prev, next]);
 
+  // Focus trap: cycle focus among Prev, Next, Close buttons.
+  function handleDialogKeyDown(e: React.KeyboardEvent<HTMLDivElement>) {
+    if (e.key !== "Tab") return;
+    const focusable = [prevButtonRef.current, nextButtonRef.current, closeButtonRef.current].filter(
+      (el): el is HTMLButtonElement => el !== null
+    );
+    if (focusable.length === 0) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    const active = document.activeElement;
+    if (e.shiftKey) {
+      if (active === first) {
+        e.preventDefault();
+        last.focus();
+      }
+    } else {
+      if (active === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
+  }
+
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/80"
       onClick={onClose}
+      onKeyDown={handleDialogKeyDown}
       role="dialog"
       aria-modal="true"
-      aria-label={`Referenz ${current.name}`}
+      aria-label="Projektbild"
     >
       {/* prev */}
       <button
+        ref={prevButtonRef}
         className="absolute left-4 top-1/2 -translate-y-1/2 rounded-full bg-white/20 p-3 text-white hover:bg-white/40 transition-colors"
         onClick={(e) => { e.stopPropagation(); prev(); }}
         aria-label="Vorheriges Bild"
@@ -84,6 +118,7 @@ function Lightbox({
 
       {/* next */}
       <button
+        ref={nextButtonRef}
         className="absolute right-4 top-1/2 -translate-y-1/2 rounded-full bg-white/20 p-3 text-white hover:bg-white/40 transition-colors"
         onClick={(e) => { e.stopPropagation(); next(); }}
         aria-label="Nächstes Bild"
@@ -95,6 +130,7 @@ function Lightbox({
 
       {/* close */}
       <button
+        ref={closeButtonRef}
         className="absolute right-4 top-4 rounded-full bg-white/20 p-2 text-white hover:bg-white/40 transition-colors"
         onClick={onClose}
         aria-label="Schließen"

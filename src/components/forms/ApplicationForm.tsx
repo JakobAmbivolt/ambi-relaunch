@@ -159,10 +159,11 @@ export function ApplicationForm() {
 
       {/* File upload */}
       <div className="flex flex-col gap-1">
-        <label className="text-sm font-medium text-ink">
+        <label htmlFor="bewerbung-anhang" className="text-sm font-medium text-ink">
           Anhang (z.B. Lebenslauf, Zeugnisse etc.)
         </label>
         <input
+          id="bewerbung-anhang"
           type="file"
           accept=".jpg,.jpeg,.jpe,.mka,.7z,.xla,.xls,.xlt,.xlw,.odg"
           className="text-sm text-text file:mr-4 file:cursor-pointer file:rounded file:border-0 file:bg-amber file:px-4 file:py-2 file:text-sm file:font-semibold file:text-white hover:file:bg-amber-bright"
@@ -203,7 +204,7 @@ export function ApplicationForm() {
 
       {/* Math captcha */}
       <FormField label="Sicherheitsfrage" required error={errors.captcha}>
-        <div className="flex items-center gap-3">
+        <span className="flex items-center gap-3">
           <span suppressHydrationWarning className="whitespace-nowrap text-sm font-medium text-ink">
             {captchaA} + {captchaB} =
           </span>
@@ -214,7 +215,7 @@ export function ApplicationForm() {
             placeholder="Ergebnis"
             className={inputClass(errors.captcha)}
           />
-        </div>
+        </span>
       </FormField>
 
       <button

@@ -175,7 +175,7 @@ export function ContactForm() {
 
       {/* Math captcha */}
       <FormField label="Sicherheitsfrage" required error={errors.captcha}>
-        <div className="flex items-center gap-3">
+        <span className="flex items-center gap-3">
           <span suppressHydrationWarning className="whitespace-nowrap text-sm font-medium text-ink">
             {captchaA} + {captchaB} =
           </span>
@@ -186,7 +186,7 @@ export function ContactForm() {
             placeholder="Ergebnis"
             className={inputClass(errors.captcha)}
           />
-        </div>
+        </span>
       </FormField>
 
       <button

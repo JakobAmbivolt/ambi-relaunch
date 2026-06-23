@@ -70,6 +70,7 @@ export function JobAccordion({ jobs }: { jobs: { title: string; body: string }[]
           <div key={i}>
             <button
               aria-expanded={isOpen}
+              aria-controls={`job-panel-${i}`}
               onClick={() => setOpenIndex(isOpen ? null : i)}
               className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left text-base font-semibold text-ink transition-colors hover:bg-surface focus-visible:outline-2 focus-visible:outline-amber"
             >
@@ -82,7 +83,11 @@ export function JobAccordion({ jobs }: { jobs: { title: string; body: string }[]
               />
             </button>
             {isOpen && (
-              <div className="px-6 pb-6 pt-2 text-sm text-text leading-relaxed">
+              <div
+                id={`job-panel-${i}`}
+                role="region"
+                className="px-6 pb-6 pt-2 text-sm text-text leading-relaxed"
+              >
                 {renderBody(job.body)}
               </div>
             )}
