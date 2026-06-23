@@ -36,6 +36,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# playwright mcp scratch (screenshots, console logs)
+.playwright-mcp/
+ambivolt-home-full.jpeg
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
