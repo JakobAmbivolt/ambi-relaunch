@@ -49,3 +49,6 @@ new-home-*.jpeg
 redesign-*.jpeg
 orig-*.jpeg
 m2-*.jpeg
+
+# QA-Screenshots im Repo-Root
+/*.jpeg

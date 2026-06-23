@@ -1,0 +1,712 @@
+{
+  "unternehmen": {
+    "url": "https://ambivolt.de/unternehmen/",
+    "metaTitle": "Die Ambivolt Energietechnik GmbH! Unser Unternehmen",
+    "metaDescription": "Erfahren Sie mehr über unsere Leidenschaft für innovative Montage-Systeme und Engagement für erneuerbare Energien. Lesen Sie hier mehr!",
+    "heroEyebrow": "About",
+    "heroTitle": "AmbiVolt –  das Unternehmen",
+    "sections": [
+      {
+        "name": "hero",
+        "heading": "AmbiVolt –  das Unternehmen",
+        "subheading": "About",
+        "cta": {
+          "label": "Hier mehr lesen",
+          "href": "https://ambivolt.de/unternehmen/#ueberuns"
+        }
+      },
+      {
+        "name": "ueber-uns",
+        "subheading": "Über AmbiVolt",
+        "heading": "AmbiVolt –  Erfahrung & Innovation in der Photovoltaik-Montage",
+        "paragraphs": [
+          "AmbiVolt produziert Photovoltaik-Montagesysteme nach dem neuesten Stand der Technik. Unsere Systeme gewährleisten eine schnelle Montage, Flexibilität am Dach und einen jederzeit den Normen entsprechenden Nachweis. Durch die enge Zusammenarbeit mit Installationsbetrieben und der ständigen Weiterentwicklung sind wir hier häufig Trendsetter."
+        ],
+        "bullets": [
+          "Kontinuierliche Weiterentwicklung",
+          "Hohe Qualität & Zuverlässigkeit",
+          "Langjährige Expertise & Erfahrung",
+          "Hervorragender Kundenservice"
+        ],
+        "images": [
+          "/images/content/AmbiVolt-Katalog-cover-web-01.jpg"
+        ],
+        "cta": {
+          "label": "Hier hallo sagen!",
+          "href": "https://ambivolt.de/kontakt/"
+        }
+      },
+      {
+        "name": "warum-wir-nachhaltigkeit",
+        "subheading": "Warum wir",
+        "heading": "Nachhaltigkeit & Qualität ist ein Schlüsselelement unserer Philosophie",
+        "paragraphs": [
+          "Als Unternehmen haben wir eine Verantwortung, einen Beitrag zur Schonung der Umwelt zu leisten. Deshalb engagieren wir uns für eine nachhaltige Zukunft.",
+          "Aussderm legen wir großen Wert auf Präzision, Robustheit und Langlebigkeit unserer Montagesysteme und investieren kontinuierlich in die Entwicklung und Verbesserung unserer Produkte."
+        ],
+        "cta": {
+          "label": "Beratung anfragen!",
+          "href": "https://ambivolt.de/kontakt/"
+        }
+      },
+      {
+        "name": "verantwortung-philosophie",
+        "heading": "Wir glauben daran, dass wir als Unternehmen eine Verantwortung haben, einen Beitrag zur Schonung der Umwelt zu leisten.",
+        "bullets": [
+          "Investieren auch Sie in eine nachhaltige Zukunft auf Basis neuester Technologie",
+          "Machen Sie Ihre Installeure mit hochwertigen und easy zu installierenden Produkten happy"
+        ],
+        "subheading": "FRAGEN SIE JETZT IHREN BERATUNGSTERMIN ÜBER UNSER KONTAKTFORMULAR AN!"
+      }
+    ],
+    "progressBars": [
+      {
+        "label": "Innovation",
+        "percent": 92
+      },
+      {
+        "label": "Nachhaltige Zukunft",
+        "percent": 85
+      },
+      {
+        "label": "Nachhaltige Enerige",
+        "percent": 75
+      }
+    ],
+    "notes": "heroBgImage konnte nicht extrahiert werden: Die Hero-Sektion (Divi, CSS-Klasse et_pb_section_0 industrial-12-he) liefert ihr Hintergrundbild per WP-Rocket-Lazy-Loading (data-rocket-lazy-bg). Die echte URL ist weder im statischen HTML noch nach JS-Render (json-Format mit waitFor:6000) auffindbar, daher bewusst weggelassen statt geraten — beim Nachbau manuell prüfen.\n\nEinziges echtes Content-Bild der Seite: https://ambivolt.de/wp-content/uploads/AmbiVolt-Katalog-cover-web-01.jpg (Katalog-Cover in Sektion 'Über AmbiVolt'). Übrige gefundene Bilder sind Logo (ambivolt-Logo.svg), Favicon und Borlabs-Cookie-Platzhalter — nicht Seiteninhalt.\n\nIm Markdown markieren einzelne 'N' / '}' / '#' Zeichen die Divi-Blurb-Icons (Icon-Font-Glyphen), nicht Text. Die zugehörigen Überschriften wurden als Bullets/Feature-Titel erfasst.\n\nOriginal-Tippfehler bewusst beibehalten: 'Aussderm' (statt Außerdem), 'Nachhaltige Enerige' (statt Energie), 'Installeure' und doppelte Leerzeichen in den Headlines ('AmbiVolt –  das Unternehmen').\n\nSeitentyp 'Unternehmen' -> progressBars erfasst (3 Balken). Keine projects/jobs/benefits/form auf dieser Seite."
+  },
+  "unsere-solarprojekte": {
+    "url": "https://ambivolt.de/unsere-solarprojekte/",
+    "heroEyebrow": "Ambivolt",
+    "heroTitle": "Ambivolt",
+    "metaTitle": "Ambivolt Energietechnik - Unsere Solarprojekte",
+    "metaDescription": "Schauen Sie sich unsere erfolgreichen Solarprojekte für Photovoltaikanlagen an. Entdecken Sie unsere innovativen Lösungen. Hier ansehen!",
+    "sections": [
+      {
+        "name": "hero",
+        "heading": "Ambivolt",
+        "subheading": "Erfolgreiche Solarprojekte",
+        "paragraphs": [
+          "Erfolgreiche Solarprojekte"
+        ],
+        "cta": {
+          "label": "Referenzen ansehen",
+          "href": "https://ambivolt.de/unsere-solarprojekte/#referenzen"
+        },
+        "images": [
+          "/images/content/ambivolt-solaranlagen-referenzen-wagner-wolnzach-1.jpg",
+          "/images/content/ambivolt-solaranlagen-referenzen-sonnino-latina-1.jpg",
+          "/images/content/ambivolt-solaranlagen-referenzen-troll-antarktica-1.jpg",
+          "/images/content/ambivolt-solaranlagen-referenzen-radevormwald-1.jpg",
+          "/images/content/ambivolt-solaranlagen-referenzen-michelin-freystadt-1.jpg",
+          "/images/content/ambivolt-solaranlagen-referenzen-hotel-langenbruck-1.jpg",
+          "/images/content/ambivolt-solaranlagen-referenzen-hildburghausen-1.jpg",
+          "/images/content/ambivolt-solaranlagen-referenzen-efh-velden-1.jpg",
+          "/images/content/ambivolt-solaranlagen-referenzen-efh-landshut-01-1.jpg",
+          "/images/content/ambivolt-solaranlagen-referenzen-efh-landshut-02-1.jpg",
+          "/images/content/ambivolt-solaranlagen-referenzen-efh-ingolstadt-1.jpg",
+          "/images/content/ambivolt-solaranlagen-referenzen-ebikon-luzern-1.jpg",
+          "/images/content/ambivolt-solaranlagen-referenzen-AEG-Dormagen-1.jpg",
+          "/images/content/ambivolt-solaranlagen-referenzen-bauhof-pfaffenhofen-1.jpg",
+          "/images/content/ambivolt-solaranlagen-referenzen-brk-pfaffenhofen-1.jpg"
+        ]
+      },
+      {
+        "name": "referenzen-intro",
+        "heading": "Erfolgreiche Solarprojekte"
+      },
+      {
+        "name": "referenzen-galerie",
+        "heading": "Erfolgreiche Solarprojekte",
+        "paragraphs": []
+      }
+    ],
+    "projects": [
+      {
+        "name": "Wagner Wolnzach",
+        "kwp": "150 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-wagner-wolnzach-1.jpg"
+      },
+      {
+        "name": "Troll Antarktica",
+        "kwp": "7 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-troll-antarktica-1.jpg"
+      },
+      {
+        "name": "Sonnino Latina",
+        "kwp": "1 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-sonnino-latina-1.jpg"
+      },
+      {
+        "name": "Radevormwald",
+        "kwp": "105 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-radevormwald-1.jpg"
+      },
+      {
+        "name": "Michelin Freystadt",
+        "kwp": "1.400 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-michelin-freystadt-1.jpg"
+      },
+      {
+        "name": "Meggen/ Luzern",
+        "kwp": "14 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-meggen-luzern-1.jpg"
+      },
+      {
+        "name": "Maggi Singen",
+        "kwp": "230 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-maggi-singen-1.jpg"
+      },
+      {
+        "name": "Hotel Langenbruck",
+        "kwp": "99 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-hotel-langenbruck-1.jpg"
+      },
+      {
+        "name": "Hildburghausen",
+        "kwp": "990 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-hildburghausen-1.jpg"
+      },
+      {
+        "name": "Einfamilienhaus Velden",
+        "kwp": "7 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-efh-velden-1.jpg"
+      },
+      {
+        "name": "Einfamilienhaus Landshut",
+        "kwp": "7 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-efh-landshut-02-1.jpg"
+      },
+      {
+        "name": "Einfamilienhaus Landshut",
+        "kwp": "10 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-efh-landshut-01-1.jpg"
+      },
+      {
+        "name": "Einfamilienhaus Ingolstadt",
+        "kwp": "7 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-efh-ingolstadt-1.jpg"
+      },
+      {
+        "name": "Ebikon Luzern",
+        "kwp": "20 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-ebikon-luzern-1.jpg"
+      },
+      {
+        "name": "Bayrisches Rotes Kreuz Pfaffenhofen",
+        "kwp": "70 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-brk-pfaffenhofen-1.jpg"
+      },
+      {
+        "name": "Bauhof Pfaffenhofen",
+        "kwp": "30 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-bauhof-pfaffenhofen-1.jpg"
+      },
+      {
+        "name": "AEG Dormagen",
+        "kwp": "2.140 kWp",
+        "image": "/images/content/ambivolt-solaranlagen-referenzen-AEG-Dormagen-1.jpg"
+      }
+    ],
+    "notes": "Seitentyp Solarprojekte (Referenzen). HERO: Es gibt KEIN einzelnes statisches Hero-Hintergrundbild. Der Hero ist ein animiertes \"Tile-Scroll\"-Modul (Divi dipi_tile_scroll), das die Referenz-Projektbilder als horizontal scrollende Kacheln im Hintergrund zeigt (Overlay darüber). Die in der Hero-Section gelisteten images[] sind diese Scroll-Kacheln (Auszug der Projektbilder), nicht ein einzelnes Hintergrundbild — daher heroBgImage leer gelassen. Hero-H1 = \"Ambivolt\", darunter Untertitel \"Erfolgreiche Solarprojekte\", CTA-Button \"Referenzen ansehen\" -> #referenzen.\n\nSTRUKTUR: Danach folgt eine Text-Section mit H2 \"Erfolgreiche Solarprojekte\", dann die eigentliche Galerie-Section mit id=\"referenzen\" (Divi et_pb_gallery, data-per_page=16). Die Galerie enthält 17 Referenzprojekte als Kacheln mit Bild + Titel-Overlay im Format \"Name | xx kWp\".\n\nPROJEKTE: Alle 17 Referenzprojekte erfasst (projects[]) mit vollem Bild-URL (Originalgröße .jpg, nicht 400x284-Thumbnail) und kWp-Leistung. Hinweis: \"Einfamilienhaus Landshut\" kommt zweimal vor (7 kWp -> efh-landshut-02, 10 kWp -> efh-landshut-01) — beide bewusst beibehalten. Im Markdown stand zusätzlich der scrollende Hero, daher dort scheinbar mehr Einträge; die echte Galerie hat genau 17 Projekte.\n\nReihenfolge der Galerie laut HTML title-Attributen (von oben nach unten/links nach rechts): Wagner Wolnzach, Troll Antarktica, Sonnino Latina, Radevormwald, Michelin Freystadt, Meggen/ Luzern, Maggi Singen, Hotel Langenbruck, Hildburghausen, EFH Velden, EFH Landshut (7), EFH Landshut (10), EFH Ingolstadt, Ebikon Luzern, BRK Pfaffenhofen, Bauhof Pfaffenhofen, AEG Dormagen.\n\nKeine Formulare, keine Fortschrittsbalken, keine Jobs/Benefits auf dieser Seite. Lesedauer-Meta: \"6 Minuten\". og:type=article, robots: index, follow."
+  },
+  "jobs-und-stellenangebote": {
+    "url": "https://ambivolt.de/jobs-und-stellenangebote/",
+    "heroEyebrow": "Berufliche Perspektiven",
+    "heroTitle": "Deine Karriere bei AmbiVolt",
+    "metaTitle": "Stellenangebote bei Ambivolt Energietechnik GmbH",
+    "metaDescription": "Wir suchen immer nach motivierten Mitarbeitern, die unser Team verstärken möchten. Entdecken Sie unsere aktuellen Stellenangebote & bewerben Sie sich noch heute.",
+    "sections": [
+      {
+        "name": "hero",
+        "subheading": "Berufliche Perspektiven",
+        "heading": "Deine Karriere bei AmbiVolt",
+        "cta": {
+          "label": "Jobs entdecken",
+          "href": "https://ambivolt.de/jobs-und-stellenangebote/#offene-stellenangebote"
+        }
+      },
+      {
+        "name": "intro",
+        "subheading": "Karrieremöglichkeiten bei Ambivolt",
+        "heading": "Bereit für deine Zukunft bei Ambivolt?",
+        "paragraphs": [
+          "Wir sind ein Unternehmen, das sich auf die Herstellung von Solar-Montagesystemen spezialisiert hat und auf eine nachhaltige Zukunft setzt.",
+          "Wir suchen ständig nach talentierten, engagierten Menschen, die uns auf unserer Mission unterstützen. Entdecken Sie unsere Stellenangebote und erfahren Sie mehr darüber, was es bedeutet, Teil unseres Teams zu sein. Wir freuen uns darauf, von Ihnen zu hören!"
+        ],
+        "cta": {
+          "label": "Jobs entdecken",
+          "href": "https://ambivolt.de/jobs-und-stellenangebote/#offene-stellenangebote"
+        }
+      },
+      {
+        "name": "gemeinsam",
+        "subheading": "Perspektiven mit Weitblick",
+        "heading": "Gemeinsam mehr erreichen",
+        "paragraphs": [
+          "Wir glauben an die Macht der Zusammenarbeit und arbeiten eng mit unseren Kunden und Partnern zusammen, um nachhaltige Lösungen zu entwickeln.",
+          "Unsere Mitarbeiter sind unser wertvollstes Kapital. Daher ist es uns wichtig, eine offene, kollaborative und positive Arbeitsumgebung zu schaffen, die unsere Mitarbeiter motiviert & inspiriert und in der sie sich geschätzt und unterstützt fühlen."
+        ],
+        "images": [
+          "/images/content/ambivolt-energietechnik-karriere-und-jobs-01.webp",
+          "/images/content/ambivolt-energietechnik-karriere-und-jobs-02.webp",
+          "/images/content/ambivolt-energietechnik-karriere-und-jobs-03.webp"
+        ]
+      },
+      {
+        "name": "benefits",
+        "heading": "Bei Ambivolt erhältst du mehr als nur einen Job!",
+        "subheading": "Entdecke die Vorteile bei uns zu arbeiten:"
+      },
+      {
+        "name": "stellenangebote",
+        "heading": "Aktuelle Stellenangebote",
+        "subheading": "Join the Team!",
+        "paragraphs": [
+          "Finde deinen Traumjob bei Ambivolt",
+          "Wir suchen immer wieder nach motivierten Menschen, die mit uns gemeinsam die Zukunft gestalten wollen.",
+          "Finde hier unsere aktuellen Stellenangebote und werde Teil unseres Teams!"
+        ]
+      },
+      {
+        "name": "bewerbungsprozess",
+        "heading": "Deine Zukunft bei Ambivolt – starte jetzt durch!",
+        "subheading": "In 3 einfachen Schritten Teil des Teams werden:",
+        "bullets": [
+          "01. Wir möchten dich kennenlernen! — Sende uns deine Bewerbung mit deinem Lebenslauf und einem Anschreiben, in dem du uns von deinen Fähigkeiten, deiner Motivation und deinem Interesse an einer Karriere bei Ambivolt überzeugst.",
+          "02. Persönliches Treffen — Wenn deine Bewerbung überzeugend ist, laden wir dich zu einem persönlichen Gespräch ein. Hier hast du die Möglichkeit, uns von dir und deinen Fähigkeiten zu erzählen und mehr über Ambivolt als Arbeitgeber zu erfahren.",
+          "03. Dein Einstieg bei Ambivolt — Wenn es zwischen uns passt, kannst du beruflich bei uns durchstarten und Teil des Teams bei Ambivolt werden."
+        ],
+        "paragraphs": [
+          "Wir freuen uns schon darauf, dich in unserem Team willkommen zu heißen!"
+        ]
+      },
+      {
+        "name": "cta-bewerben",
+        "heading": "Bewirb dich jetzt bei AmbiVolt!",
+        "paragraphs": [
+          "Wir freuen uns darauf, dich kennenzulernen und deine Bewerbung zu erhalten."
+        ],
+        "bullets": [
+          "anfrage@ambivolt.de (mailto:anfrage@ambivolt.de)",
+          "08722 - 966 85 77 (tel:+498914349073)"
+        ],
+        "cta": {
+          "label": "Jetzt bewerben!",
+          "href": "https://ambivolt.de/kontakt/"
+        },
+        "images": [
+          "/images/content/Jetzt-bewerben.svg"
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Zusammen wachsen und erfolgreich sein",
+        "body": "Wir fördern eine offene und kollaborative Arbeitsumgebung, in der unsere Mitarbeiter zusammenarbeiten. Bei Ambivolt bist du Teil einer starken Gemeinschaft, die sich gegenseitig unterstützt und inspiriert."
+      },
+      {
+        "title": "Wir schätzen deine Arbeit & deinen Einsatz",
+        "body": "Wir wissen, dass unsere Mitarbeiter die treibende Kraft hinter unserem Erfolg sind. Daher schätzen und honorieren wir die Leistungen unserer Mitarbeiter und bieten regelmäßige Anerkennungen und Belohnungen für besonderes Engagement."
+      },
+      {
+        "title": "Entfalte deine Karriere",
+        "body": "Wir fördern die Weiterbildung unserer Mitarbeiter und bieten Schulungen und Kurse an, um ihre Fähigkeiten und Kenntnisse zu erweitern und ihre Karrierechancen zu verbessern. Entdecke die vielfältigen Möglichkeiten bei uns!"
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Handwerks-Fachkraft (m/w/d)",
+        "body": "Wir suchen eine Handwerks-Fachkraft (m, w, d) in Vollzeit, die für unser Team in 84140 Gangkofen im Bereich erneuerbare Energien in der Werkstatt tätig ist.\n\nDeine Aufgaben sind:\n- Wartung von Werkzeugen und Maschinen (Kompressor, Stapler, Stanzen, Sägen,…)\n- Beheben von Störungen im Arbeitsablauf\n- Einarbeitung neuer Mitarbeiter an den Maschinen und im Umgang mit Werkzeug\n\nDas bringst du mit:\n- Deutsch-Kenntnisse sowie Führerschein Klasse B oder BE (Anhänger)\n- eine abgeschlossene handwerkliche Ausbildung\n- Erfahrung im Bedienen von Maschinen\n- ein Händchen für den Umgang mit deinen Kollegen\n\nEs erwartet dich ein zukunftsorientiertes Familienunternehmen mit hilfsbereiten Kollegen. Unser Unternehmen wird mit flacher Hierarchie geführt, es gibt immer ein offenes Ohr für Fragen oder Anliegen. Du arbeitest in einer neuen Produktionshalle, die den Bedürfnissen der Arbeit und der Mitarbeiter gerecht wird. Bei uns gibt es geregelte Arbeitszeiten, ohne Schichtarbeit und meist ohne Überstunden – der Feierabend ist immer planbar.\n\nWenn du Interesse hast, schick uns eine Mail an: anfrage@ambivolt.de\noder ruf uns einfach mal an: 08722 966 8577\n\nWir freuen uns auf dich!"
+      },
+      {
+        "title": "Vertriebsmitarbeiter (m/w/d)",
+        "body": "Wir suchen einen Vertriebsmitarbeiter (m, w, d) in Vollzeit, der für unser Team in 84140 Gangkofen im Bereich erneuerbare Energien tätig ist.\n\nDeine Aufgaben sind:\n- Kundenbetreuung\n- Erstellung von Angeboten\n- Neukundengewinnung\n\nDu benötigst:\n- abgeschlossene Berufsausbildung oder Studium\n- Erfahrung im technischen Vertrieb von Vorteil\n- sicherer Umgang mit den Microsoft Office Anwendungen\n- fließend Deutsch, Grundlagen in Englisch\n- gute Kommunikationsfähigkeiten, sowie Verhandlungsgeschick\n\nEs erwartet dich ein zukunftsorientiertes Familienunternehmen mit flacher Hierarchie. Bei uns gibt es immer ein offenes Ohr für Fragen oder Anliegen. Du arbeitest in einem modernen Büro, das den Bedürfnissen der Arbeit und der Mitarbeiter gerecht wird. Bei uns gibt es geregelte Arbeitszeiten, ohne Überstunden – der Feierabend ist immer planbar.\n\nWenn du Interesse hast, schick uns eine Mail an: anfrage@ambivolt.de\noder ruf uns einfach mal an: 08722 966 8577\n\nWir freuen uns auf dich!"
+      },
+      {
+        "title": "Bürokraft (m/w/d)",
+        "body": "Wir suchen eine Bürokraft (m, w, d) in Teilzeit oder Vollzeit, die für unser Team in 84140 Gangkofen in den Bereichen erneuerbare Energien und Immobilienwirtschaft tätig ist.\n\nDeine Aufgaben sind:\n- Erstellung von Lieferscheinen und Rechnungen\n- Anmeldung und Lieferverfolgung bei der Spedition\n- Mithilfe in der Finanzbuchhaltung\n- Mithilfe bei der Vermietung und Verwaltung von Immobilien\n\nDu bringst du mit:\n- sicherer Umgang mit den Microsoft Office Anwendungen\n- fließend Deutsch, Grundlagen in Englisch\n- Offenheit für neue Erfahrungen und Situationen im Arbeitsalltag\n\nEs erwartet dich ein zukunftsorientiertes Familienunternehmen mit flacher Hierarchie. Bei uns gibt es immer ein offenes Ohr für Fragen oder Anliegen. Du arbeitest in einem modernen Büro, das den Bedürfnissen der Arbeit und der Mitarbeiter gerecht wird. Bei uns gibt es geregelte Arbeitszeiten, ohne Überstunden – der Feierabend ist immer planbar.\n\nWenn du Interesse hast, schick uns eine Mail an: anfrage@ambivolt.de\noder ruf uns einfach mal an: 08722 966 8577\n\nWir freuen uns auf dich!"
+      },
+      {
+        "title": "Ausbildung zum Maschinen- und Anlagenführer (m/w/d)",
+        "body": "Wir bieten Ausbildungsplätze zum Maschinen- und Anlagenführer (m, w, d) in unserem zukunftsorientierten Familienunternehmen in 84140 Gangkofen, das sich auf erneuerbare Energien spezialisiert hat.\n\nDein Tätigkeitsfeld:\n- Einrichtung und Bedienung von Maschinen und Anlagen in der Produktion\n- Wartung, Inspektion und Behebung von Störungen an den Maschinen\n- Vorbereitung und Optimierung von Arbeitsabläufen\n- Einarbeitung neuer Mitarbeiter im Umgang mit Maschinen und Werkzeugen\n- Durchführung qualitätssichernder Maßnahmen\n- Einhaltung der Vorgaben des Umweltschutzes, Arbeitssicherheit und Wirtschaftlichkeit\n\nWas wir bieten:\nDu wirst Teil eines engagierten Teams in einer modernen Produktionshalle, die optimal auf die Anforderungen unserer Mitarbeiter ausgerichtet ist. Unsere flache Hierarchie fördert eine offene und transparente Kommunikation, sodass deine Fragen und Anliegen jederzeit Gehör finden. Darüber hinaus profitierst du von geregelten Arbeitszeiten ohne Schichtarbeit und in der Regel ohne Überstunden – dein Feierabend ist planbar und zuverlässig.\n\nInteresse geweckt?\nDann schick uns eine E-Mail an: anfrage@ambivolt.de\noder ruf uns einfach an: 08722 966 8577\n\nWir freuen uns auf dich!"
+      }
+    ],
+    "notes": "Hero hat KEIN Hintergrundbild im wp-content/uploads (kein background-image url() im HTML gefunden) — Hero nutzt einen einfarbigen/Verlauf-Hintergrund. heroTitle im HTML hat einen Zeilenumbruch (\"Deine Karriere  bei AmbiVolt\"), hier als \"Deine Karriere bei AmbiVolt\" normalisiert. Die drei .webp-Bilder gehören zur Sektion \"Gemeinsam mehr erreichen\" (Alt-Texte: \"Jobs & Stellenangebote bei Ambivolt Energietechnik GmbH\", \"Ambivolt Energietechnik - Karriere und Jobs\", \"Jobs & Stellenangebote bei Ambivolt\"). Die Benefit-Icons sind im Original nur als Zeichen \"7\" (Divi-Icon-Font) dargestellt — keine echten Icon-Dateien. Auf dieser Jobs-Seite gibt es KEIN Bewerbungsformular (kein <form>); die Bewerbung läuft per E-Mail/Telefon bzw. CTA-Button \"Jetzt bewerben!\" der auf /kontakt/ verlinkt. Telefon-Link im HTML zeigt tel:+498914349073 (entspricht nicht der angezeigten Nummer 08722 966 8577 — Original-Inkonsistenz beibehalten). Original-Schreibweise \"Ambivolt\" (klein-v) im Fließtext vs. \"AmbiVolt\" in Überschriften beibehalten. Geschlechtsangabe im Original \"(m, w, d)\" im Fließtext, \"(m/w/d)\" in Job-Titeln — beides beibehalten."
+  },
+  "jetzt-bewerben": {
+    "url": "https://ambivolt.de/jetzt-bewerben/",
+    "heroEyebrow": "",
+    "heroTitle": "Willkommen bei AmbiVolt!",
+    "metaTitle": "So können Sie uns kontaktieren! Ambivolt Energietechnik GmbH",
+    "metaDescription": "Nehmen Sie Kontakt mit uns auf und lassen Sie sich über unsere Photovoltaik-Montagesysteme beraten! Hier können Sie uns erreichen!",
+    "sections": [
+      {
+        "name": "hero",
+        "heading": "Willkommen bei AmbiVolt!",
+        "subheading": "Ob Praktikum oder Ausbildung – du bist nur noch einen Schritt entfernt.",
+        "paragraphs": [
+          "Fülle einfach das Formular aus."
+        ]
+      },
+      {
+        "name": "bewerbungsformular",
+        "heading": "Sende uns deine Bewerbung",
+        "paragraphs": [
+          "Wir setzen uns umgehend mit dir in Verbindung.",
+          "Felder mit * sind Pflichtfelder"
+        ]
+      },
+      {
+        "name": "kontakt",
+        "heading": "Kontakt",
+        "paragraphs": [
+          "Dein direkter Draht zu uns.",
+          "Telefonisch",
+          "08722 – 966 85 77",
+          "E-Mail",
+          "anfrage@ambivolt.de",
+          "AmbiVolt Energietechnik GmbH",
+          "Oberalmsham 1, 84140 Gangkofen"
+        ],
+        "bullets": [
+          "Öffnungszeiten:",
+          "Montag bis Freitag:",
+          "08:00 – 12:00 Uhr",
+          "12:30 – 16:30 Uhr"
+        ],
+        "cta": {
+          "label": "Routenplaner (Google Maps)",
+          "href": "https://goo.gl/maps/vrrkSpwHgoMbFEiXA"
+        }
+      }
+    ],
+    "form": {
+      "title": "bewerbung",
+      "fields": [
+        {
+          "label": "Vorname",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Nachname",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Geburtsdatum",
+          "type": "text",
+          "required": false
+        },
+        {
+          "label": "Telefon",
+          "type": "tel",
+          "required": false
+        },
+        {
+          "label": "E-Mail-Adresse",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Praktikum oder Ausbildung",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Praktikum",
+            "Ausbildung"
+          ]
+        },
+        {
+          "label": "Deine Nachricht an uns...",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Anhang (z.B. Lebenslauf, Zeugnisse etc.)",
+          "type": "file",
+          "required": false,
+          "options": [
+            "Akzeptierte Dateiendungen: jpg, jpeg, jpe, mka, 7z, xla, xls, xlt, xlw, odg. Maximale Dateigröße: 1 MB"
+          ]
+        },
+        {
+          "label": "Ich habe die Datenschutzerklärung gelesen und bin damit einverstanden, dass die hier eingegebenen Informationen zum Zweck der Kontaktaufnahme gespeichert werden. (Datenschutzerklärung)",
+          "type": "checkbox",
+          "required": true
+        }
+      ],
+      "submitLabel": "Submit",
+      "captcha": "1 + 1 = (Mathe-Aufgabe)"
+    },
+    "notes": "Hero-Eyebrow nicht vorhanden. Kein Hero-Hintergrundbild auf der Seite gefunden (nur Favicons und Cookie-Consent-Platzhalterbilder im HTML; keine wp-content/uploads-Bilder im Hauptinhalt). Meta-Title/Description sind identisch mit der Kontaktseite (offenbar von WordPress vererbt). Die H1 lautet \"Willkommen bei AmbiVolt!\", H2 (Subheading) \"Ob Praktikum oder Ausbildung – du bist nur noch einen Schritt entfernt.\" Das Formular ist ein Bewerbungsformular (kein Profil-Radiofeld wie auf der Kontaktseite, sondern ein Select \"Praktikum oder Ausbildung\"), mit Datei-Upload und Mathe-Captcha (auf der gescrapten Seite \"1 + 1 =\", Wert ist zufällig/wechselnd). Submit-Button-Text wörtlich \"Submit\". Datenschutz-Checkbox verlinkt auf https://ambivolt.de/datenschutzerklaerung. Kontakt-Telefon-Link tel:+498914349073 zeigt im Text aber \"08722 – 966 85 77\". Maps-Link: https://goo.gl/maps/vrrkSpwHgoMbFEiXA. Quelle-Datei: C:\\Users\\ambiv\\.claude\\projects\\c--Users-ambiv-ambi-relaunch\\39f3ccb6-79ac-4398-9cd6-01bf5c6adf72\\tool-results\\mcp-firecrawl-firecrawl_scrape-1782209554191.txt"
+  },
+  "kontakt": {
+    "url": "https://ambivolt.de/kontakt/",
+    "heroEyebrow": "SAGEN SIE HALLO!",
+    "heroTitle": "Jetzt Kontakt aufnehmen",
+    "metaTitle": "So können Sie uns kontaktieren! Ambivolt Energietechnik GmbH",
+    "metaDescription": "Nehmen Sie Kontakt mit uns auf und lassen Sie sich über unsere Photovoltaik-Montagesysteme beraten! Hier können Sie uns erreichen!",
+    "sections": [
+      {
+        "name": "hero",
+        "subheading": "SAGEN SIE HALLO!",
+        "heading": "Jetzt Kontakt aufnehmen"
+      },
+      {
+        "name": "intro",
+        "heading": "Haben Sie Fragen  oder möchten einen Beratungstermin vereinbaren?",
+        "paragraphs": [
+          "Zögern Sie nicht uns zu kontaktieren.",
+          "Unser Team von Experten steht Ihnen gerne zur Verfügung."
+        ]
+      },
+      {
+        "name": "formular-intro",
+        "heading": "Nachricht senden",
+        "paragraphs": [
+          "Wir setzen uns umgehend mit Ihnen in Verbindung.",
+          "Felder mit * sind Pflichtfelder"
+        ]
+      },
+      {
+        "name": "kontakt-block",
+        "heading": "Kontakt",
+        "paragraphs": [
+          "Ihr direkter Draht zu uns."
+        ],
+        "bullets": [
+          "Telefonisch: 08722 – 966 85 77 (tel:+498914349073)",
+          "E-Mail: anfrage@ambivolt.de (mailto:anfrage@ambivolt.de)",
+          "AmbiVolt Energietechnik GmbH — Oberalmsham 1, 84140 Gangkofen",
+          "Routenplaner (Google Maps): https://goo.gl/maps/vrrkSpwHgoMbFEiXA"
+        ]
+      },
+      {
+        "name": "oeffnungszeiten",
+        "heading": "Öffnungszeiten:",
+        "paragraphs": [
+          "Montag bis Freitag:",
+          "08:00 – 12:00 Uhr",
+          "12:30 – 16:30 Uhr",
+          "Wir nehmen uns gerne alle Zeit der Welt für Sie. Daher freuen wir uns, wenn Sie mit uns einen Termin abstimmen."
+        ]
+      }
+    ],
+    "form": {
+      "title": "Kontaktformular",
+      "fields": [
+        {
+          "label": "Ihr Profil",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Eigenanlagen-Betreiber",
+            "PV-Profi"
+          ]
+        },
+        {
+          "label": "Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Firma / Institution",
+          "type": "text",
+          "required": false
+        },
+        {
+          "label": "E-Mail-Adresse",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Telefon",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Ihre optionale Nachricht …",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Ich habe die Datenschutzerklärung gelesen und bin damit einverstanden, dass die hier eingegebenen Informationen zum Zweck der Kontaktaufnahme gespeichert werden. Datenschutzerklärung.",
+          "type": "radio",
+          "required": true
+        }
+      ],
+      "submitLabel": "Submit",
+      "captcha": "2 + 3 ="
+    },
+    "notes": "Seitentyp: Kontakt. Hero hat eine et_pb_with_background-Sektion mit lazy-geladenem Hintergrund (data-rocket-lazy-bg), aber im HTML ist keine wp-content/uploads-Bild-URL für den Hero-Hintergrund auffindbar — kein heroBgImage extrahierbar (vermutlich CSS-/inline-Style, der per Cookie-Consent/Lazy-Load nicht ausgeliefert wurde). Pflichtfeld 'Ihr Profil' ist im echten DOM ein SELECT-Dropdown (nicht Radio) mit Optionen 'Eigenanlagen-Betreiber' und 'PV-Profi'; Standardoption-Text 'Ihr Profil *'. Feld 'Firma / Institution' ist nicht Pflicht und wird per conditional-logic nur bei Profil 'Gewerblich'/'Sonstiges' angezeigt (diese Profil-Optionen sind im aktuellen Live-Select aber nicht mehr vorhanden — Inkonsistenz aus altem Setup). Telefon-Label hat im Quelltext ein nachgestelltes Leerzeichen ('Telefon '). Captcha ist eine einfache Mathe-Aufgabe (aktuell '2 + 3 ='), data-first_digit=2 / data-second_digit=3 (zufällig generiert, ändert sich pro Aufruf). Honeypot-Feld 'et_pb_contact_hp_field_0' vorhanden (anti-spam, nicht sichtbar). Submit-Button-Text wörtlich 'Submit'. Telefon-Link verweist auf tel:+498914349073 (abweichend von der angezeigten Nummer 08722 – 966 85 77). H2 enthielt im HTML '&nbsp;' (doppeltes Leerzeichen) zwischen 'Fragen' und 'oder' — beibehalten. Öffnungszeiten und Kontaktdaten stammen aus der rechten Spalte des Kontaktbereichs (nicht globaler Footer)."
+  },
+  "danke-fuer-ihre-anfrage": {
+    "url": "https://ambivolt.de/danke-fuer-ihre-anfrage/",
+    "heroEyebrow": "Wir freuen uns!",
+    "heroTitle": "Vielen Dank für Ihre Anfrage",
+    "metaTitle": "So können Sie uns kontaktieren! Ambivolt Energietechnik GmbH",
+    "metaDescription": "Nehmen Sie Kontakt mit uns auf und lassen Sie sich über unsere Photovoltaik-Montagesysteme beraten! Hier können Sie uns erreichen!",
+    "sections": [
+      {
+        "name": "hero",
+        "subheading": "Wir freuen uns!",
+        "heading": "Vielen Dank für Ihre Anfrage"
+      },
+      {
+        "name": "weitere-fragen",
+        "heading": "Haben Sie weitere Fragen oder möchten Sie direkt einen Beratungstermin vereinbaren?",
+        "paragraphs": [
+          "Zögern Sie nicht uns zu kontaktieren.",
+          "Unser Team von Experten steht Ihnen gerne zur Verfügung."
+        ]
+      },
+      {
+        "name": "kontakt",
+        "heading": "Kontakt",
+        "paragraphs": [
+          "Ihr direkter Draht zu uns.",
+          "Telefonisch: 08722 – 966 85 77 (tel:+498914349073)",
+          "E-Mail: anfrage@ambivolt.de (mailto:anfrage@ambivolt.de)",
+          "AmbiVolt Energietechnik GmbH",
+          "Oberalmsham 1, 84140 Gangkofen",
+          "Routenplaner (Google Maps): https://goo.gl/maps/vrrkSpwHgoMbFEiXA"
+        ],
+        "bullets": [
+          "Telefonisch — 08722 – 966 85 77",
+          "E-Mail — anfrage@ambivolt.de",
+          "AmbiVolt Energietechnik GmbH — Oberalmsham 1, 84140 Gangkofen"
+        ]
+      },
+      {
+        "name": "oeffnungszeiten",
+        "heading": "Öffnungszeiten:",
+        "paragraphs": [
+          "Montag bis Freitag:",
+          "08:00 – 12:00 Uhr",
+          "12:30 – 16:30 Uhr",
+          "Wir nehmen uns gerne alle Zeit der Welt für Sie. Daher freuen wir uns, wenn Sie mit uns einen Termin abstimmen."
+        ]
+      }
+    ],
+    "notes": "Dies ist die Bestätigungs-/Danke-Seite (page-id-243364), die nach dem Absenden des Kontaktformulars angezeigt wird. Sie enthält KEIN Formular, KEINE projects/jobs/benefits/progressBars und KEIN Hero-Hintergrundbild (das Hero ist eine reine Text-Section mit oberem/unterem Section-Divider, kein Background-Image im Content). Eyebrow-Text \"Wir freuen uns!\" steht über der H1 \"Vielen Dank für Ihre Anfrage\". Aufbau oben→unten: (1) Hero (Eyebrow + H1), (2) H2 \"Haben Sie weitere Fragen...?\" mit zwei Textzeilen, (3) Kontakt-Block (H3 \"Kontakt\" + Blurbs für Telefon, E-Mail, Firmenadresse), (4) Öffnungszeiten-Blurb. Telefon-Link im HTML: tel:+498914349073, angezeigte Nummer: 08722 – 966 85 77. E-Mail: anfrage@ambivolt.de. Google-Maps-Link: https://goo.gl/maps/vrrkSpwHgoMbFEiXA. Im Content selbst gibt es keine echten Bilder/wp-content-uploads außer Logo (Header/Footer, global) und Borlabs-Cookie-Placeholder-Bildern (nicht Teil des Seiteninhalts). Original-Eigenheit: Im Quelltext erscheint bei den Blurb-Icons für Adresse und Öffnungszeiten ein wörtliches \"}\" (defektes Icon-Glyph) — gehört nicht zum Text, daher hier nicht in die Absätze übernommen."
+  },
+  "impressum": {
+    "url": "https://ambivolt.de/impressum/",
+    "heroTitle": "Impressum",
+    "metaTitle": "Impressum - AmbiVolt Energietechnik GmbH",
+    "metaDescription": "EU-StreitschlichtungDie Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/. Unsere",
+    "sections": [
+      {
+        "name": "impressum-angaben",
+        "heading": "Impressum",
+        "paragraphs": [
+          "AmbiVolt Energietechnik GmbH\nOberalmsham 1\n84140 Gangkofen",
+          "Kontakt\nTelefon: 08722 – 966 85 77\nE-Mail: anfrage@ambivolt.de",
+          "Geschäftsführer: Rosmarie Stangl\nSitz der Gesellschaft: Oberalmsham 1, 84140 Gangkofen\nAmtsgericht Landshut · HRB 9079",
+          "Umsatzsteuer-ID\nUmsatzsteuer-Identifikationsnummer\ngemäß § 27 a Umsatzsteuergesetz:\nDE 276 317 682",
+          "Geltungsraum der Versicherung\nDeutschlandweit hinsichtlich der Beratung im Recht der Bundesrepublik Deutschland und der Europäischen Union.",
+          "EU-Streitschlichtung\nDie Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/. Unsere E-Mail-Adresse finden Sie oben im Impressum.",
+          "Verbraucherstreitbeilegung und Universalschlichtungsstelle\nWir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+        ]
+      }
+    ],
+    "notes": "Reine rechtliche Inhaltsseite (Divi/WordPress). Aufbau: ein H1 \"Impressum\" in einer eigenen Section, darunter eine zweite Section mit einem einzigen Textblock (et_pb_text). Kein Hero-Hintergrundbild, kein Eyebrow, keine CTA, keine Bilder im Hauptinhalt. Meta robots: nofollow, noindex. Die einzelnen Absätze sind im Original durch fett gesetzte Zwischenüberschriften (strong) eingeleitet (z.B. \"Kontakt\", \"Geschäftsführer:\", \"Umsatzsteuer-ID\", \"Geltungsraum der Versicherung\", \"EU-Streitschlichtung\", \"Verbraucherstreitbeilegung und Universalschlichtungsstelle\"); diese sind hier jeweils als erste Zeile des Absatzes (vor \\n) erhalten. Im Original enthalten \"Verbraucher­streit­beilegung und Universal­schlichtungs­stelle\" weiche Trennstriche (soft hyphens, &shy;), die hier zur Lesbarkeit entfernt wurden — beim Nachbau kann der reine Text \"Verbraucherstreitbeilegung und Universalschlichtungsstelle\" verwendet werden. Der OS-Link verweist auf https://ec.europa.eu/consumers/odr/ (target=_blank, rel=noopener noreferrer). Adresse/Kontakt/Öffnungszeiten/Service-Links stammen aus dem globalen Footer (Telefon-Link tel:+498914349073 trotz Anzeige 08722 – 966 85 77)."
+  },
+  "datenschutzerklaerung": {
+    "metaTitle": "Datenschutzerklärung",
+    "metaDescription": "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen.",
+    "heroTitle": "Datenschutzerklärung",
+    "sections": [
+      {
+        "heading": "1. Datenschutz auf einen Blick",
+        "body": "Allgemeine Hinweise: Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung."
+      },
+      {
+        "heading": "Datenerfassung auf dieser Website",
+        "body": "Wer ist verantwortlich für die Datenerfassung auf dieser Website? Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen.\n\nWie erfassen wir Ihre Daten? Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben. Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.\n\nWofür nutzen wir Ihre Daten? Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.\n\nWelche Rechte haben Sie bezüglich Ihrer Daten? Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden."
+      },
+      {
+        "heading": "Analyse-Tools und Tools von Drittanbietern",
+        "body": "Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor allem mit sogenannten Analyseprogrammen. Detaillierte Informationen zu diesen Analyseprogrammen finden Sie in der folgenden Datenschutzerklärung."
+      },
+      {
+        "heading": "2. Hosting",
+        "body": "Strato: Wir hosten unsere Website bei Strato. Anbieter ist die STRATO AG, Hauptstraße 68, 02742 Friedersdorf (nachfolgend Strato). Details entnehmen Sie der Datenschutzerklärung von Strato: https://www.strato.de/datenschutz/.\n\nDie Verwendung von Strato erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse an einer möglichst zuverlässigen Darstellung unserer Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TDDDG umfasst. Die Einwilligung ist jederzeit widerrufbar."
+      },
+      {
+        "heading": "3. Allgemeine Hinweise und Pflichtinformationen",
+        "body": "Datenschutz: Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung. Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht. Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.\n\nHinweis zur verantwortlichen Stelle: Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist: AmbiVolt Energietechnik GmbH, Oberalmsham 1, 84140 Gangkofen. Kontakt: Telefon: 08722 – 966 85 77, E-Mail: anfrage@ambivolt.de. Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet."
+      },
+      {
+        "heading": "Speicherdauer",
+        "body": "Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt. Wenn Sie ein berechtigtes Löschersuchen geltend machen oder eine Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für die Speicherung Ihrer personenbezogenen Daten haben (z. B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die Löschung nach Fortfall dieser Gründe."
+      },
+      {
+        "heading": "Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf dieser Website",
+        "body": "Sofern Sie in die Datenverarbeitung eingewilligt haben, verarbeiten wir Ihre personenbezogenen Daten auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO bzw. Art. 9 Abs. 2 lit. a DSGVO, sofern besondere Datenkategorien nach Art. 9 Abs. 1 DSGVO verarbeitet werden. Im Falle einer ausdrücklichen Einwilligung in die Übertragung personenbezogener Daten in Drittstaaten erfolgt die Datenverarbeitung außerdem auf Grundlage von Art. 49 Abs. 1 lit. a DSGVO. Sofern Sie in die Speicherung von Cookies oder in den Zugriff auf Informationen in Ihr Endgerät (z. B. via Device-Fingerprinting) eingewilligt haben, erfolgt die Datenverarbeitung zusätzlich auf Grundlage von § 25 Abs. 1 TDDDG. Die Einwilligung ist jederzeit widerrufbar. Sind Ihre Daten zur Vertragserfüllung oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, verarbeiten wir Ihre Daten auf Grundlage des Art. 6 Abs. 1 lit. b DSGVO. Des Weiteren verarbeiten wir Ihre Daten, sofern diese zur Erfüllung einer rechtlichen Verpflichtung erforderlich sind auf Grundlage von Art. 6 Abs. 1 lit. c DSGVO. Die Datenverarbeitung kann ferner auf Grundlage unseres berechtigten Interesses nach Art. 6 Abs. 1 lit. f DSGVO erfolgen. Über die jeweils im Einzelfall einschlägigen Rechtsgrundlagen wird in den folgenden Absätzen dieser Datenschutzerklärung informiert."
+      },
+      {
+        "heading": "Empfänger von personenbezogenen Daten",
+        "body": "Im Rahmen unserer Geschäftstätigkeit arbeiten wir mit verschiedenen externen Stellen zusammen. Dabei ist teilweise auch eine Übermittlung von personenbezogenen Daten an diese externen Stellen erforderlich. Wir geben personenbezogene Daten nur dann an externe Stellen weiter, wenn dies im Rahmen einer Vertragserfüllung erforderlich ist, wenn wir gesetzlich hierzu verpflichtet sind (z. B. Weitergabe von Daten an Steuerbehörden), wenn wir ein berechtigtes Interesse nach Art. 6 Abs. 1 lit. f DSGVO an der Weitergabe haben oder wenn eine sonstige Rechtsgrundlage die Datenweitergabe erlaubt. Beim Einsatz von Auftragsverarbeitern geben wir personenbezogene Daten unserer Kunden nur auf Grundlage eines gültigen Vertrags über Auftragsverarbeitung weiter. Im Falle einer gemeinsamen Verarbeitung wird ein Vertrag über gemeinsame Verarbeitung geschlossen."
+      },
+      {
+        "heading": "Widerruf Ihrer Einwilligung zur Datenverarbeitung",
+        "body": "Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt."
+      },
+      {
+        "heading": "Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)",
+        "body": "WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E ODER F DSGVO ERFOLGT, HABEN SIE JEDERZEIT DAS RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIE VERARBEITUNG IHRER PERSONENBEZOGENEN DATEN WIDERSPRUCH EINZULEGEN; DIES GILT AUCH FÜR EIN AUF DIESE BESTIMMUNGEN GESTÜTZTES PROFILING. DIE JEWEILIGE RECHTSGRUNDLAGE, AUF DENEN EINE VERARBEITUNG BERUHT, ENTNEHMEN SIE DIESER DATENSCHUTZERKLÄRUNG. WENN SIE WIDERSPRUCH EINLEGEN, WERDEN WIR IHRE BETROFFENEN PERSONENBEZOGENEN DATEN NICHT MEHR VERARBEITEN, ES SEI DENN, WIR KÖNNEN ZWINGENDE SCHUTZWÜRDIGE GRÜNDE FÜR DIE VERARBEITUNG NACHWEISEN, DIE IHRE INTERESSEN, RECHTE UND FREIHEITEN ÜBERWIEGEN ODER DIE VERARBEITUNG DIENT DER GELTENDMACHUNG, AUSÜBUNG ODER VERTEIDIGUNG VON RECHTSANSPRÜCHEN (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO). WERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, SO HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN; DIES GILT AUCH FÜR DAS PROFILING, SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN VERBINDUNG STEHT. WENN SIE WIDERSPRECHEN, WERDEN IHRE PERSONENBEZOGENEN DATEN ANSCHLIESSEND NICHT MEHR ZUM ZWECKE DER DIREKTWERBUNG VERWENDET (WIDERSPRUCH NACH ART. 21 ABS. 2 DSGVO)."
+      },
+      {
+        "heading": "Beschwerderecht bei der zuständigen Aufsichtsbehörde",
+        "body": "Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe."
+      },
+      {
+        "heading": "Recht auf Datenübertragbarkeit",
+        "body": "Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist."
+      },
+      {
+        "heading": "Auskunft, Berichtigung und Löschung",
+        "body": "Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit an uns wenden."
+      },
+      {
+        "heading": "Recht auf Einschränkung der Verarbeitung",
+        "body": "Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:\n- Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.\n- Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt der Löschung die Einschränkung der Datenverarbeitung verlangen.\n- Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.\n- Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.\nWenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden."
+      },
+      {
+        "heading": "SSL- bzw. TLS-Verschlüsselung",
+        "body": "Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://“ auf „https://“ wechselt und an dem Schloss-Symbol in Ihrer Browserzeile. Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden."
+      },
+      {
+        "heading": "4. Datenerfassung auf dieser Website",
+        "body": "Abschnittsüberschrift (H-Ebene). Untergliedert in: Cookies, Einwilligung mit Borlabs Cookie, Kontaktformular, Anfrage per E-Mail/Telefon/Telefax, Umgang mit Bewerberdaten."
+      },
+      {
+        "heading": "Einwilligung mit Borlabs Cookie",
+        "body": "Unsere Website nutzt die Consent-Technologie von Borlabs Cookie, um Ihre Einwilligung zur Speicherung bestimmter Cookies in Ihrem Browser oder zum Einsatz bestimmter Technologien einzuholen und diese datenschutzkonform zu dokumentieren. Anbieter dieser Technologie ist die Borlabs GmbH, Rübenkamp 32, 22305 Hamburg (im Folgenden Borlabs). Wenn Sie unsere Website betreten, wird ein Borlabs-Cookie in Ihrem Browser gespeichert, in dem die von Ihnen erteilten Einwilligungen oder der Widerruf dieser Einwilligungen gespeichert werden. Diese Daten werden nicht an den Anbieter von Borlabs Cookie weitergegeben. Die erfassten Daten werden gespeichert, bis Sie uns zur Löschung auffordern bzw. das Borlabs-Cookie selbst löschen oder der Zweck für die Datenspeicherung entfällt. Zwingende gesetzliche Aufbewahrungsfristen bleiben unberührt. Details zur Datenverarbeitung von Borlabs Cookie finden Sie unter https://de.borlabs.io/kb/welche-daten-speichert-borlabs-cookie/. Der Einsatz der Borlabs-Cookie-Consent-Technologie erfolgt, um die gesetzlich vorgeschriebenen Einwilligungen für den Einsatz von Cookies einzuholen. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. c DSGVO."
+      },
+      {
+        "heading": "Kontaktformular",
+        "body": "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde; die Einwilligung ist jederzeit widerrufbar. Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende gesetzliche Bestimmungen – insbesondere Aufbewahrungsfristen – bleiben unberührt.\n\nBesonderer Hinweis für Privatkundenanfragen: Sofern Sie im Rahmen des Kontaktformulars eine Anfrage als Privatkunde stellen, erfolgt keine direkte Betreuung durch AmbiVolt Energietechnik GmbH. In diesem Fall werden die von Ihnen angegebenen personenbezogenen Daten (insbesondere Name, Kontaktdaten und PLZ) zum Zweck der Vermittlung und Kontaktaufnahme an ausgewählte externe Fach- und Partnerbetriebe weitergegeben. Die Weitergabe der Daten erfolgt ausschließlich auf Grundlage Ihrer ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO. Eine darüberhinausgehende Nutzung oder Weitergabe Ihrer Daten findet nicht statt."
+      },
+      {
+        "heading": "Anfrage per E-Mail, Telefon oder Telefax",
+        "body": "Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde; die Einwilligung ist jederzeit widerrufbar. Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen – bleiben unberührt."
+      },
+      {
+        "heading": "Umgang mit Bewerberdaten",
+        "body": "Erhebung personenbezogener Daten: Im Rahmen Ihrer Bewerbung erheben wir personenbezogene Daten, die Sie uns freiwillig über das Kontaktformular oder per E-Mail zur Verfügung stellen. Dazu gehören u. a. Stammdaten (z. B. Name, Adresse, Kontaktdaten), Qualifikationen, Zeugnisse und weitere, im Rahmen des Bewerbungsverfahrens relevante Unterlagen.\n\nZweck und Rechtsgrundlage der Datenerhebung: Die erhobenen personenbezogenen Daten werden ausschließlich für die Bearbeitung und Prüfung Ihrer Bewerbung verwendet. Die Rechtsgrundlagen für die Verarbeitung Ihrer Daten sind § 26 BDSG-neu, da die Verarbeitung für Beschäftigungszwecke erfolgt, sowie Art. 6 Abs. 1 lit. b DSGVO, welcher die Verarbeitung zur Erfüllung eines Vertrags oder zur Durchführung vorvertraglicher Maßnahmen erlaubt. Es wird darauf hingewiesen, dass Sie sich ohne die Bereitstellung dieser Daten nicht auf die ausgeschriebene Stelle bewerben können.\n\nWeitergabe der Daten: Ihre Bewerbungsdaten werden vertraulich behandelt und nur an die mit dem Bewerbungsverfahren befassten Stellen weitergegeben, dazu zählen z. B. die Personalabteilung, Fachbereichsleiter und ggf. der Betriebsrat. Eine Weitergabe an Dritte findet nur statt, wenn dies zur Erfüllung gesetzlicher Vorgaben notwendig ist.\n\nSpeicherdauer: Ihre Bewerbungsdaten werden für die Dauer des Bewerbungsverfahrens gespeichert. Im Falle einer Absage bewahren wir Ihre Daten für maximal 6 Monate nach Abschluss des Verfahrens auf, um etwaige Fragen im Zusammenhang mit Ihrer Bewerbung klären zu können. Danach werden Ihre Daten gelöscht. Sollte ein Beschäftigungsverhältnis zustande kommen, werden die Bewerbungsdaten in Ihre Personalakte übernommen.\n\nRechte der Bewerber: Als Bewerber haben Sie verschiedene Rechte im Zusammenhang mit der Verarbeitung Ihrer personenbezogenen Daten. Sie haben das Recht auf Auskunft über die zu Ihrer Person gespeicherten Daten gemäß Art. 15 DSGVO sowie das Recht auf Berichtigung unrichtiger Daten gemäß Art. 16 DSGVO. Unter bestimmten Voraussetzungen steht Ihnen auch das Recht auf Löschung Ihrer Daten nach Art. 17 DSGVO sowie auf Einschränkung der Verarbeitung gemäß Art. 18 DSGVO zu. Darüber hinaus haben Sie das Recht auf Datenübertragbarkeit gemäß Art. 20 DSGVO. Falls wir Ihre Daten aufgrund eines berechtigten Interesses verarbeiten, haben Sie zudem das Recht auf Widerspruch gegen die Verarbeitung Ihrer personenbezogenen Daten, sofern sich aus Ihrer besonderen Situation Gründe dafür ergeben (Art. 21 DSGVO). Bei Fragen zur Verarbeitung Ihrer personenbezogenen Daten oder zur Wahrnehmung Ihrer Rechte wenden Sie sich bitte an die in unserem Impressum angegebene Kontaktadresse."
+      },
+      {
+        "heading": "5. Analyse-Tools und Werbung",
+        "body": "Matomo: Diese Website benutzt den Open Source Webanalysedienst Matomo. Mit Hilfe von Matomo sind wir in der Lage Daten über die Nutzung unserer Website durch die Websitebesucher zu erfassen und zu analysieren. Hierdurch können wir u. a. herausfinden, wann welche Seitenaufrufe getätigt wurden und aus welcher Region sie kommen. Außerdem erfassen wir verschiedene Logdateien (z. B. IP-Adresse, Referrer, verwendete Browser und Betriebssysteme) und können messen, ob unsere Websitebesucher bestimmte Aktionen durchführen (z. B. Klicks, Käufe u. Ä.).\n\nDie Nutzung dieses Analyse-Tools erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der Analyse des Nutzerverhaltens, um sowohl sein Webangebot als auch seine Werbung zu optimieren. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TDDDG umfasst. Die Einwilligung ist jederzeit widerrufbar.\n\nHosting: Wir hosten Matomo ausschließlich auf unseren eigenen Servern, sodass alle Analysedaten bei uns verbleiben und nicht weitergegeben werden."
+      },
+      {
+        "heading": "6. Plugins und Tools",
+        "body": "Google Fonts (lokales Hosting): Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Google Fonts, die von Google bereitgestellt werden. Die Google Fonts sind lokal installiert. Eine Verbindung zu Servern von Google findet dabei nicht statt. Weitere Informationen zu Google Fonts finden Sie unter https://developers.google.com/fonts/faq und in der Datenschutzerklärung von Google: https://policies.google.com/privacy?hl=de.\n\nGoogle Maps: Diese Seite nutzt den Kartendienst Google Maps. Anbieter ist die Google Ireland Limited („Google“), Gordon House, Barrow Street, Dublin 4, Irland. Mit Hilfe dieses Dienstes können wir Kartenmaterial auf unserer Website einbinden. Zur Nutzung der Funktionen von Google Maps ist es notwendig, Ihre IP-Adresse zu speichern. Diese Informationen werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Der Anbieter dieser Seite hat keinen Einfluss auf diese Datenübertragung. Wenn Google Maps aktiviert ist, kann Google zum Zwecke der einheitlichen Darstellung der Schriftarten Google Fonts verwenden. Beim Aufruf von Google Maps lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen. Die Nutzung von Google Maps erfolgt im Interesse einer ansprechenden Darstellung unserer Online-Angebote und an einer leichten Auffindbarkeit der von uns auf der Website angegebenen Orte. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TDDDG umfasst. Die Einwilligung ist jederzeit widerrufbar. Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier: https://privacy.google.com/businesses/gdprcontrollerterms/ und https://privacy.google.com/businesses/gdprcontrollerterms/sccs/. Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google: https://policies.google.com/privacy?hl=de. Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“ (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: https://www.dataprivacyframework.gov/participant/5780."
+      }
+    ]
+  }
+}
