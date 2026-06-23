@@ -32,6 +32,7 @@ export function ProductDetailBlock({
                 alt={product.name}
                 width={1000}
                 height={600}
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="h-auto w-full object-contain"
               />
             ) : null}

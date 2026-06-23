@@ -24,6 +24,7 @@ export function ProductAnchorNav({
                   alt={p.name}
                   width={120}
                   height={80}
+                  sizes="120px"
                   className="h-14 w-24 object-contain"
                 />
               ) : (

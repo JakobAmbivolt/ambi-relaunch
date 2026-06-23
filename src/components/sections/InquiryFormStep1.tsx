@@ -57,6 +57,7 @@ export function InquiryFormStep1({
                     alt={product.name}
                     width={240}
                     height={160}
+                    sizes="(max-width: 640px) 45vw, 240px"
                     className="h-28 w-full object-contain"
                   />
                 ) : (

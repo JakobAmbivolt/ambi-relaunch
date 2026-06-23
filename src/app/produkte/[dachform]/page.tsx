@@ -47,7 +47,7 @@ export default async function DachformPage({
 }) {
   const { dachform } = await params;
   const page = getProductPage(dachform);
-  if (!page) notFound();
+  if (!page) return notFound();
 
   return (
     <>
@@ -109,7 +109,7 @@ export default async function DachformPage({
 
       {/* 6. Downloads */}
       {page.pageDownloads.length > 0 && (
-        <div id="downloads">
+        <div id="downloads" className="scroll-mt-24">
           <DownloadList downloads={page.pageDownloads} />
         </div>
       )}

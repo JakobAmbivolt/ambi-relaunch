@@ -18,7 +18,10 @@ export function Breadcrumb({
                 </span>
               )}
               {isLast || !item.href ? (
-                <span className={isLast ? "font-medium text-ink" : "text-text"}>
+                <span
+                  className={isLast ? "font-medium text-ink" : "text-text"}
+                  {...(isLast ? { "aria-current": "page" as const } : {})}
+                >
                   {item.label}
                 </span>
               ) : (

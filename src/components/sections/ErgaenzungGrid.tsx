@@ -26,6 +26,7 @@ export function ErgaenzungGrid({ items }: { items: ErgItem[] }) {
                   alt={item.name}
                   width={300}
                   height={200}
+                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                   className="h-32 w-full object-contain"
                 />
               ) : (
