@@ -1,7 +1,6 @@
 // Lädt alle Produkt-Assets (Bilder + PDFs) von ambivolt.de herunter und erzeugt
 // src/content/product-details.json mit lokalen Pfaden. Einmalig auszuführen.
 import fs from "node:fs";
-import path from "node:path";
 
 const ROOT = "C:/Users/ambiv/ambi-relaunch";
 const pdp = JSON.parse(fs.readFileSync(ROOT + "/docs/research/ambivolt-pdp.json", "utf8"));
