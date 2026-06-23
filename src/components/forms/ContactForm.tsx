@@ -22,6 +22,8 @@ export function ContactForm() {
   const [captchaAnswer, setCaptchaAnswer] = useState("");
   const [honeypot, setHoneypot] = useState("");
 
+  // Zufalls-Captcha pro Render-Instanz; Frage wird mit suppressHydrationWarning
+  // gerendert, damit der (abweichende) Client-Wert ohne Hydration-Warnung gilt.
   const [captchaA] = useState(() => Math.floor(Math.random() * 9) + 1);
   const [captchaB] = useState(() => Math.floor(Math.random() * 9) + 1);
   const [errors, setErrors] = useState<Errors>({});
@@ -172,18 +174,19 @@ export function ContactForm() {
       </div>
 
       {/* Math captcha */}
-      <FormField
-        label={`Sicherheitsfrage: ${captchaA} + ${captchaB} = ?`}
-        required
-        error={errors.captcha}
-      >
-        <input
-          type="number"
-          value={captchaAnswer}
-          onChange={(ev) => setCaptchaAnswer(ev.target.value)}
-          placeholder="Ergebnis eingeben"
-          className={inputClass(errors.captcha)}
-        />
+      <FormField label="Sicherheitsfrage" required error={errors.captcha}>
+        <div className="flex items-center gap-3">
+          <span suppressHydrationWarning className="whitespace-nowrap text-sm font-medium text-ink">
+            {captchaA} + {captchaB} =
+          </span>
+          <input
+            type="number"
+            value={captchaAnswer}
+            onChange={(ev) => setCaptchaAnswer(ev.target.value)}
+            placeholder="Ergebnis"
+            className={inputClass(errors.captcha)}
+          />
+        </div>
       </FormField>
 
       <button
