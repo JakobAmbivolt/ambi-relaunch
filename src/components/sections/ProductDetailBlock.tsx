@@ -51,8 +51,8 @@ export function ProductDetailBlock({
 
               {product.features.length > 0 && (
                 <ul className="mb-5 grid grid-cols-1 gap-x-6 gap-y-2 sm:grid-cols-2">
-                  {product.features.map((feature) => (
-                    <li key={feature} className="flex items-start gap-2">
+                  {product.features.map((feature, fi) => (
+                    <li key={fi} className="flex items-start gap-2">
                       <Icon
                         name="check"
                         className="mt-0.5 h-5 w-5 flex-shrink-0 text-green"
