@@ -7,6 +7,12 @@ const nextConfig: NextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
   },
+  async redirects() {
+    return [
+      // Kanonische URL der Datenschutzerklärung (wie Original)
+      { source: "/datenschutz", destination: "/datenschutzerklaerung/", permanent: true },
+    ];
+  },
 };
 
 export default nextConfig;
