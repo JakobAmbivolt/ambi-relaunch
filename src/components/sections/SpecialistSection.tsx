@@ -10,20 +10,20 @@ export function SpecialistSection() {
     <section className="bg-surface py-16 md:py-24">
       <Container>
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
-          {/* Left column */}
+          {/* Left: Überschrift + Text */}
           <Reveal>
             <SectionHeading
               eyebrow={homeSpecialist.eyebrow}
               title={homeSpecialist.title}
               className="mb-6"
             />
-            <p className="mb-8 text-text">{homeSpecialist.body}</p>
-            <FeatureList items={homeSpecialist.bullets} />
+            <p className="text-text">{homeSpecialist.body}</p>
           </Reveal>
 
-          {/* Right column */}
+          {/* Right: Vorteile + CTAs */}
           <Reveal delay={0.1}>
-            <div className="flex flex-col gap-4 sm:flex-row md:flex-col lg:flex-row">
+            <FeatureList items={homeSpecialist.bullets} className="mb-8 sm:grid sm:grid-cols-2 sm:gap-x-6" />
+            <div className="flex flex-col gap-4 sm:flex-row">
               <Button href={homeSpecialist.primaryCta.href} variant="primary">
                 {homeSpecialist.primaryCta.label}
               </Button>

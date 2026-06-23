@@ -125,6 +125,7 @@ export const homeTech = {
     },
   ],
   body: "Unsere Leidenschaft für Technik und Innovation zeichnet uns aus. Wir arbeiten kontinuierlich daran, unsere Produkte zu verbessern und neue Lösungen zu entwickeln, die den steigenden Anforderungen an die Solarenergie gerecht werden. Bei AmbiVolt können Sie sicher sein, dass Sie Montagesysteme auf dem neuesten technischen Stand erhalten, da wir uns immer um die Integration neuer Technologien kümmern.",
+  image: "/images/technik.webp",
   cta: { label: "Mehr über AmbiVolt erfahren", href: "/unternehmen/" } as CtaLink,
 };
 
@@ -136,16 +137,19 @@ export const homeProcess = {
     {
       n: "01",
       title: "Kontaktaufnahme",
+      icon: "/images/process-1.png",
       body: "Nehmen Sie mit uns Kontakt auf, um Informationen über unsere Montagesysteme zu erhalten. Dies kann per E-Mail, Telefon oder über das Kontaktformular auf unserer Website erfolgen.",
     },
     {
       n: "02",
       title: "Bedarfsermittlung",
+      icon: "/images/process-2.png",
       body: "Unsere erfahrenen Berater ermitteln gezielt Ihren Bedarf, welche Montagesysteme am besten zu Ihren Anforderungen passen. Wir beraten Sie zu verschiedenen Optionen und geben Tipps zur optimalen Nutzung.",
     },
     {
       n: "03",
       title: "Schnelle Montage",
+      icon: "/images/process-3.png",
       body: "Dank der einfachen Handhabung unserer Produkte können Sie die Montagezeit auf ein Minimum reduzieren. Dadurch ist sichergestellt, dass Photovoltaik-Anlagen effizient installiert werden und Sie oder Ihre Kunden mit der Energieerzeugung so schnell wie möglich beginnen können.",
     },
   ],
