@@ -43,3 +43,6 @@ ambivolt-home-full.jpeg
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# QA-Screenshots (Playwright scratch)
+new-home-*.jpeg
