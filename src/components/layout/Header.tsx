@@ -10,7 +10,7 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-black/5 bg-white/95 backdrop-blur">
       <Container className="flex items-center justify-between py-4">
         <Link href="/" aria-label={`${company.shortName} Startseite`}>
-          <Image src="/ambivolt-logo.svg" alt={company.legalName} width={160} height={40} priority />
+          <Image src="/ambivolt-logo.svg" alt={company.legalName} width={172} height={45} priority style={{ height: "auto" }} />
         </Link>
         <DesktopNav />
         <MobileMenu />

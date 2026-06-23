@@ -17,7 +17,7 @@ export function Footer() {
     <footer className="border-t-4 border-amber bg-slate-900 text-white/80">
       <Container className="grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4">
         <div>
-          <Image src="/ambivolt-logo.svg" alt={company.legalName} width={160} height={40} className="mb-4 brightness-0 invert" />
+          <Image src="/ambivolt-logo.svg" alt={company.legalName} width={172} height={45} className="mb-4 h-auto w-auto brightness-0 invert" />
           <p className="text-sm leading-relaxed">{company.claim}</p>
         </div>
         <div>
