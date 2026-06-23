@@ -47,3 +47,4 @@ next-env.d.ts
 # QA-Screenshots (Playwright scratch)
 new-home-*.jpeg
 redesign-*.jpeg
+orig-*.jpeg

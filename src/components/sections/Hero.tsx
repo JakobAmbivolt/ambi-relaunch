@@ -6,19 +6,30 @@ import { homeHero } from "@/content/home";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden border-t-[6px] border-amber bg-slate-900 text-white">
-      {/* Dach-Hintergrundbild mit dunklem Overlay */}
+    <section className="relative overflow-hidden bg-slate-900 text-white">
+      {/* Dach-/Modul-Hintergrundbild, leicht sichtbar */}
       <Image
         src={homeHero.bgImage}
         alt=""
         fill
         priority
         sizes="100vw"
-        className="object-cover opacity-30"
+        className="object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-slate-900/60" />
+      {/* Overlay: links dunkel für Lesbarkeit, nach rechts heller → Module scheinen durch */}
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/60 to-slate-900/35" />
 
-      <Container className="relative py-16 md:py-24">
+      {/* Schräger Amber-Balken: links breit, nach rechts dünner (wie Original) */}
+      <svg
+        className="absolute inset-x-0 top-0 z-10 h-7 w-full md:h-10"
+        viewBox="0 0 1280 140"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <path fill="var(--color-amber)" d="M0 0 H1280 L0 140 Z" />
+      </svg>
+
+      <Container className="relative z-10 py-16 md:py-24">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:items-center">
           {/* Left column */}
           <div>
