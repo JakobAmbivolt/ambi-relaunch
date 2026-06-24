@@ -24,7 +24,6 @@ export function ContactForm() {
   const [telefon, setTelefon] = useState("");
   const [nachricht, setNachricht] = useState("");
   const [datenschutz, setDatenschutz] = useState(false);
-  const [honeypot, setHoneypot] = useState("");
 
   const [errors, setErrors] = useState<Errors>({});
   const [serverError, setServerError] = useState<string | null>(null);
@@ -47,7 +46,6 @@ export function ContactForm() {
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
-    if (honeypot) return; // Spam-Bot
     const errs = validate();
     setErrors(errs);
     if (Object.keys(errs).length > 0) return;
@@ -65,7 +63,6 @@ export function ContactForm() {
           telefon,
           nachricht,
           datenschutz,
-          website: honeypot,
         }),
       });
       const data = await res.json().catch(() => null);
@@ -104,18 +101,6 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-5">
-      {/* Honeypot — für echte Nutzer unsichtbar, fängt simple Bots ab */}
-      <input
-        type="text"
-        name="website"
-        value={honeypot}
-        onChange={(ev) => setHoneypot(ev.target.value)}
-        tabIndex={-1}
-        autoComplete="off"
-        aria-hidden="true"
-        className="hidden"
-      />
-
       {/* Reihe 1: Profil + Name */}
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         <FormField label="Ihr Profil" required error={errors.profil}>
