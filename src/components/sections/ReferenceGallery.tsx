@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useCallback, useRef } from "react";
 import Image from "next/image";
+import { Container } from "@/components/ui/Container";
+import { Reveal } from "@/components/ui/Reveal";
 
 type Project = { name: string; image: string | null; kwp?: string };
 
@@ -84,7 +86,7 @@ function Lightbox({
       {/* prev */}
       <button
         ref={prevButtonRef}
-        className="absolute left-4 top-1/2 -translate-y-1/2 rounded-full bg-white/20 p-3 text-white hover:bg-white/40 transition-colors"
+        className="absolute left-4 top-1/2 -translate-y-1/2 border border-white/20 bg-white/10 p-3 text-white transition-colors hover:border-amber hover:bg-white/20"
         onClick={(e) => { e.stopPropagation(); prev(); }}
         aria-label="Vorheriges Bild"
       >
@@ -104,14 +106,14 @@ function Lightbox({
             alt={current.name}
             width={1200}
             height={800}
-            className="max-h-[70vh] w-full object-contain"
+            className="max-h-[70vh] w-full border border-white/15 object-contain"
           />
         ) : (
-          <div className="flex h-64 items-center justify-center bg-slate-800 text-white">
+          <div className="flex h-64 items-center justify-center border border-white/15 bg-slate-800 text-white">
             Kein Bild verfügbar
           </div>
         )}
-        <p className="mt-3 text-center text-sm font-semibold text-white">
+        <p className="mt-3 text-center font-mono text-sm font-semibold text-white">
           {current.name}{current.kwp ? ` · ${current.kwp}` : ""}
         </p>
       </div>
@@ -119,7 +121,7 @@ function Lightbox({
       {/* next */}
       <button
         ref={nextButtonRef}
-        className="absolute right-4 top-1/2 -translate-y-1/2 rounded-full bg-white/20 p-3 text-white hover:bg-white/40 transition-colors"
+        className="absolute right-4 top-1/2 -translate-y-1/2 border border-white/20 bg-white/10 p-3 text-white transition-colors hover:border-amber hover:bg-white/20"
         onClick={(e) => { e.stopPropagation(); next(); }}
         aria-label="Nächstes Bild"
       >
@@ -131,7 +133,7 @@ function Lightbox({
       {/* close */}
       <button
         ref={closeButtonRef}
-        className="absolute right-4 top-4 rounded-full bg-white/20 p-2 text-white hover:bg-white/40 transition-colors"
+        className="absolute right-4 top-4 border border-white/20 bg-white/10 p-2 text-white transition-colors hover:border-amber hover:bg-white/20"
         onClick={onClose}
         aria-label="Schließen"
       >
@@ -147,38 +149,44 @@ export function ReferenceGallery({ projects }: { projects: Project[] }) {
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
   return (
-    <section id="referenzen" className="bg-white py-16 md:py-24">
-      <div className="mx-auto w-full max-w-[var(--container-max)] px-5 md:px-8">
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-          {projects.map((project, i) => (
-            <button
-              key={`${project.name}-${i}`}
-              onClick={() => setLightboxIndex(i)}
-              className="group relative overflow-hidden rounded-lg bg-slate-100 aspect-[4/3] focus-visible:outline-2 focus-visible:outline-amber"
-              aria-label={`${project.name}${project.kwp ? ` · ${project.kwp}` : ""} vergrößern`}
-            >
-              {project.image ? (
-                <Image
-                  src={project.image}
-                  alt={project.name}
-                  fill
-                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+    <section id="referenzen" className="bg-white py-20 md:py-28">
+      <Container>
+        <Reveal>
+          <div className="grid grid-cols-2 gap-px border border-line bg-line sm:grid-cols-3 lg:grid-cols-4">
+            {projects.map((project, i) => (
+              <button
+                key={`${project.name}-${i}`}
+                onClick={() => setLightboxIndex(i)}
+                className="group relative aspect-[4/3] overflow-hidden bg-surface focus-visible:outline-2 focus-visible:outline-amber"
+                aria-label={`${project.name}${project.kwp ? ` · ${project.kwp}` : ""} vergrößern`}
+              >
+                {project.image ? (
+                  <Image
+                    src={project.image}
+                    alt={project.name}
+                    fill
+                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                ) : (
+                  <div className="flex h-full items-center justify-center bg-surface font-mono text-xs uppercase tracking-wide text-text/60">
+                    Kein Bild
+                  </div>
+                )}
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none absolute inset-0 border border-amber opacity-0 transition-opacity duration-200 group-hover:opacity-100"
                 />
-              ) : (
-                <div className="flex h-full items-center justify-center bg-slate-200 text-sm text-slate-500">
-                  Kein Bild
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-900/80 to-transparent p-3 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+                  <p className="font-mono text-xs font-semibold text-white">
+                    {project.name}{project.kwp ? ` · ${project.kwp}` : ""}
+                  </p>
                 </div>
-              )}
-              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-3 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
-                <p className="text-xs font-semibold text-white">
-                  {project.name}{project.kwp ? ` · ${project.kwp}` : ""}
-                </p>
-              </div>
-            </button>
-          ))}
-        </div>
-      </div>
+              </button>
+            ))}
+          </div>
+        </Reveal>
+      </Container>
 
       {lightboxIndex !== null && (
         <Lightbox

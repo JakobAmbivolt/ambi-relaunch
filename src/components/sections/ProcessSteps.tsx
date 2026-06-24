@@ -1,44 +1,124 @@
-import Image from "next/image";
+"use client";
+
+import { useRef, useState } from "react";
+import {
+  motion,
+  useScroll,
+  useSpring,
+  useTransform,
+  useMotionValueEvent,
+  useReducedMotion,
+  type MotionValue,
+} from "motion/react";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
+import { CompletionBurst } from "@/components/ui/CompletionBurst";
 import { homeProcess } from "@/content/home";
 
-export function ProcessSteps() {
+// Nummern-Box: standardmäßig amber ("lädt"), beim Erreichen der Scroll-Schwelle
+// grün ("fertig") + Funken-Burst rund um die Box.
+function StepBox({
+  n,
+  threshold,
+  progress,
+  reduce,
+}: {
+  n: string;
+  threshold: number;
+  progress: MotionValue<number>;
+  reduce: boolean | null;
+}) {
+  const [done, setDone] = useState<boolean>(!!reduce);
+  const [burstKey, setBurstKey] = useState(0);
+  const prevDone = useRef<boolean>(!!reduce);
+
+  useMotionValueEvent(progress, "change", (v) => {
+    if (reduce) return;
+    const d = v >= threshold;
+    if (d !== prevDone.current) {
+      prevDone.current = d;
+      setDone(d);
+      if (d) setBurstKey((k) => k + 1);
+    }
+  });
+
   return (
-    <section className="relative overflow-hidden bg-surface py-16 md:py-24">
-      {/* dezentes Hintergrundbild (wie Original) */}
-      <div
-        className="pointer-events-none absolute inset-0 bg-[url('/images/process-bg.png')] bg-[length:520px] bg-right-bottom bg-no-repeat opacity-[0.06]"
-        aria-hidden="true"
-      />
-      <Container className="relative">
+    <span
+      className={`relative z-10 flex h-12 w-12 items-center justify-center border font-mono text-sm font-bold transition-colors duration-500 ${
+        done ? "border-green bg-green text-white" : "border-amber bg-amber text-white"
+      }`}
+    >
+      {n}
+      {done && burstKey > 0 && <CompletionBurst key={burstKey} />}
+    </span>
+  );
+}
+
+export function ProcessSteps() {
+  const ref = useRef<HTMLDivElement>(null);
+  const reduce = useReducedMotion();
+  const steps = homeProcess.steps;
+
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start 0.75", "end 0.65"],
+  });
+  const progress = useSpring(scrollYProgress, { stiffness: 80, damping: 24, mass: 0.4 });
+
+  const markerTop = useTransform(progress, [0, 1], ["0%", "100%"]);
+  const markerOpacity = useTransform(progress, [0, 0.03, 0.97, 1], [0, 1, 1, 0]);
+
+  return (
+    <section className="bg-white py-24 md:py-32">
+      <Container>
         <Reveal>
           <SectionHeading
             eyebrow={homeProcess.eyebrow}
             title={homeProcess.title}
             align="center"
-            className="mb-2"
+            className="mx-auto"
           />
-          <p className="mb-12 mt-3 text-center text-text">{homeProcess.subtitle}</p>
+          <p className="mt-5 text-center font-mono text-[0.8rem] uppercase tracking-[0.16em] text-text">
+            {homeProcess.subtitle}
+          </p>
         </Reveal>
 
-        <Reveal delay={0.1}>
-          <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
-            {homeProcess.steps.map((step) => (
-              <div key={step.n} className="flex flex-col items-center text-center">
-                <div className="relative mb-5 flex h-24 w-24 items-center justify-center rounded-full bg-white shadow-sm">
-                  <Image src={step.icon} alt="" width={48} height={48} className="h-12 w-12 object-contain" />
-                  <span className="absolute -right-1 -top-1 flex h-8 w-8 items-center justify-center rounded-full bg-amber text-sm font-bold text-white">
-                    {step.n}
-                  </span>
+        <div ref={ref} className="relative mx-auto mt-16 max-w-2xl">
+          {/* Schiene + grüne Füllung ("fertig") + wanderndes Amber-Modul ("lädt") */}
+          <span className="absolute bottom-0 left-6 top-0 w-px bg-line" aria-hidden="true" />
+          <motion.span
+            className="absolute left-6 top-0 w-px origin-top bg-green"
+            style={{ height: "100%", scaleY: reduce ? 1 : progress }}
+            aria-hidden="true"
+          />
+          {!reduce && (
+            <motion.span
+              className="absolute left-6 z-10 -ml-[5px] h-2.5 w-2.5 bg-amber shadow-[0_0_12px_rgba(239,145,9,0.7)]"
+              style={{ top: markerTop, opacity: markerOpacity }}
+              aria-hidden="true"
+            />
+          )}
+
+          <ol className="relative space-y-12">
+            {steps.map((step, i) => (
+              <li key={step.n} className="grid grid-cols-[3rem_1fr] gap-6">
+                <div className="flex justify-center">
+                  <StepBox
+                    n={step.n}
+                    threshold={(i + 0.5) / steps.length}
+                    progress={progress}
+                    reduce={reduce}
+                  />
                 </div>
-                <h3 className="mb-2 text-xl font-bold text-ink">{step.title}</h3>
-                <p className="text-text">{step.body}</p>
-              </div>
+                <Reveal delay={i * 0.05} className="pb-2 pt-2.5">
+                  <h3 className="font-display text-xl font-bold text-ink">{step.title}</h3>
+                  <p className="mt-2 text-text">{step.body}</p>
+                </Reveal>
+              </li>
             ))}
-          </div>
-        </Reveal>
+          </ol>
+        </div>
       </Container>
     </section>
   );

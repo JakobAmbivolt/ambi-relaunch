@@ -3,7 +3,9 @@ import Image from "next/image";
 import { jobsPage, section } from "@/content/m3";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
-import { Highlight } from "@/components/ui/Highlight";
+import { Aurora } from "@/components/ui/Aurora";
+import { ParallaxLayer } from "@/components/ui/ParallaxLayer";
+import { Reveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { PageHero } from "@/components/sections/PageHero";
 import { BenefitGrid } from "@/components/sections/BenefitGrid";
@@ -27,7 +29,7 @@ export default function JobsPage() {
     <>
       <PageHero
         eyebrow={jobsPage.heroEyebrow}
-        title={<Highlight color="amber">{jobsPage.heroTitle}</Highlight>}
+        title={jobsPage.heroTitle}
         bgImage="/images/hero-bg.jpg"
         align="left"
       >
@@ -40,9 +42,9 @@ export default function JobsPage() {
 
       {/* Intro */}
       {intro && (
-        <section className="bg-white py-16 md:py-24">
+        <section className="bg-white py-20 md:py-28">
           <Container>
-            <div className="mx-auto max-w-3xl flex flex-col gap-6">
+            <Reveal className="mx-auto max-w-3xl flex flex-col gap-6">
               <SectionHeading
                 eyebrow={intro.subheading}
                 title={intro.heading ?? ""}
@@ -52,18 +54,18 @@ export default function JobsPage() {
                   {p}
                 </p>
               ))}
-            </div>
+            </Reveal>
           </Container>
         </section>
       )}
 
       {/* Gemeinsam mehr erreichen */}
       {gemeinsam && (
-        <section className="bg-surface py-16 md:py-24">
+        <section className="bg-surface py-20 md:py-28">
           <Container>
             <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:items-start">
               {/* Text */}
-              <div className="flex flex-col gap-6">
+              <Reveal className="flex flex-col gap-6">
                 <SectionHeading
                   eyebrow={gemeinsam.subheading}
                   title={gemeinsam.heading ?? ""}
@@ -73,45 +75,47 @@ export default function JobsPage() {
                     {p}
                   </p>
                 ))}
-              </div>
+              </Reveal>
 
               {/* Image collage */}
               {gemeinsam.images && gemeinsam.images.length > 0 && (
-                <div className="grid grid-cols-2 gap-3">
-                  {gemeinsam.images[0] && (
-                    <div className="relative col-span-2 aspect-video overflow-hidden rounded-lg">
-                      <Image
-                        src={gemeinsam.images[0]}
-                        alt="Jobs bei AmbiVolt"
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 1024px) 100vw, 50vw"
-                      />
-                    </div>
-                  )}
-                  {gemeinsam.images[1] && (
-                    <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
-                      <Image
-                        src={gemeinsam.images[1]}
-                        alt="Karriere bei AmbiVolt"
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 640px) 50vw, 25vw"
-                      />
-                    </div>
-                  )}
-                  {gemeinsam.images[2] && (
-                    <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
-                      <Image
-                        src={gemeinsam.images[2]}
-                        alt="Team bei AmbiVolt"
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 640px) 50vw, 25vw"
-                      />
-                    </div>
-                  )}
-                </div>
+                <Reveal delay={0.15}>
+                  <div className="grid grid-cols-2 gap-3">
+                    {gemeinsam.images[0] && (
+                      <div className="relative col-span-2 aspect-video overflow-hidden border border-line">
+                        <Image
+                          src={gemeinsam.images[0]}
+                          alt="Jobs bei AmbiVolt"
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 1024px) 100vw, 50vw"
+                        />
+                      </div>
+                    )}
+                    {gemeinsam.images[1] && (
+                      <div className="relative aspect-[4/3] overflow-hidden border border-line">
+                        <Image
+                          src={gemeinsam.images[1]}
+                          alt="Karriere bei AmbiVolt"
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 640px) 50vw, 25vw"
+                        />
+                      </div>
+                    )}
+                    {gemeinsam.images[2] && (
+                      <div className="relative aspect-[4/3] overflow-hidden border border-line">
+                        <Image
+                          src={gemeinsam.images[2]}
+                          alt="Team bei AmbiVolt"
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 640px) 50vw, 25vw"
+                        />
+                      </div>
+                    )}
+                  </div>
+                </Reveal>
               )}
             </div>
           </Container>
@@ -120,23 +124,23 @@ export default function JobsPage() {
 
       {/* Benefits */}
       {jobsPage.benefits && jobsPage.benefits.length > 0 && (
-        <section className="bg-surface py-16 md:py-24">
+        <section className="bg-surface py-20 md:py-28">
           <Container>
-            <div className="flex flex-col gap-10">
+            <Reveal className="flex flex-col gap-10">
               <SectionHeading
                 title={benefitsSection?.heading ?? "Bei Ambivolt erhältst du mehr als nur einen Job!"}
                 align="center"
               />
               <BenefitGrid items={jobsPage.benefits} />
-            </div>
+            </Reveal>
           </Container>
         </section>
       )}
 
       {/* Aktuelle Stellenangebote */}
-      <section id="offene-stellenangebote" className="bg-white py-16 md:py-24">
+      <section id="offene-stellenangebote" className="bg-white py-20 md:py-28">
         <Container>
-          <div className="flex flex-col gap-10">
+          <Reveal className="flex flex-col gap-10">
             <SectionHeading
               eyebrow={stellenangebote?.subheading}
               title={stellenangebote?.heading ?? "Aktuelle Stellenangebote"}
@@ -144,15 +148,15 @@ export default function JobsPage() {
             {jobsPage.jobs && jobsPage.jobs.length > 0 && (
               <JobAccordion jobs={jobsPage.jobs} />
             )}
-          </div>
+          </Reveal>
         </Container>
       </section>
 
       {/* Bewerbungsprozess */}
       {bewerbungsprozess && (
-        <section className="bg-surface py-16 md:py-24">
+        <section className="bg-surface py-20 md:py-28">
           <Container>
-            <div className="mx-auto max-w-3xl flex flex-col gap-8">
+            <Reveal className="mx-auto max-w-3xl flex flex-col gap-8">
               <SectionHeading
                 eyebrow={bewerbungsprozess.subheading}
                 title={bewerbungsprozess.heading ?? ""}
@@ -161,10 +165,10 @@ export default function JobsPage() {
                 <ol className="space-y-6">
                   {bewerbungsprozess.bullets.map((step, i) => (
                     <li key={i} className="flex gap-4">
-                      <span className="mt-0.5 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-amber text-sm font-bold text-white">
+                      <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center border border-line bg-white font-mono text-sm font-bold text-amber">
                         {i + 1}
                       </span>
-                      <p className="text-text">{step}</p>
+                      <p className="mt-1 text-text">{step}</p>
                     </li>
                   ))}
                 </ol>
@@ -174,31 +178,37 @@ export default function JobsPage() {
                   {p}
                 </p>
               ))}
-            </div>
+            </Reveal>
           </Container>
         </section>
       )}
 
       {/* CTA Bewerben */}
       {ctaBewerben && (
-        <section className="bg-slate-900 py-16 text-white md:py-24">
-          <Container>
-            <div className="mx-auto max-w-3xl flex flex-col items-center gap-8 text-center">
+        <section className="relative overflow-hidden bg-slate-900 py-20 text-white md:py-28">
+          <div className="blueprint-dark pointer-events-none absolute inset-0 opacity-50" aria-hidden="true" />
+          <ParallaxLayer from={60} to={-60}>
+            <Aurora className="-right-32 -top-28" color="amber" size="40rem" opacity={0.14} />
+            <Aurora className="-bottom-40 -left-32" color="green" size="34rem" opacity={0.1} />
+          </ParallaxLayer>
+
+          <Container className="relative z-10">
+            <Reveal className="mx-auto max-w-3xl flex flex-col items-center gap-8 text-center">
               {ctaBewerben.heading && (
-                <h2 className="text-2xl font-bold md:text-3xl">{ctaBewerben.heading}</h2>
+                <h2 className="font-display text-2xl font-bold md:text-3xl">{ctaBewerben.heading}</h2>
               )}
               {ctaBewerben.paragraphs?.map((p, i) => (
                 <p key={i} className="text-white/80">
                   {p}
                 </p>
               ))}
-              <Button href="/jetzt-bewerben/" variant="primary">
+              <Button href="/jetzt-bewerben/" variant="ghost">
                 Jetzt bewerben!
               </Button>
               <div className="text-white/80">
                 <ContactInfo />
               </div>
-            </div>
+            </Reveal>
           </Container>
         </section>
       )}

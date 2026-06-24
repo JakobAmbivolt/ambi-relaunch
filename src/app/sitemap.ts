@@ -1,5 +1,8 @@
 import type { MetadataRoute } from "next";
 
+// Statisch generieren (nötig für output: "export")
+export const dynamic = "force-static";
+
 const base = "https://ambivolt.de";
 const routes = [
   "/",

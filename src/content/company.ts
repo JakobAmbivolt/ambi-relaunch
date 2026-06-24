@@ -13,6 +13,8 @@ export const company = {
     { days: "Montag – Freitag", time: "08:00 – 12:00 Uhr · 12:30 – 16:30 Uhr" },
     { days: "", time: "Besuche nach Terminvereinbarung" },
   ],
+  hoursNote:
+    "Wir nehmen uns gerne alle Zeit der Welt für Sie. Daher freuen wir uns, wenn Sie mit uns einen Termin abstimmen.",
   social: {
     facebook: "https://de-de.facebook.com/people/AmbiVolt-Energietechnik-GmbH/100066468475063/",
     linkedin: "https://www.linkedin.com/company/ambivolt-energietechnik-gmbh/about/",

@@ -52,3 +52,5 @@ m2-*.jpeg
 
 # QA-Screenshots im Repo-Root
 /*.jpeg
+/*.png
+redesign-*.png

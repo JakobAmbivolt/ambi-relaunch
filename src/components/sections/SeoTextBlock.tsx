@@ -1,39 +1,30 @@
 import { Container } from "@/components/ui/Container";
+import { SectionHeading } from "@/components/ui/SectionHeading";
+import { Reveal } from "@/components/ui/Reveal";
 import { homeSeo } from "@/content/home";
+
+const pad = (n: number) => String(n + 1).padStart(2, "0");
 
 export function SeoTextBlock() {
   return (
-    <section className="bg-white py-16 md:py-24">
+    <section className="border-t border-line bg-surface py-24 md:py-32">
       <Container>
-        <div className="max-w-3xl">
-          <h2 className="mb-6 text-3xl font-bold text-ink md:text-4xl">{homeSeo.title}</h2>
-          <p className="mb-10 text-text">{homeSeo.intro}</p>
+        <Reveal>
+          <SectionHeading eyebrow="Wissen" title={homeSeo.title} className="max-w-2xl" />
+          <p className="mt-6 max-w-2xl text-text md:text-lg">{homeSeo.intro}</p>
+        </Reveal>
 
-          <div className="space-y-10">
-            {homeSeo.blocks.map((block) => (
-              <div key={block.heading}>
-                <h3 className="mb-4 text-xl font-bold text-ink">{block.heading}</h3>
-
-                {block.paragraphs?.map((para, i) => (
-                  <p key={i} className="mb-3 text-text">
-                    {para}
-                  </p>
-                ))}
-
-                {block.bullets && block.bullets.length > 0 && (
-                  <ul className="mt-3 space-y-2">
-                    {block.bullets.map((bullet) => (
-                      <li key={bullet} className="flex items-start gap-2 text-text">
-                        <span className="mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-amber" aria-hidden="true" />
-                        <span>{bullet}</span>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </div>
+        <Reveal delay={0.1}>
+          <div className="mt-12 grid gap-px border border-line bg-line sm:grid-cols-2">
+            {homeSeo.blocks.map((block, i) => (
+              <article key={block.heading} className="bg-surface p-7 md:p-8">
+                <span className="font-mono text-xs font-bold text-amber">{pad(i)}</span>
+                <h3 className="font-display mt-3 text-lg font-bold text-ink">{block.heading}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-text">{block.body}</p>
+              </article>
             ))}
           </div>
-        </div>
+        </Reveal>
       </Container>
     </section>
   );

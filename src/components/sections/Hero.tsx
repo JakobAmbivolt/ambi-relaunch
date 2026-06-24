@@ -1,68 +1,73 @@
-import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { Icon } from "@/components/ui/Icon";
-import { Highlight } from "@/components/ui/Highlight";
+import { Button } from "@/components/ui/Button";
+import { MonoLabel } from "@/components/ui/MonoLabel";
+import { MeasureLine } from "@/components/ui/MeasureLine";
+import { Aurora } from "@/components/ui/Aurora";
+import { ParallaxLayer } from "@/components/ui/ParallaxLayer";
+import { Reveal } from "@/components/ui/Reveal";
+import { HeroExhibit } from "@/components/sections/HeroExhibit";
 import { homeHero } from "@/content/home";
+import { company } from "@/content/company";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-slate-900 text-white">
-      {/* Dach-/Modul-Hintergrundbild, leicht sichtbar */}
-      <Image
-        src={homeHero.bgImage}
-        alt=""
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover"
-      />
-      {/* Overlay: links dunkel für Lesbarkeit, nach rechts heller → Module scheinen durch */}
-      <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/60 to-slate-900/35" />
+    <section className="relative flex min-h-[calc(100svh-72px)] flex-col overflow-hidden bg-surface">
+      {/* Hintergrund-Ebenen */}
+      <div className="blueprint pointer-events-none absolute inset-0 opacity-50" aria-hidden="true" />
+      <ParallaxLayer from={60} to={-60}>
+        <Aurora className="-right-40 -top-40" color="amber" size="46rem" opacity={0.22} />
+        <Aurora className="-bottom-52 -left-40" color="green" size="42rem" opacity={0.14} />
+      </ParallaxLayer>
 
-      {/* Schräger Amber-Balken: links breit, nach rechts dünner (wie Original) */}
-      <svg
-        className="absolute inset-x-0 top-0 z-10 h-7 w-full md:h-10"
-        viewBox="0 0 1280 140"
-        preserveAspectRatio="none"
-        aria-hidden="true"
-      >
-        <path fill="var(--color-amber)" d="M0 0 H1280 L0 140 Z" />
-      </svg>
+      <Container className="relative z-10 flex flex-1 flex-col py-8 md:py-10">
+        {/* Instrument-/Meta-Zeile */}
+        <div className="flex items-center justify-between border-b border-line pb-3">
+          <span className="label-mono text-text">{company.legalName}</span>
+          <span className="label-mono hidden text-text sm:inline">
+            {company.zip} {company.city} · Bayern
+          </span>
+        </div>
 
-      <Container className="relative z-10 py-16 md:py-24">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:items-center">
-          {/* Left column */}
+        <div className="grid flex-1 items-center gap-10 py-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16">
+          {/* Linke Spalte */}
           <div>
-            <h1 className="flex flex-col items-start gap-3 text-4xl font-bold leading-none md:text-5xl lg:text-6xl">
-              <Highlight color="green">{homeHero.titleLine1}</Highlight>
-              <Highlight color="amber">{homeHero.titleLine2}</Highlight>
-            </h1>
-            <div className="mt-6">
-              <Highlight color="muted" className="text-lg font-medium md:text-2xl">
-                {homeHero.subtitle}
-              </Highlight>
-            </div>
-            <ul className="mt-8 space-y-3">
-              {homeHero.bullets.map((bullet) => (
-                <li key={bullet} className="flex items-center gap-3 text-lg">
-                  <Icon name="check" className="h-6 w-6 flex-shrink-0 text-white" />
-                  <span>{bullet}</span>
-                </li>
-              ))}
-            </ul>
+            <Reveal>
+              <MonoLabel tone="amber">Hersteller · PV-Montagesysteme</MonoLabel>
+              <h1 className="font-display mt-5 text-[clamp(1.5rem,9vw,2.7rem)] font-extrabold leading-[1] text-ink sm:text-6xl sm:leading-[0.95] lg:text-7xl xl:text-[5.5rem]">
+                {homeHero.titleLine1}
+                <br />
+                {homeHero.titleLine2}
+              </h1>
+              <MeasureLine className="mt-6" width="w-28" />
+              <p className="mt-6 max-w-lg text-base text-text md:text-lg">{homeHero.lead}</p>
+            </Reveal>
+
+            <Reveal delay={0.12}>
+              <ul className="mt-7 flex flex-wrap gap-x-6 gap-y-2.5">
+                {homeHero.bullets.map((bullet) => (
+                  <li key={bullet} className="flex items-center gap-2.5">
+                    <Icon name="check" className="h-4 w-4 flex-shrink-0 text-green" />
+                    <span className="font-mono text-[0.78rem] uppercase tracking-[0.1em] text-ink">
+                      {bullet}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+
+              <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+                <Button href="/kontakt/" variant="primary">
+                  Beratung anfragen
+                </Button>
+                <Button href="/produkte/" variant="secondary">
+                  Produkte ansehen
+                </Button>
+              </div>
+            </Reveal>
           </div>
 
-          {/* Right column */}
-          <div className="flex justify-center md:justify-end">
-            <Image
-              src={homeHero.image}
-              alt="AmbiVolt Photovoltaik-Montagesysteme"
-              width={980}
-              height={883}
-              priority
-              className="w-full max-w-md object-contain md:max-w-full"
-            />
-          </div>
+          {/* Rechte Spalte: animiertes Exponat */}
+          <HeroExhibit />
         </div>
       </Container>
     </section>

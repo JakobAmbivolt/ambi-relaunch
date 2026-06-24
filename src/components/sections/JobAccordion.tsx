@@ -63,7 +63,7 @@ export function JobAccordion({ jobs }: { jobs: { title: string; body: string }[]
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <div className="divide-y divide-slate-200 border border-slate-200 rounded-lg overflow-hidden">
+    <div className="divide-y divide-line border border-line">
       {jobs.map((job, i) => {
         const isOpen = openIndex === i;
         return (
@@ -72,9 +72,14 @@ export function JobAccordion({ jobs }: { jobs: { title: string; body: string }[]
               aria-expanded={isOpen}
               aria-controls={`job-panel-${i}`}
               onClick={() => setOpenIndex(isOpen ? null : i)}
-              className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left text-base font-semibold text-ink transition-colors hover:bg-surface focus-visible:outline-2 focus-visible:outline-amber"
+              className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left transition-colors hover:bg-surface focus-visible:outline-2 focus-visible:outline-amber"
             >
-              <span>{job.title}</span>
+              <span className="flex items-center gap-4">
+                <span className="font-mono text-xs font-bold text-amber">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <span className="font-display text-base font-bold text-ink">{job.title}</span>
+              </span>
               <Icon
                 name="chevron"
                 className={`h-5 w-5 flex-shrink-0 text-amber transition-transform duration-200 ${
@@ -86,7 +91,7 @@ export function JobAccordion({ jobs }: { jobs: { title: string; body: string }[]
               <div
                 id={`job-panel-${i}`}
                 role="region"
-                className="px-6 pb-6 pt-2 text-sm text-text leading-relaxed"
+                className="border-t border-line bg-surface px-6 pb-6 pt-4 text-sm text-text leading-relaxed"
               >
                 {renderBody(job.body)}
               </div>

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  /* Farben — exakt aus dem Original extrahiert */
+  /* Markenfarben — bleiben unverändert (nur Einsatz/Anteil neu) */
   --color-white: #ffffff;
   --color-surface: #f9f9f9;
   --color-slate-900: #2a2938;
@@ -13,22 +13,78 @@
   --color-text: #525558;
   --color-blue: #2563eb;
 
-  /* Schrift (Variablen werden in layout.tsx via next/font gesetzt) */
-  --font-sans: var(--font-metro), system-ui, sans-serif;
+  /* Hairline für technisches Raster (Slate, niedrig deckend) */
+  --color-line: rgba(42, 41, 56, 0.12);
+  --color-line-dark: rgba(255, 255, 255, 0.14);
+
+  /* Schrift-Rollen (Variablen aus next/font, siehe layout.tsx) */
+  --font-display: var(--font-archivo), system-ui, sans-serif;
+  --font-mono: var(--font-jbmono), ui-monospace, "SFMono-Regular", monospace;
+  --font-body: var(--font-inter-tight), system-ui, sans-serif;
+  --font-sans: var(--font-inter-tight), system-ui, sans-serif;
 
   /* Layout */
-  --container-max: 1200px;
+  --container-max: 1600px;
 }
 
 :root {
   color-scheme: light;
+  /* Basis-Schriftgröße FLUID: groß am Vollbild (120%), skaliert beim Verkleinern
+     des Fensters proportional mit — wie echtes Browser-Zoom, das sich anpasst.
+     - breite Viewports (>=1600px): 120% (= das gewünschte "120%-Zoom"-Gefühl)
+     - halbes Fenster / Tablet: ~110-116%
+     - schmale Fenster / Handy: min 106%
+     Tailwind rechnet Schrift UND Abstände in rem → alles skaliert proportional mit.
+     % respektiert die Browser-Schriftgröße des Nutzers (a11y). */
+  font-size: clamp(106%, 1rem + 0.2vw, 120%);
 }
 
 body {
   background: var(--color-white);
   color: var(--color-text);
-  font-family: var(--font-sans);
+  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /* Sicherheitsnetz: lange Wörter/URLs dürfen umbrechen statt zu überlaufen */
+  overflow-wrap: break-word;
+}
+
+/* Display-Headlines: enge Laufweite, kräftig */
+.font-display {
+  letter-spacing: -0.02em;
+  /* Lange deutsche Komposita (z. B. "Montagesysteme") nie über den Rand schieben:
+     erst sauber per Silbentrennung (lang="de" ist gesetzt), zur Not hart umbrechen.
+     Greift nur, wenn ein Wort sonst überliefe — Desktop-Layout bleibt unverändert. */
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Mono-Labels: technische Anmutung */
+.label-mono {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.72rem;
+  font-weight: 500;
+}
+
+::selection {
+  background: var(--color-amber);
+  color: #fff;
+}
+
+/* Blueprint-Raster: feines technisches Hintergrund-Gitter */
+.blueprint {
+  background-image:
+    linear-gradient(var(--color-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-line) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+.blueprint-dark {
+  background-image:
+    linear-gradient(var(--color-line-dark) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-line-dark) 1px, transparent 1px);
+  background-size: 56px 56px;
 }
 
 /* Reveal-Inhalte ohne JavaScript sichtbar lassen (SEO / no-JS) */

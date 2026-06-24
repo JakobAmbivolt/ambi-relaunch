@@ -6,8 +6,8 @@ import { FormField } from "@/components/forms/FormField";
 type Errors = Partial<Record<string, string>>;
 
 function inputClass(error?: string) {
-  return `w-full rounded border p-3 text-sm text-ink placeholder-slate-400 outline-none transition-colors focus:border-amber ${
-    error ? "border-red-400" : "border-slate-300"
+  return `w-full border bg-white p-3 text-sm text-ink placeholder-slate-400 transition-colors focus:border-amber focus:outline-none ${
+    error ? "border-red-400" : "border-line"
   }`;
 }
 
@@ -59,7 +59,7 @@ export function ApplicationForm() {
 
   if (submitted) {
     return (
-      <div className="rounded border border-amber bg-amber/10 p-6 text-sm text-ink">
+      <div className="border border-amber bg-amber/10 p-6 text-sm text-ink">
         <p className="font-semibold">Vielen Dank!</p>
         <p className="mt-1">
           Der Formularversand wird in Kürze aktiviert – bitte kontaktieren Sie uns direkt per
@@ -159,14 +159,14 @@ export function ApplicationForm() {
 
       {/* File upload */}
       <div className="flex flex-col gap-1">
-        <label htmlFor="bewerbung-anhang" className="text-sm font-medium text-ink">
+        <label htmlFor="bewerbung-anhang" className="font-mono text-xs uppercase tracking-[0.12em] text-ink">
           Anhang (z.B. Lebenslauf, Zeugnisse etc.)
         </label>
         <input
           id="bewerbung-anhang"
           type="file"
           accept=".jpg,.jpeg,.jpe,.mka,.7z,.xla,.xls,.xlt,.xlw,.odg"
-          className="text-sm text-text file:mr-4 file:cursor-pointer file:rounded file:border-0 file:bg-amber file:px-4 file:py-2 file:text-sm file:font-semibold file:text-white hover:file:bg-amber-bright"
+          className="border border-line bg-white text-sm text-text file:mr-4 file:cursor-pointer file:border-0 file:bg-amber file:px-4 file:py-2 file:font-mono file:text-xs file:font-semibold file:uppercase file:tracking-[0.12em] file:text-white hover:file:bg-amber-bright"
         />
         <p className="text-xs text-text">
           Akzeptierte Dateiendungen: jpg, jpeg, jpe, mka, 7z, xla, xls, xlt, xlw, odg. Maximale
@@ -220,8 +220,12 @@ export function ApplicationForm() {
 
       <button
         type="submit"
-        className="inline-flex items-center justify-center gap-2 self-start bg-amber px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-colors hover:bg-amber-bright"
+        className="group/btn relative inline-flex items-center justify-center gap-2.5 self-start bg-amber px-6 py-3.5 font-mono text-xs font-medium uppercase tracking-[0.16em] text-white transition-colors duration-200 hover:bg-amber-bright"
       >
+        <span
+          aria-hidden="true"
+          className="h-1.5 w-1.5 bg-current opacity-70 transition-transform duration-200 group-hover/btn:scale-150"
+        />
         Senden
       </button>
     </form>

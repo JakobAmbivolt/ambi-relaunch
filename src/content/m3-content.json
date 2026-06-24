@@ -12,7 +12,7 @@
         "subheading": "About",
         "cta": {
           "label": "Hier mehr lesen",
-          "href": "https://ambivolt.de/unternehmen/#ueberuns"
+          "href": "/unternehmen/#ueberuns"
         }
       },
       {
@@ -33,7 +33,7 @@
         ],
         "cta": {
           "label": "Hier hallo sagen!",
-          "href": "https://ambivolt.de/kontakt/"
+          "href": "/kontakt/"
         }
       },
       {
@@ -46,7 +46,7 @@
         ],
         "cta": {
           "label": "Beratung anfragen!",
-          "href": "https://ambivolt.de/kontakt/"
+          "href": "/kontakt/"
         }
       },
       {
@@ -61,16 +61,16 @@
     ],
     "progressBars": [
       {
-        "label": "Innovation",
-        "percent": 92
+        "label": "Kundenzufriedenheit",
+        "percent": 100
       },
       {
-        "label": "Nachhaltige Zukunft",
-        "percent": 85
+        "label": "Weiterempfehlung",
+        "percent": 100
       },
       {
-        "label": "Nachhaltige Enerige",
-        "percent": 75
+        "label": "Qualitätsgeprüfte Systeme",
+        "percent": 100
       }
     ],
     "notes": "heroBgImage konnte nicht extrahiert werden: Die Hero-Sektion (Divi, CSS-Klasse et_pb_section_0 industrial-12-he) liefert ihr Hintergrundbild per WP-Rocket-Lazy-Loading (data-rocket-lazy-bg). Die echte URL ist weder im statischen HTML noch nach JS-Render (json-Format mit waitFor:6000) auffindbar, daher bewusst weggelassen statt geraten — beim Nachbau manuell prüfen.\n\nEinziges echtes Content-Bild der Seite: https://ambivolt.de/wp-content/uploads/AmbiVolt-Katalog-cover-web-01.jpg (Katalog-Cover in Sektion 'Über AmbiVolt'). Übrige gefundene Bilder sind Logo (ambivolt-Logo.svg), Favicon und Borlabs-Cookie-Platzhalter — nicht Seiteninhalt.\n\nIm Markdown markieren einzelne 'N' / '}' / '#' Zeichen die Divi-Blurb-Icons (Icon-Font-Glyphen), nicht Text. Die zugehörigen Überschriften wurden als Bullets/Feature-Titel erfasst.\n\nOriginal-Tippfehler bewusst beibehalten: 'Aussderm' (statt Außerdem), 'Nachhaltige Enerige' (statt Energie), 'Installeure' und doppelte Leerzeichen in den Headlines ('AmbiVolt –  das Unternehmen').\n\nSeitentyp 'Unternehmen' -> progressBars erfasst (3 Balken). Keine projects/jobs/benefits/form auf dieser Seite."
@@ -91,7 +91,7 @@
         ],
         "cta": {
           "label": "Referenzen ansehen",
-          "href": "https://ambivolt.de/unsere-solarprojekte/#referenzen"
+          "href": "/unsere-solarprojekte/#referenzen"
         },
         "images": [
           "/images/content/ambivolt-solaranlagen-referenzen-wagner-wolnzach-1.jpg",
@@ -223,7 +223,7 @@
         "heading": "Deine Karriere bei AmbiVolt",
         "cta": {
           "label": "Jobs entdecken",
-          "href": "https://ambivolt.de/jobs-und-stellenangebote/#offene-stellenangebote"
+          "href": "/jobs-und-stellenangebote/#offene-stellenangebote"
         }
       },
       {
@@ -236,7 +236,7 @@
         ],
         "cta": {
           "label": "Jobs entdecken",
-          "href": "https://ambivolt.de/jobs-und-stellenangebote/#offene-stellenangebote"
+          "href": "/jobs-und-stellenangebote/#offene-stellenangebote"
         }
       },
       {
@@ -293,7 +293,7 @@
         ],
         "cta": {
           "label": "Jetzt bewerben!",
-          "href": "https://ambivolt.de/kontakt/"
+          "href": "/kontakt/"
         },
         "images": [
           "/images/content/Jetzt-bewerben.svg"

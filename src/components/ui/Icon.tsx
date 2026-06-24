@@ -1,8 +1,9 @@
-type Name = "check" | "chevron" | "arrow" | "phone" | "mail" | "pin" | "facebook" | "linkedin";
+type Name = "check" | "chevron" | "arrow" | "phone" | "mail" | "pin" | "clock" | "facebook" | "linkedin";
 const paths: Record<Name, string> = {
   check: "M20 6L9 17l-5-5",
   chevron: "M6 9l6 6 6-6",
   arrow: "M5 12h14M13 6l6 6-6 6",
+  clock: "M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM12 7v5l3.5 2",
   phone: "M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z",
   mail: "M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zM22 6l-10 7L2 6",
   pin: "M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0zM12 10a3 3 0 1 0 0-.01",

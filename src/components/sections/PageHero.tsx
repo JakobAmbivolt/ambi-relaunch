@@ -1,13 +1,16 @@
 import type { ReactNode } from "react";
-import Image from "next/image";
 import { Container } from "@/components/ui/Container";
+import { MonoLabel } from "@/components/ui/MonoLabel";
+import { MeasureLine } from "@/components/ui/MeasureLine";
+import { Aurora } from "@/components/ui/Aurora";
+import { ParallaxLayer } from "@/components/ui/ParallaxLayer";
+import { Reveal } from "@/components/ui/Reveal";
 
-// Wiederverwendbarer Innenseiten-Hero: dunkle Slate-Fläche, schräger Amber-Balken oben,
-// optionales Hintergrundbild (Dach/Module) und optional zentrierter Text.
+// Innenseiten-Hero im Engineered-Look: helles Blueprint-Raster, Mono-Kicker,
+// Archivo-Headline, Amber-Messlinie. (bgImage-Prop bleibt aus Kompatibilität, wird nicht gerendert.)
 export function PageHero({
   eyebrow,
   title,
-  bgImage,
   align = "left",
   children,
 }: {
@@ -19,32 +22,22 @@ export function PageHero({
 }) {
   const centered = align === "center";
   return (
-    <section className="relative overflow-hidden bg-slate-900 text-white">
-      {bgImage && (
-        <>
-          <Image src={bgImage} alt="" fill priority sizes="100vw" className="object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/70 to-slate-900/55" />
-        </>
-      )}
-
-      <svg
-        className="absolute inset-x-0 top-0 z-10 h-6 w-full md:h-8"
-        viewBox="0 0 1280 140"
-        preserveAspectRatio="none"
-        aria-hidden="true"
-      >
-        <path fill="var(--color-amber)" d="M0 0 H1280 L0 140 Z" />
-      </svg>
+    <section className="relative overflow-hidden border-b border-line bg-surface">
+      <div className="blueprint pointer-events-none absolute inset-0 opacity-50" aria-hidden="true" />
+      <ParallaxLayer from={50} to={-50}>
+        <Aurora className="-right-32 -top-28" color="amber" size="42rem" opacity={0.16} />
+        <Aurora className="-bottom-40 -left-32" color="green" size="36rem" opacity={0.1} />
+      </ParallaxLayer>
 
       <Container className={`relative z-10 py-16 md:py-24 ${centered ? "text-center" : ""}`}>
-        {eyebrow && (
-          <>
-            <p className="text-sm font-semibold uppercase tracking-widest text-amber">{eyebrow}</p>
-            <span className={`mt-2 mb-3 block h-1 w-12 bg-amber ${centered ? "mx-auto" : ""}`} />
-          </>
-        )}
-        <h1 className="text-3xl font-bold leading-tight md:text-5xl">{title}</h1>
-        {children}
+        <Reveal className={centered ? "flex flex-col items-center" : ""}>
+          {eyebrow && <MonoLabel tone="amber">{eyebrow}</MonoLabel>}
+          <h1 className="font-display mt-5 text-4xl font-extrabold leading-[1.02] text-ink md:text-6xl">
+            {title}
+          </h1>
+          <MeasureLine className="mt-6" width="w-24" />
+          {children}
+        </Reveal>
       </Container>
     </section>
   );

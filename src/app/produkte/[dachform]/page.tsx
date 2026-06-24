@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getProductPage, productSlugs, ergGrid } from "@/content/productDetails";
-import { Highlight } from "@/components/ui/Highlight";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
@@ -56,7 +55,7 @@ export default async function DachformPage({
         bgImage="/images/hero-bg.jpg"
         align="left"
         eyebrow={page.heroEyebrow}
-        title={<Highlight color="amber">{page.heroTitle}</Highlight>}
+        title={page.heroTitle}
       >
         {page.intro && (
           <p className="mt-6 max-w-2xl text-lg text-white/80">{page.intro}</p>
@@ -71,7 +70,7 @@ export default async function DachformPage({
       </PageHero>
 
       {/* 2. Breadcrumb */}
-      <div className="border-b border-slate-900/10 bg-white py-3">
+      <div className="border-b border-line bg-white py-3">
         <Container>
           <Breadcrumb
             items={[

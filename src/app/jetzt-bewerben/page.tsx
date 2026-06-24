@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { bewerben, section } from "@/content/m3";
 import { Container } from "@/components/ui/Container";
-import { Highlight } from "@/components/ui/Highlight";
+import { Reveal } from "@/components/ui/Reveal";
 import { PageHero } from "@/components/sections/PageHero";
 import { ContactInfo } from "@/components/ui/ContactInfo";
 import { OpeningHours } from "@/components/ui/OpeningHours";
@@ -17,33 +17,32 @@ export default function JetztBewerbenPage() {
 
   return (
     <>
-      <PageHero
-        title={<Highlight color="amber">Willkommen bei AmbiVolt!</Highlight>}
-        align="center"
-      >
+      <PageHero title="Willkommen bei AmbiVolt!" align="center">
         {hero?.subheading && (
-          <p className="mt-4 text-lg text-white/90">{hero.subheading}</p>
+          <p className="mt-4 text-lg text-text">{hero.subheading}</p>
         )}
         {hero?.paragraphs?.[0] && (
-          <p className="mt-2 text-base text-white/75">{hero.paragraphs[0]}</p>
+          <p className="mt-2 text-base text-text">{hero.paragraphs[0]}</p>
         )}
       </PageHero>
 
       {/* Main: form + contact sidebar */}
-      <section className="bg-white py-16 md:py-20">
+      <section className="bg-white py-20 md:py-28">
         <Container>
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-[2fr_1fr]">
             {/* Left: form */}
-            <div>
-              <h2 className="mb-6 text-2xl font-bold text-ink">Sende uns deine Bewerbung</h2>
+            <Reveal>
+              <h2 className="mb-6 font-display text-2xl font-bold text-ink">
+                Sende uns deine Bewerbung
+              </h2>
               <ApplicationForm />
-            </div>
+            </Reveal>
 
             {/* Right: contact info */}
-            <div className="flex flex-col gap-8">
+            <Reveal delay={0.15} className="flex flex-col gap-8">
               <ContactInfo heading="Kontakt" />
               <OpeningHours />
-            </div>
+            </Reveal>
           </div>
         </Container>
       </section>

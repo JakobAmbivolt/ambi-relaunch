@@ -1,0 +1,11 @@
+# AmbiVolt – statischer Export auf Strato (Apache + PHP)
+
+Options -Indexes
+
+# Alte Datenschutz-URL dauerhaft auf die kanonische Adresse umleiten
+# (ersetzt die frühere redirects()-Regel aus next.config; exakte Übereinstimmung,
+#  damit /datenschutzerklaerung NICHT mitgefangen wird).
+RedirectMatch 301 ^/datenschutz/?$ /datenschutzerklaerung/
+
+# 404-Seite des Exports verwenden
+ErrorDocument 404 /404.html

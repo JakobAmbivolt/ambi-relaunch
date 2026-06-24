@@ -1,44 +1,49 @@
-import Image from "next/image";
 import { Container } from "@/components/ui/Container";
+import { SectionHeading } from "@/components/ui/SectionHeading";
+import { Aurora } from "@/components/ui/Aurora";
+import { ParallaxLayer } from "@/components/ui/ParallaxLayer";
 import { Reveal } from "@/components/ui/Reveal";
+import { SolarChargePanel } from "@/components/sections/SolarChargePanel";
 import { homeEfficiency } from "@/content/home";
 
 export function EfficiencyCards() {
   return (
-    <section className="bg-slate-900 py-16 text-white md:py-24">
-      <Container>
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:items-center">
-          {/* Left: Heading + Karten */}
-          <Reveal>
-            <p className="text-sm font-semibold uppercase tracking-widest text-amber">
-              {homeEfficiency.eyebrow}
-            </p>
-            <span className="mt-2 mb-3 block h-1 w-12 bg-amber" />
-            <h2 className="text-3xl font-bold md:text-4xl">{homeEfficiency.title}</h2>
-            <p className="mt-3 mb-8 text-white/70">{homeEfficiency.intro}</p>
+    <section className="relative overflow-hidden bg-slate-900 py-24 text-white md:py-32">
+      <div className="blueprint-dark pointer-events-none absolute inset-0 opacity-50" aria-hidden="true" />
+      <ParallaxLayer from={90} to={-90}>
+        <Aurora className="-left-40 top-10" color="amber" size="44rem" opacity={0.16} />
+        <Aurora className="-right-44 bottom-0" color="green" size="46rem" opacity={0.18} />
+      </ParallaxLayer>
 
-            <div className="grid gap-6 sm:grid-cols-2">
-              {homeEfficiency.cards.map((card) => (
-                <div key={card.title} className="border border-white/10 bg-slate-800 p-6">
-                  <div className="relative mb-4 h-12 w-12">
-                    <Image src={card.icon} alt="" fill className="object-contain" sizes="48px" />
+      <Container className="relative z-10">
+        <div className="grid grid-cols-1 gap-14 lg:grid-cols-2 lg:items-center lg:gap-20">
+          {/* Links: Überschrift + verdichtete Stat-Karten */}
+          <div>
+            <Reveal>
+              <SectionHeading
+                eyebrow={homeEfficiency.eyebrow}
+                title={homeEfficiency.title}
+                tone="light"
+              />
+              <p className="mt-6 max-w-md text-lg text-white/70">{homeEfficiency.intro}</p>
+            </Reveal>
+
+            <Reveal delay={0.1}>
+              <div className="mt-10 grid gap-px border border-white/10 bg-white/10 sm:grid-cols-2">
+                {homeEfficiency.cards.map((card) => (
+                  <div key={card.title} className="bg-slate-900 p-6">
+                    <span className="mb-4 block h-1.5 w-1.5 bg-amber" aria-hidden="true" />
+                    <h3 className="font-display mb-2 text-lg font-bold text-white">{card.title}</h3>
+                    <p className="text-sm leading-relaxed text-white/65">{card.body}</p>
                   </div>
-                  <h3 className="mb-2 text-lg font-bold text-white">{card.title}</h3>
-                  <p className="text-sm text-white/70">{card.body}</p>
-                </div>
-              ))}
-            </div>
-          </Reveal>
+                ))}
+              </div>
+            </Reveal>
+          </div>
 
-          {/* Right: Foto */}
+          {/* Rechts: Solar-Lade-Dashboard (scroll-gekoppelt) */}
           <Reveal delay={0.1}>
-            <Image
-              src={homeEfficiency.image}
-              alt="AmbiVolt Photovoltaik-Montagesysteme – maximale Effizienz"
-              width={620}
-              height={465}
-              className="h-auto w-full object-cover"
-            />
+            <SolarChargePanel />
           </Reveal>
         </div>
       </Container>

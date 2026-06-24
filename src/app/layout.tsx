@@ -1,11 +1,34 @@
 import type { Metadata } from "next";
-import { Jost } from "next/font/google";
+import { Archivo, JetBrains_Mono, Inter_Tight } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { MarqueeBand } from "@/components/layout/MarqueeBand";
+import { ScrollProgress } from "@/components/ui/ScrollProgress";
 
-const sans = Jost({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-metro", display: "swap" });
+// Display: industrielle Grotesk für Headlines
+const display = Archivo({
+  subsets: ["latin"],
+  weight: ["500", "600", "700", "800"],
+  variable: "--font-archivo",
+  display: "swap",
+});
+
+// Utility/Mono: technische Labels, Zahlen, Specs
+const mono = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  variable: "--font-jbmono",
+  display: "swap",
+});
+
+// Body: ruhiger, dichter Lesetext
+const body = Inter_Tight({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-inter-tight",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ambivolt.de"),
@@ -19,8 +42,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="de" className={`${sans.variable} h-full`}>
-      <body className="flex min-h-full flex-col">
+    <html
+      lang="de"
+      className={`${display.variable} ${mono.variable} ${body.variable} h-full`}
+    >
+      <body className="flex min-h-full flex-col bg-white">
+        <ScrollProgress />
         <Header />
         <main className="flex-1">{children}</main>
         <MarqueeBand />

@@ -1,5 +1,8 @@
 import type { ReactElement } from "react";
 import { Container } from "@/components/ui/Container";
+import { MonoLabel } from "@/components/ui/MonoLabel";
+import { MeasureLine } from "@/components/ui/MeasureLine";
+import { Reveal } from "@/components/ui/Reveal";
 
 type LegalSection = {
   heading?: string;
@@ -106,27 +109,82 @@ export function LegalPageLayout({
   title: string;
   sections: LegalSection[];
 }) {
-  return (
-    <section className="bg-white py-16 md:py-24">
-      <Container>
-        <div className="mx-auto max-w-3xl">
-          <h1 className="mb-10 text-3xl font-bold text-ink md:text-4xl">{title}</h1>
+  // Deterministische Section-Anker (Umlaut-sicher) für das Inhaltsverzeichnis.
+  const sectionId = (i: number) => `abschnitt-${i + 1}`;
+  const toc = sections
+    .map((sec, si) => ({ heading: sec.heading, id: sectionId(si), index: si }))
+    .filter((entry): entry is { heading: string; id: string; index: number } =>
+      Boolean(entry.heading)
+    );
 
-          {sections.map((sec, si) => (
-            <div key={si}>
-              {sec.heading && (
-                <h2 className="mt-8 mb-3 text-xl font-bold text-ink">{sec.heading}</h2>
-              )}
-              {sec.body && <BodyText text={sec.body} />}
-              {sec.paragraphs && sec.paragraphs.length > 0 && (
-                <div>
-                  {sec.paragraphs.map((p, pi) => (
-                    <ImpressumParagraph key={pi} text={p} />
+  return (
+    <section className="bg-white py-20 md:py-28">
+      <Container>
+        <Reveal>
+          <header className="mx-auto max-w-3xl border-b border-line pb-8">
+            <MonoLabel tone="amber">Rechtliches</MonoLabel>
+            <h1 className="font-display mt-5 text-3xl font-bold leading-[1.05] text-ink md:text-5xl">
+              {title}
+            </h1>
+            <MeasureLine className="mt-6" width="w-24" />
+          </header>
+        </Reveal>
+
+        <div className="mx-auto mt-12 grid max-w-5xl gap-12 lg:grid-cols-[14rem_minmax(0,1fr)]">
+          {toc.length > 0 && (
+            <Reveal className="hidden lg:block">
+              <nav
+                aria-label="Inhalt"
+                className="sticky top-28 border-l border-line pl-5"
+              >
+                <p className="label-mono mb-4 text-text">Inhalt</p>
+                <ol className="space-y-2.5">
+                  {toc.map((entry) => (
+                    <li key={entry.id} className="flex gap-3 text-sm leading-snug">
+                      <span className="font-mono text-xs text-amber" aria-hidden="true">
+                        {String(entry.index + 1).padStart(2, "0")}
+                      </span>
+                      <a
+                        href={`#${entry.id}`}
+                        className="text-text transition-colors hover:text-amber"
+                      >
+                        {entry.heading}
+                      </a>
+                    </li>
                   ))}
-                </div>
-              )}
-            </div>
-          ))}
+                </ol>
+              </nav>
+            </Reveal>
+          )}
+
+          <Reveal delay={0.05} className="min-w-0 max-w-3xl">
+            {sections.map((sec, si) => (
+              <div
+                key={si}
+                id={sectionId(si)}
+                className="scroll-mt-28 border-line py-8 first:pt-0 [&:not(:last-child)]:border-b"
+              >
+                {sec.heading && (
+                  <div className="mb-4 flex items-baseline gap-3">
+                    <span className="font-mono text-xs text-amber" aria-hidden="true">
+                      {String(si + 1).padStart(2, "0")}
+                    </span>
+                    <h2 className="font-display text-xl font-bold text-ink md:text-2xl">
+                      {sec.heading}
+                    </h2>
+                  </div>
+                )}
+                {sec.body && <BodyText text={sec.body} />}
+                {sec.paragraphs && sec.paragraphs.length > 0 && (
+                  <div>
+                    {sec.paragraphs.map((p, pi) => (
+                      <ImpressumParagraph key={pi} text={p} />
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+          </Reveal>
         </div>
       </Container>
     </section>
