@@ -43,6 +43,10 @@
           "gallery": [
             "/images/products/ambivolt-ambilight-eco-plus-01.jpg"
           ],
+          "videos": [
+            "https://www.youtube-nocookie.com/embed/PP9YPLN4-3E",
+            "https://www.youtube-nocookie.com/embed/hrdhgZ7xh7U"
+          ],
           "features": [
             "Hervorragender Preis",
             "Beste Aerodynamik",
@@ -88,6 +92,9 @@
           "subtitle": "Gründachsystem für Flachdächer in Ost-West-Ausrichtung.",
           "image": "/images/products/ambivolt-ambilight-gruendachsystem-OW-1000x600px-01.jpg",
           "gallery": [],
+          "videos": [
+            "https://www.youtube-nocookie.com/embed/4k-6rLaxiV8"
+          ],
           "features": [
             "Ohne Unterbrechung unendlich verbaubar",
             "Fußverlauf quer zur Modullängskante",
@@ -198,6 +205,9 @@
             "/images/products/DachhakenV5-Bild-59-116.jpg",
             "/images/products/DachhakenV5-Bild-59-111.jpg",
             "/images/products/ambihook-produktdetailseite.png"
+          ],
+          "videos": [
+            "https://www.youtube-nocookie.com/embed/gKhsxOPFNvU"
           ],
           "features": [
             "3-fach verstellbar",

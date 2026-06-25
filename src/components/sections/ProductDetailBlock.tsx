@@ -1,11 +1,11 @@
-import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { Icon } from "@/components/ui/Icon";
 import { Reveal } from "@/components/ui/Reveal";
 import { Button } from "@/components/ui/Button";
 import { MonoLabel } from "@/components/ui/MonoLabel";
 import { MeasureLine } from "@/components/ui/MeasureLine";
-import { CornerTicks } from "@/components/ui/CornerTicks";
+import { ProductGallery } from "@/components/sections/ProductGallery";
+import { YouTubeFacade } from "@/components/sections/YouTubeFacade";
 import { descriptionParagraphs } from "@/content/productDetails";
 import type { PdProduct } from "@/content/productDetails";
 
@@ -19,6 +19,10 @@ export function ProductDetailBlock({
   showInquiryCta: boolean;
 }) {
   const isEven = index % 2 === 0;
+  // Galerie = Hauptbild + zusätzliche Bilder (dedupliziert, ohne Leerwerte)
+  const galleryImages = [product.image, ...product.gallery].filter(
+    (src, i, arr): src is string => Boolean(src) && arr.indexOf(src) === i,
+  );
 
   return (
     <section
@@ -27,21 +31,17 @@ export function ProductDetailBlock({
     >
       <Container>
         <div className="grid items-center gap-10 lg:grid-cols-2">
-          {/* Image column */}
-          <div className={isEven ? "order-first" : "order-last lg:order-first"}>
-            {product.image ? (
-              <div className="relative border border-line bg-white p-4">
-                <CornerTicks className="border-amber" />
-                <Image
-                  src={product.image}
-                  alt={product.name}
-                  width={1000}
-                  height={600}
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="h-auto w-full object-contain"
-                />
+          {/* Image column: Galerie + (optional) Videos */}
+          <div className={`space-y-5 ${isEven ? "order-first" : "order-last lg:order-first"}`}>
+            <ProductGallery images={galleryImages} alt={product.name} />
+            {(product.videos ?? []).length > 0 && (
+              <div className="space-y-4">
+                <MonoLabel tone="amber">Video</MonoLabel>
+                {(product.videos ?? []).map((v) => (
+                  <YouTubeFacade key={v} url={v} title={product.name} />
+                ))}
               </div>
-            ) : null}
+            )}
           </div>
 
           {/* Content column */}
@@ -88,7 +88,7 @@ export function ProductDetailBlock({
 
               {showInquiryCta && (
                 <div className="mt-7">
-                  <Button href="#anfrage" variant="primary">
+                  <Button href="https://ambivolt.de/projektanfrage/" variant="primary">
                     Jetzt Anfrage starten
                   </Button>
                 </div>

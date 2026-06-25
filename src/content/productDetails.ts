@@ -7,6 +7,7 @@ export type PdProduct = {
   subtitle: string;
   image: string | null;
   gallery: string[];
+  videos?: string[]; // YouTube-nocookie-Embed-URLs (nur bei Produkten mit Video)
   features: string[];
   description: string;
   downloads: PdDownload[];

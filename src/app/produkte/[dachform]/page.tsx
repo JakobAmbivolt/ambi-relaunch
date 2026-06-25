@@ -7,7 +7,6 @@ import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { PageHero } from "@/components/sections/PageHero";
 import { BeratungsCtaBand } from "@/components/sections/BeratungsCtaBand";
 import { ProductDetailBlock } from "@/components/sections/ProductDetailBlock";
-import { InquiryFormStep1 } from "@/components/sections/InquiryFormStep1";
 import { DownloadList } from "@/components/sections/DownloadList";
 import { ErgaenzungGrid } from "@/components/sections/ErgaenzungGrid";
 import { ProductAnchorNav } from "@/components/sections/ProductAnchorNav";
@@ -58,11 +57,11 @@ export default async function DachformPage({
         title={page.heroTitle}
       >
         {page.intro && (
-          <p className="mt-6 max-w-2xl text-lg text-white/80">{page.intro}</p>
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-text">{page.intro}</p>
         )}
         {page.inquiry.length > 0 && (
           <div className="mt-8">
-            <Button href="#anfrage" variant="primary">
+            <Button href="https://ambivolt.de/projektanfrage/" variant="primary">
               Jetzt Anfrage starten
             </Button>
           </div>
@@ -100,11 +99,6 @@ export default async function DachformPage({
           showInquiryCta={page.inquiry.length > 0}
         />
       ))}
-
-      {/* 5. Inquiry Form Step 1 */}
-      {page.inquiry.length > 0 && (
-        <InquiryFormStep1 title={page.inquiryTitle} products={page.inquiry} />
-      )}
 
       {/* 6. Downloads */}
       {page.pageDownloads.length > 0 && (
