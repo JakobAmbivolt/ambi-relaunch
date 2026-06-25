@@ -55,6 +55,8 @@ export function ProductAnchorNav({
                 <svg
                   className="h-14 w-14 text-amber"
                   viewBox="0 0 24 24"
+                  width="56"
+                  height="56"
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="1.5"

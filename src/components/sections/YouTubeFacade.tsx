@@ -29,7 +29,7 @@ export function YouTubeFacade({ url, title }: { url: string; title: string }) {
             aria-hidden="true"
           />
           <span className="relative flex h-14 w-14 items-center justify-center bg-amber text-white transition-transform duration-200 group-hover/yt:scale-110">
-            <svg viewBox="0 0 24 24" className="h-6 w-6 translate-x-0.5" fill="currentColor" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="24" height="24" className="h-6 w-6 translate-x-0.5" fill="currentColor" aria-hidden="true">
               <path d="M8 5v14l11-7z" />
             </svg>
           </span>

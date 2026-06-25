@@ -27,6 +27,8 @@ function DocIcon() {
     <svg
       className="mt-0.5 h-5 w-5 flex-shrink-0 text-amber"
       viewBox="0 0 24 24"
+      width="24"
+      height="24"
       fill="none"
       stroke="currentColor"
       strokeWidth="2"

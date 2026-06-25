@@ -12,7 +12,7 @@ const paths: Record<Name, string> = {
 };
 export function Icon({ name, className = "h-5 w-5" }: { name: Name; className?: string }) {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
       <path d={paths[name]} />
     </svg>
   );
