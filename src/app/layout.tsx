@@ -5,6 +5,9 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { MarqueeBand } from "@/components/layout/MarqueeBand";
 import { ScrollProgress } from "@/components/ui/ScrollProgress";
+import { ConsentProvider } from "@/components/layout/ConsentProvider";
+import { CookieConsent } from "@/components/layout/CookieConsent";
+import { GoogleAnalytics } from "@/components/layout/GoogleAnalytics";
 
 // Display: industrielle Grotesk für Headlines
 const display = Archivo({
@@ -47,11 +50,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${display.variable} ${mono.variable} ${body.variable} h-full`}
     >
       <body className="flex min-h-full flex-col bg-white">
-        <ScrollProgress />
-        <Header />
-        <main className="flex-1">{children}</main>
-        <MarqueeBand />
-        <Footer />
+        <ConsentProvider>
+          <ScrollProgress />
+          <Header />
+          <main className="flex-1">{children}</main>
+          <MarqueeBand />
+          <Footer />
+          <CookieConsent />
+          <GoogleAnalytics />
+        </ConsentProvider>
       </body>
     </html>
   );
