@@ -1,0 +1,1054 @@
+/* =====================================================================
+   AMBIVOLT — DESIGN-SYSTEM "ENGINEERED BLUEPRINT"
+   ---------------------------------------------------------------------
+   Stack-neutrales, sofort einbindbares CSS (reines CSS — KEIN Tailwind,
+   KEIN @theme, KEIN @apply). Übertragbar auf WordPress, plain HTML oder
+   jedes beliebige Framework.
+
+   Designidee: technische Zeichnung / Engineering-Präzision — Hairline-
+   Rahmen, 56px-Blueprint-Raster, Mono-Font-Labels, Maßlinien, Eck-Marken,
+   scharfe Kanten (kein Radius), Amber als einziger prägnanter Akzent.
+
+   --- EINBINDUNG ---
+   1) Diese Datei global laden:
+        <link rel="stylesheet" href="design-tokens.css">
+   2) Die drei Schriften laden (Reihenfolge egal, vor dieser Datei):
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+      (Tipp: Für DSGVO-Konformität die Fonts lokal hosten und per @font-face
+       einbinden, dann --font-archivo/-jbmono/-inter-tight auf die lokalen
+       Familien zeigen lassen.)
+   3) <html lang="de"> setzen — sonst greift die Silbentrennung (hyphens:auto)
+      in Headlines nicht.
+   4) Klassen anwenden (.btn, .card, .section-heading, .label-mono ...).
+
+   --- WICHTIG ---
+   - Alle Maße sind in rem gehalten und beziehen sich auf die FLUIDE Root-
+     font-size clamp(106%, 1rem + 0.2vw, 120%). Wer diese Basis nicht
+     übernimmt, muss die rem-Werte neu kalibrieren.
+   - Feste px-Werte (56px-Raster, 1px-Hairlines) skalieren bewusst NICHT mit.
+   - Jeder JS-abhängige Effekt ist im Kommentar markiert (siehe "BRAUCHT JS").
+     Minimaler Reveal-Trigger ohne Framework:
+       const io = new IntersectionObserver((es)=>es.forEach(e=>{
+         if(e.isIntersecting){e.target.classList.add('is-visible');
+         io.unobserve(e.target);}}),{rootMargin:'-80px'});
+       document.querySelectorAll('.js-reveal').forEach(el=>io.observe(el));
+   ===================================================================== */
+
+/* ---------------------------------------------------------------------
+   Fonts laden (Ersatz für next/font/google; in der App per Loader,
+   subsets latin, display:swap, exakt diese Gewichte).
+--------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+/* =====================================================================
+   :root — ALLE TOKENS
+   ===================================================================== */
+:root {
+  color-scheme: light;
+
+  /* --- Markenfarben (exakte Werte, nichts runden) --- */
+  --color-white: #ffffff;
+  --color-surface: #f9f9f9;          /* Off-White: abgesetzte helle Sektionen */
+  --color-slate-900: #2a2938;        /* dunkle Flächen / Bänder / Footer */
+  --color-slate-800: #303341;        /* seltene dunkle Sekundärfläche */
+  --color-amber: #dc9015;            /* EINZIGER prägnanter Akzent */
+  --color-amber-bright: #ef9109;     /* nur Hover-/Text-Akzent von Amber */
+  --color-green: #268c45;            /* sparsamer Zweit-Akzent (Erfolg/Abschluss) */
+  --color-ink: #2a2938;              /* Typo-Rolle (Headlines/dunkler Text) — hex = slate-900 */
+  --color-text: #525558;             /* Standard-Fließtextfarbe (body) */
+  --color-blue: #2563eb;             /* reserviert: Phase-2 Konfigurator-CTA (aktuell ungenutzt) */
+
+  /* --- Hairlines (technisches Raster + alle Trenner) --- */
+  --color-line: rgba(42, 41, 56, 0.12);        /* Hairline auf hell */
+  --color-line-dark: rgba(255, 255, 255, 0.14); /* Hairline auf dunkel */
+
+  /* --- Aurora-RGB-Zerlegungen (für radiale Schimmer) --- */
+  --aurora-amber-rgb: 220, 144, 21;  /* = #dc9015 */
+  --aurora-green-rgb: 38, 140, 69;   /* = #268c45 */
+
+  /* --- Schrift-Rollen (echte Font-Namen + Fallbacks) --- */
+  --font-archivo: 'Archivo';
+  --font-jbmono: 'JetBrains Mono';
+  --font-inter-tight: 'Inter Tight';
+  --font-display: var(--font-archivo), system-ui, sans-serif;                       /* Headlines */
+  --font-mono: var(--font-jbmono), ui-monospace, 'SFMono-Regular', monospace;       /* Labels/Specs */
+  --font-body: var(--font-inter-tight), system-ui, sans-serif;                      /* Fließtext */
+  --font-sans: var(--font-inter-tight), system-ui, sans-serif;
+
+  /* --- Layout --- */
+  --container-max: 1600px;
+  --grid-size: 56px;                 /* Blueprint-Rastermaß (pixelfest) */
+
+  /* --- Signatur-Ease (Expo-Out) — für ALLE eingehenden Reveals --- */
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* --- Typo-Skala (rem) --- */
+  --fs-2xs: 0.64rem;   /* kleinste Tags */
+  --fs-xs: 0.75rem;    /* text-xs (Buttons, Nav, Marquee) */
+  --fs-sm: 0.875rem;   /* text-sm (Body in Karten/Footer) */
+  --fs-base: 1rem;     /* Lead-Text mobil */
+  --fs-lg: 1.125rem;   /* Lead-Text ab md */
+  --fs-label: 0.72rem; /* .label-mono Standard */
+  --fs-h3: 1.25rem;    /* Karten-Titel */
+  --fs-h2: 1.875rem;   /* h2 Basis */
+  --fs-h2-md: 2.6rem;  /* h2 ab md */
+  --fs-h2-lg: 3rem;    /* h2 ab lg */
+  --fs-h1: 2.25rem;    /* PageHero h1 Basis */
+  --fs-h1-hero-max: 5.5rem; /* Landing-Hero h1 Maximum */
+
+  /* --- Schatten (Slate-getönt, nie reines Schwarz) --- */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-dropdown: 0 16px 44px -16px rgba(42, 41, 56, 0.22);
+}
+
+/* =====================================================================
+   BASIS
+   ===================================================================== */
+
+/* Fluide Root-font-size: 106% schmal .. 120% ab ~1600px.
+   Skaliert Schrift UND rem-Abstände proportional. */
+html {
+  font-size: clamp(106%, 1rem + 0.2vw, 120%);
+}
+
+body {
+  margin: 0;
+  background: var(--color-white);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-wrap: break-word;        /* lange Wörter/URLs umbrechen statt überlaufen */
+}
+
+/* Textauswahl in Amber/Weiß (Mini-Signatur) */
+::selection {
+  background: var(--color-amber);
+  color: #fff;
+}
+
+/* =====================================================================
+   TYPOGRAFIE-UTILITIES
+   ===================================================================== */
+
+/* Display-Headlines: enge Laufweite, kräftig, deutsche Silbentrennung */
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;          /* Teil der Marke — nie weglassen */
+  overflow-wrap: break-word;
+  hyphens: auto;                    /* braucht <html lang="de"> */
+}
+
+/* Mono-Labels: technische Anmutung (Standardwert) */
+.label-mono {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: var(--fs-label);       /* 0.72rem */
+  font-weight: 500;
+}
+
+/* =====================================================================
+   CONTAINER
+   ===================================================================== */
+.container {
+  margin-inline: auto;
+  width: 100%;
+  max-width: var(--container-max);  /* 1600px */
+  padding-inline: 1.25rem;          /* px-5 mobil */
+}
+@media (min-width: 768px) {         /* Breakpoint md */
+  .container {
+    padding-inline: 2rem;           /* md:px-8 */
+  }
+}
+
+/* =====================================================================
+   HAIRLINE (scharfe Kanten / 1px-Trenner)
+   ===================================================================== */
+.hairline        { border: 1px solid var(--color-line); }
+.hairline-top    { border-top: 1px solid var(--color-line); }
+.hairline-bottom { border-bottom: 1px solid var(--color-line); }
+.hairline-y      { border-block: 1px solid var(--color-line); }
+.hairline-dark   { border: 1px solid var(--color-line-dark); }
+
+/* =====================================================================
+   BLUEPRINT-RASTER (56px-Gitter)
+   ===================================================================== */
+.blueprint {
+  background-image:
+    linear-gradient(var(--color-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-line) 1px, transparent 1px);
+  background-size: var(--grid-size) var(--grid-size);  /* 56px 56px */
+}
+.blueprint-dark {
+  background-image:
+    linear-gradient(var(--color-line-dark) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-line-dark) 1px, transparent 1px);
+  background-size: var(--grid-size) var(--grid-size);
+}
+/* Einsatz: Raster IMMER als absolutes, klickdurchlässiges Overlay (opacity .5)
+   HINTER dem Inhalt. Eltern: position:relative + overflow:hidden, Inhalt z-index:10. */
+.blueprint-layer {
+  position: absolute;
+  inset: 0;
+  opacity: 0.5;
+  pointer-events: none;             /* aria-hidden="true" im Markup setzen */
+  z-index: 0;
+}
+
+/* =====================================================================
+   SEKTIONS-RHYTHMUS & FLÄCHEN
+   ===================================================================== */
+.section--lg        { padding-block: 6rem; }  /* py-24 große Hauptsektionen */
+.section--secondary { padding-block: 5rem; }  /* py-20 sekundär/Listen/Galerien */
+.section--detail    { padding-block: 4rem; }  /* py-16 Detail/Innen-Hero */
+@media (min-width: 768px) {
+  .section--lg        { padding-block: 8rem; }  /* md:py-32 */
+  .section--secondary { padding-block: 7rem; }  /* md:py-28 */
+  .section--detail    { padding-block: 6rem; }  /* md:py-24 */
+}
+.section--surface { background: var(--color-surface); }                 /* abgesetzt hell */
+.section--dark    { background: var(--color-slate-900); color: rgba(255, 255, 255, 0.75); } /* kräftiger dunkler Block */
+.section--blueprint { position: relative; overflow: hidden; }
+
+/* =====================================================================
+   BUTTONS — 3 Varianten, scharfe Kanten, Mono-Label, führender Amber-Tick
+   ===================================================================== */
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;                    /* gap-2.5 */
+  padding: 0.875rem 1.5rem;         /* py-3.5 px-6 */
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);          /* text-xs */
+  font-weight: 500;                 /* font-medium */
+  text-transform: uppercase;
+  letter-spacing: 0.16em;           /* tracking-[0.16em] */
+  line-height: 1;
+  text-decoration: none;
+  border: 0;
+  border-radius: 0;                 /* scharfe Kanten — Pflicht */
+  cursor: pointer;
+  transition: color .2s, background-color .2s, border-color .2s; /* duration-200 */
+}
+/* führender quadratischer Tick (0.375rem), wächst bei Hover */
+.btn::before {
+  content: "";
+  width: 0.375rem;                  /* w-1.5 */
+  height: 0.375rem;                 /* h-1.5 */
+  background: currentColor;
+  opacity: 0.7;
+  transition: transform .2s;
+}
+.btn:hover::before { transform: scale(1.5); }
+
+.btn--primary {
+  background: var(--color-amber);
+  color: var(--color-white);
+}
+.btn--primary:hover { background: var(--color-amber-bright); }
+
+.btn--secondary {
+  border: 1px solid rgba(42, 41, 56, 0.25);  /* slate-900/25 */
+  color: var(--color-ink);
+  background: transparent;
+}
+.btn--secondary:hover {
+  border-color: var(--color-slate-900);
+  background: var(--color-slate-900);
+  color: var(--color-white);
+}
+
+.btn--ghost {                       /* für dunkle Sektionen */
+  border: 1px solid rgba(255, 255, 255, 0.25); /* white/25 */
+  color: var(--color-white);
+  background: transparent;
+}
+.btn--ghost:hover {
+  border-color: var(--color-white);
+  background: var(--color-white);
+  color: var(--color-slate-900);
+}
+
+/* kompakte Variante (z.B. Kontakt-Button in der Nav) */
+.btn--compact { padding: 0.75rem 1.25rem; }  /* py-3 px-5 */
+
+/* =====================================================================
+   CARD / "PLATE" — Hairline-Kachel mit Hover-Amber-Unterstrich
+   ===================================================================== */
+.card {
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  border: 1px solid var(--color-line);
+  background: var(--color-white);
+  border-radius: 0;
+  text-decoration: none;
+  transition: border-color .3s;     /* duration-300 */
+}
+.card:hover { border-color: rgba(42, 41, 56, 0.30); } /* slate-900/30 */
+
+.card__media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-bottom: 1px solid var(--color-line);
+  background: var(--color-surface);
+}
+.card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;              /* Produktbilder/Logos nie beschneiden */
+  padding: 1.5rem;                  /* p-6 */
+  transition: transform .5s var(--ease-expo); /* duration-500 */
+}
+.card:hover .card__img { transform: scale(1.06); }
+
+.card__tag {                        /* Mono-Tag oben links */
+  position: absolute;
+  left: 0.75rem; top: 0.75rem;      /* left-3 top-3 */
+  font-family: var(--font-mono);
+  font-size: var(--fs-2xs);         /* 0.64rem */
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--color-text);
+}
+.card__body {
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  padding: 1.5rem;                  /* p-6 */
+}
+.card__title {
+  font-family: var(--font-display);
+  font-size: var(--fs-h3);          /* text-xl 1.25rem */
+  font-weight: 700;
+  line-height: 1.25;                /* leading-tight */
+  letter-spacing: -0.02em;
+  color: var(--color-ink);
+  margin: 0;
+}
+.card__teaser {
+  margin-top: 0.625rem;             /* mt-2.5 */
+  flex: 1 1 0%;
+  font-size: var(--fs-sm);          /* text-sm */
+  line-height: 1.625;               /* leading-relaxed */
+  color: var(--color-text);
+}
+.card__footer {
+  margin-top: 1.5rem;               /* mt-6 */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__more {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;                /* text-[0.7rem] */
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--color-ink);
+  transition: color .2s;
+}
+.card:hover .card__more { color: var(--color-amber); }
+.card__arrow {
+  width: 1rem; height: 1rem;        /* h-4 w-4 */
+  color: var(--color-ink);
+  transition: transform .3s, color .3s; /* duration-300 */
+}
+.card:hover .card__arrow {
+  transform: translateX(0.25rem);   /* translate-x-1 */
+  color: var(--color-amber);
+}
+/* Amber-Messlinie zieht beim Hover über die volle Breite */
+.card__rule {
+  position: absolute;
+  left: 0; bottom: 0;
+  height: 0.125rem;                 /* h-0.5 */
+  width: 0;
+  background: var(--color-amber);
+  transition: width .3s var(--ease-expo);
+}
+.card:hover .card__rule { width: 100%; }
+
+/* =====================================================================
+   HAIRLINE-GRID — durchgehendes technisches Raster aus Kacheln
+   (Fugen = line, Kacheln = weiß/surface; statt Einzel-Borders)
+   ===================================================================== */
+.hairline-grid {
+  display: grid;
+  gap: 1px;
+  border: 1px solid var(--color-line);
+  background: var(--color-line);    /* Fugenfarbe */
+}
+.hairline-grid > * { background: var(--color-white); }
+.hairline-grid--surface > * { background: var(--color-surface); }
+
+/* =====================================================================
+   EXHIBIT / PLATE — Exponat-Platte mit technischer Bildunterschrift
+   ===================================================================== */
+.exhibit {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--color-line);
+  background: var(--color-white);
+  padding: 1.25rem;                 /* p-5 */
+  box-shadow: var(--shadow-sm);
+}
+@media (min-width: 640px) { .exhibit { padding: 2rem; } } /* sm:p-8 */
+.exhibit__caption {
+  margin-top: 1rem;                 /* mt-4 */
+  padding-top: 0.75rem;             /* pt-3 */
+  border-top: 1px solid var(--color-line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--color-text);
+}
+.exhibit__caption b { color: var(--color-amber); font-weight: inherit; }
+
+/* =====================================================================
+   SECTION-HEADING — Mono-Eyebrow + Display-h2 + Maßlinie
+   ===================================================================== */
+.section-heading { }                /* align left = Default */
+.section-heading--center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section-heading__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;                     /* gap-3 */
+  margin-bottom: 1rem;              /* mb-4 */
+}
+.section-heading--center .section-heading__eyebrow { justify-content: center; }
+.section-heading__title {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);          /* text-3xl 1.875rem */
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--color-ink);
+  margin: 0;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+.section-heading--light .section-heading__title { color: var(--color-white); }
+@media (min-width: 768px)  { .section-heading__title { font-size: var(--fs-h2-md); } } /* md:text-[2.6rem] */
+@media (min-width: 1024px) { .section-heading__title { font-size: var(--fs-h2-lg); } } /* lg:text-5xl */
+.section-heading__measure {
+  margin-top: 1.25rem;              /* mt-5 */
+  width: 5rem;                      /* w-20 */
+}
+
+/* =====================================================================
+   HEADLINE-GRÖSSEN (responsiv)  — Breakpoints sm640 md768 lg1024 xl1280
+   ===================================================================== */
+.h1-hero {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em; hyphens: auto; overflow-wrap: break-word;
+  font-weight: 800;
+  font-size: clamp(1.5rem, 9vw, 2.7rem);
+  line-height: 1;
+  color: var(--color-ink);
+  margin-top: 1.25rem;              /* mt-5 */
+}
+@media (min-width: 640px)  { .h1-hero { font-size: 3.75rem; line-height: 0.95; } }
+@media (min-width: 1024px) { .h1-hero { font-size: 4.5rem; } }
+@media (min-width: 1280px) { .h1-hero { font-size: var(--fs-h1-hero-max); } } /* 5.5rem */
+
+.h1-page {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em; hyphens: auto; overflow-wrap: break-word;
+  font-weight: 800;
+  font-size: var(--fs-h1);          /* text-4xl 2.25rem */
+  line-height: 1.02;
+  color: var(--color-ink);
+  margin-top: 1.25rem;
+}
+@media (min-width: 768px) { .h1-page { font-size: 3.75rem; } }
+
+.h1-legal {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em; hyphens: auto; overflow-wrap: break-word;
+  font-weight: 700;
+  font-size: var(--fs-h2);          /* text-3xl 1.875rem */
+  line-height: 1.05;
+  color: var(--color-ink);
+  margin-top: 1.25rem;
+}
+@media (min-width: 768px) { .h1-legal { font-size: var(--fs-h2-lg); } } /* 3rem */
+
+/* =====================================================================
+   BODY-TEXT-MUSTER
+   ===================================================================== */
+.body-text {
+  font-family: var(--font-body);
+  font-size: var(--fs-sm);          /* text-sm */
+  line-height: 1.625;
+  color: var(--color-text);
+}
+.body-lead {
+  font-family: var(--font-body);
+  font-size: var(--fs-base);        /* text-base */
+  color: var(--color-text);
+}
+@media (min-width: 768px) { .body-lead { font-size: var(--fs-lg); } } /* md:text-lg */
+
+/* =====================================================================
+   MONO-LABEL (Eyebrow/Kicker) + Index-Strich + Tonarten
+   ===================================================================== */
+.mono-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;                      /* gap-2 */
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: var(--fs-label);       /* 0.72rem */
+  font-weight: 500;
+  color: var(--color-amber);        /* Default = amber */
+}
+.mono-label--amber { color: var(--color-amber); }
+.mono-label--green { color: var(--color-green); }
+.mono-label--muted { color: var(--color-text); }
+.mono-label__rule {                 /* Index-Trennstrich, NUR bei echter Sequenz */
+  width: 1.25rem;                   /* w-5 */
+  height: 1px;                      /* h-px */
+  background: currentColor;
+  opacity: 0.5;
+}
+
+/* Mono-Label-Kontext-Varianten (tracking/size je Einsatzort) */
+.mono { font-family: var(--font-mono); text-transform: uppercase; }
+.mono-tag        { font-size: 0.64rem; letter-spacing: 0.16em; color: var(--color-text); }
+.mono-cta        { font-size: 0.70rem; letter-spacing: 0.16em; color: var(--color-ink); }
+.mono-breadcrumb { font-size: 0.70rem; letter-spacing: 0.10em; color: var(--color-text); }
+.mono-contact    { font-size: 0.70rem; letter-spacing: 0.14em; font-weight: 500; color: var(--color-text); }
+.mono-figcap     { font-size: 0.68rem; letter-spacing: 0.16em; color: var(--color-text); }
+.mono-nav        { font-size: 0.75rem; letter-spacing: 0.12em; }
+.mono-nav-sub    { font-size: 0.60rem; letter-spacing: 0.18em; color: var(--color-amber); }  /* kleinster Wert */
+.mono-marquee    { font-size: 0.75rem; letter-spacing: 0.18em; font-weight: 500; }
+.mono-menu       { font-size: 0.75rem; letter-spacing: 0.20em; color: var(--color-text); }    /* weiteste Sperrung */
+.mono-process    { font-size: 0.80rem; letter-spacing: 0.16em; color: var(--color-text); }    /* größter Wert */
+.mono-hero-bul   { font-size: 0.78rem; letter-spacing: 0.10em; color: var(--color-ink); }
+.mono-bold       { font-size: 0.75rem; letter-spacing: 0.16em; font-weight: 700; color: var(--color-amber); }
+/* Einzige uppercase-Label-Ausnahme OHNE Mono-Font (SolarChargePanel) */
+.label-mini { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.20em; color: rgba(255, 255, 255, 0.45); }
+
+/* =====================================================================
+   CHECK-BULLET (sparsames Grün als Erfolgs-Akzent)
+   ===================================================================== */
+.check-bullet {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem; height: 1.25rem;  /* h-5 w-5 */
+  border: 1px solid rgba(38, 140, 69, 0.40);  /* green/40 */
+  background: rgba(38, 140, 69, 0.10);        /* green/10 */
+}
+.check-bullet > svg { color: var(--color-green); }
+
+/* =====================================================================
+   MEASURE-LINE (Maßlinie) — zeichnet sich von links auf
+   BRAUCHT JS für scroll-getriggertes "zeichnen": IntersectionObserver
+   setzt .is-visible auf das Element (rootMargin -60px, once). Ohne JS:
+   die @keyframes draw-x läuft beim Laden (siehe .measure-line--onload).
+   ===================================================================== */
+.measure-line {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 4rem;                      /* w-16 = Komponenten-Default; Section-Headings nutzen .measure-line--20 */
+}
+.measure-line__bar {
+  height: 1px;                      /* h-px */
+  width: 100%;
+  background: var(--color-amber);
+  transform-origin: left;           /* origin-left */
+  transform: scaleX(0);
+  transition: transform .9s var(--ease-expo);
+}
+.measure-line.is-visible .measure-line__bar { transform: scaleX(1); }
+.measure-line--onload .measure-line__bar {    /* ohne Observer: beim Laden zeichnen */
+  animation: draw-x .9s var(--ease-expo) both;
+}
+.measure-line__tick {               /* Endpunkt-Tick, blendet 0.7s nach Linienstart ein */
+  position: absolute;
+  right: 0;
+  height: 0.625rem;                 /* h-2.5 */
+  width: 1px;                       /* w-px */
+  background: var(--color-amber);
+  opacity: 0;
+  transition: opacity .3s linear;
+  transition-delay: .7s;
+}
+.measure-line.is-visible .measure-line__tick { opacity: 1; }
+.measure-line--onload .measure-line__tick {
+  animation: fade-in .3s linear .7s both;
+}
+/* Tonarten */
+.measure-line--green .measure-line__bar,
+.measure-line--green .measure-line__tick { background: var(--color-green); }
+.measure-line--line  .measure-line__bar,
+.measure-line--line  .measure-line__tick { background: var(--color-line); }
+/* Breiten-Varianten: skalieren mit Wichtigkeit (klein -> Haupt-Hero) */
+.measure-line--16 { width: 4rem; }  /* Detail */
+.measure-line--20 { width: 5rem; }  /* Standard-Section */
+.measure-line--24 { width: 6rem; }  /* Hero/CTA/Legal */
+.measure-line--28 { width: 7rem; }  /* Haupt-Hero */
+
+/* =====================================================================
+   CORNER-TICKS — vier L-förmige Eck-Marken (Passermarken)
+   KEIN JS. Eltern braucht position:relative.
+   MARKUP (zwei Pseudo-Elemente reichen nicht für 4 Ecken; daher ein
+   Kind-Element <i> für die unteren beiden Ecken):
+     <div class="corner-ticks" aria-hidden="true"><i></i></div>
+   ===================================================================== */
+.corner-ticks { position: absolute; inset: 0; pointer-events: none; }
+.corner-ticks::before,
+.corner-ticks::after,
+.corner-ticks > i::before,
+.corner-ticks > i::after {
+  content: "";
+  position: absolute;
+  height: 1rem; width: 1rem;        /* h-4 w-4 = 16px */
+  border-color: var(--color-amber);
+  border-style: solid;
+  border-width: 0;
+}
+.corner-ticks::before      { left: 0;  top: 0;    border-left-width: 1px;  border-top-width: 1px; }     /* TL */
+.corner-ticks::after       { right: 0; top: 0;    border-right-width: 1px; border-top-width: 1px; }     /* TR */
+.corner-ticks > i::before  { left: 0;  bottom: 0; border-left-width: 1px;  border-bottom-width: 1px; }  /* BL */
+.corner-ticks > i::after   { right: 0; bottom: 0; border-right-width: 1px; border-bottom-width: 1px; }  /* BR */
+
+/* =====================================================================
+   AURORA — weicher radialer Farb-Schimmer (KEIN JS, dekorativ)
+   Paarweise einsetzen (amber + green diagonal versetzt), negativ
+   über den Sektionsrand ragend. aria-hidden="true".
+   ===================================================================== */
+.aurora {
+  position: absolute;
+  width: 40rem; height: 40rem;      /* Default-size; Praxis 34–46rem */
+  border-radius: 9999px;            /* rounded-full */
+  filter: blur(64px);               /* blur-3xl */
+  pointer-events: none;
+  background: radial-gradient(circle,
+              rgba(var(--aurora-amber-rgb), 0.18),
+              rgba(var(--aurora-amber-rgb), 0) 70%);
+}
+.aurora--amber {
+  background: radial-gradient(circle,
+              rgba(var(--aurora-amber-rgb), 0.18),
+              rgba(var(--aurora-amber-rgb), 0) 70%);
+}
+.aurora--green {
+  background: radial-gradient(circle,
+              rgba(var(--aurora-green-rgb), 0.18),
+              rgba(var(--aurora-green-rgb), 0) 70%);
+}
+
+/* =====================================================================
+   HIGHLIGHT — gefüllte Marker-Box hinter Text (weiße Schrift)
+   KEIN JS. box-decoration-break:clone ist Pflicht (Mehrzeiler).
+   ===================================================================== */
+.highlight {
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding: 0.5rem 0.75rem 0.375rem; /* pt-2 px-3 pb-1.5 (asymmetrisch) */
+  line-height: 1;                   /* leading-none */
+  color: #fff;
+  background: var(--color-amber);   /* Default */
+}
+.highlight--amber { background: var(--color-amber); }
+.highlight--green { background: var(--color-green); }
+.highlight--muted { background: rgba(255, 255, 255, 0.15); } /* auf dunklem Grund */
+
+/* =====================================================================
+   HEADER / NAV (globale Chrome) — sticky Glas + Hairline + Amber-Underline
+   KEIN JS für Optik. Dropdown-Öffnen/Mobile-Menü-Verhalten: BRAUCHT JS
+   (State, Focus-Trap, Scroll-Lock). :focus-within deckt nur Hover ab.
+   ===================================================================== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  border-bottom: 1px solid var(--color-line);
+  background: rgba(255, 255, 255, 0.85);        /* Fallback für Browser ohne backdrop-filter */
+  -webkit-backdrop-filter: blur(12px);          /* backdrop-blur-md */
+  backdrop-filter: blur(12px);
+}
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1rem;              /* py-4 */
+}
+
+.nav-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding-block: 0.5rem;            /* py-2 */
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);          /* text-xs */
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-ink);
+  text-decoration: none;
+  transition: color .2s;
+}
+.nav-link:hover,
+.nav-link[aria-current="page"],
+.nav-link--active { color: var(--color-amber); }
+.nav-link__rule {
+  pointer-events: none;
+  position: absolute;
+  left: 0; bottom: -1px;            /* -bottom-px */
+  height: 1px;
+  width: 100%;
+  transform-origin: left;
+  transform: scaleX(0);
+  background: var(--color-amber);
+  transition: transform .3s var(--ease-expo);
+}
+.nav-link:hover .nav-link__rule,
+.nav-link--active .nav-link__rule { transform: scaleX(1); }
+
+.nav-dropdown {
+  position: absolute;
+  left: 0; top: 100%;
+  z-index: 40;
+  min-width: 17rem;
+  border: 1px solid var(--color-line);
+  border-top: 2px solid var(--color-amber);     /* Amber-Topakzent */
+  background: var(--color-white);
+  padding-block: 0.5rem;            /* py-2 */
+  box-shadow: var(--shadow-dropdown);
+}
+.nav-dropdown__heading {
+  padding: 0.25rem 1.25rem 0.5rem;  /* pt-1 px-5 pb-2 */
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--color-amber);
+}
+.nav-dropdown__item {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;                    /* gap-2.5 */
+  padding: 0.625rem 1.25rem;        /* py-2.5 px-5 */
+  font-size: var(--fs-sm);          /* text-sm */
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color .2s, background-color .2s;
+}
+.nav-dropdown__item:hover { background: var(--color-surface); color: var(--color-ink); }
+.nav-dropdown__item::before {       /* Tick-Punkt vor dem Eintrag */
+  content: "";
+  flex: 0 0 auto;
+  width: 0.25rem; height: 0.25rem;  /* h-1 w-1 */
+  background: var(--color-line);
+  transition: background-color .2s;
+}
+.nav-dropdown__item:hover::before { background: var(--color-amber); }
+
+/* =====================================================================
+   FOOTER (globale Chrome) — Amber-Topborder + Slate-Fläche, 3 Helligkeiten
+   ===================================================================== */
+.site-footer {
+  border-top: 1px solid var(--color-amber);
+  background: var(--color-slate-900);
+  color: rgba(255, 255, 255, 0.75); /* Standard-Footer-Text */
+}
+.site-footer__grid {
+  display: grid;
+  gap: 2.5rem;                      /* gap-10 */
+  padding-block: 4rem;              /* py-16 */
+}
+@media (min-width: 768px)  { .site-footer__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .site-footer__grid { grid-template-columns: repeat(4, 1fr); } }
+.footer-col__heading {
+  margin-bottom: 1rem;              /* mb-4 */
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--color-amber);
+}
+.site-footer a { color: inherit; text-decoration: none; transition: color .2s; }
+.site-footer a:hover { color: var(--color-amber); }
+.site-footer__baseline { border-top: 1px solid rgba(255, 255, 255, 0.10); }
+.site-footer__baseline .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;                      /* gap-2 */
+  padding-block: 1.25rem;           /* py-5 */
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.45); /* Sekundärzeile (Copyright) */
+}
+@media (min-width: 640px) { .site-footer__baseline .container { flex-direction: row; } }
+
+/* =====================================================================
+   MARQUEE — laufendes Amber-Band, Mono-Versalien, Slate-Schrift
+   KEIN JS (CSS-@keyframes ersetzt den Framer-Loop 1:1).
+   MARKUP: .marquee > .marquee__track mit dem Inhalt 2x (für nahtlose -50%).
+   ===================================================================== */
+.marquee {
+  overflow: hidden;
+  background: var(--color-amber);
+  padding-block: 0.875rem;          /* py-3.5 */
+  color: var(--color-slate-900);    /* NICHT weiß — Signatur/Kontrast */
+}
+.marquee__track {
+  display: flex;
+  width: max-content;
+  animation: marquee 28s linear infinite;
+}
+.marquee__item {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);          /* text-xs */
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+.marquee__item > span { margin-inline: 1.25rem; } /* mx-5 */
+.marquee__dot {                     /* quadratischer Trenner-Tick */
+  width: 0.375rem; height: 0.375rem; /* h-1.5 w-1.5 */
+  background: var(--color-slate-900);
+}
+
+/* =====================================================================
+   SCROLL-PROGRESS — fixe Top-Leiste, Amber-Grundspur + grüne Füllung
+   BRAUCHT JS: Füllbreite folgt Scroll. JS setzt --progress (0..1) auf
+   .scroll-progress__fill (scaleX). Minimal-Vanilla:
+     addEventListener('scroll',()=>{const p=scrollY/(document.documentElement.
+     scrollHeight-innerHeight);el.style.setProperty('--progress',p);});
+   Reine-CSS-Näherung via scroll-driven animations im @supports-Block unten
+   (verliert die Spring-Federung -> linear).
+   EXAKTE FEDERUNG (Original nutzt motion useSpring): stiffness 120,
+   damping 30, mass 0.3 — wer 1:1 will, federt --progress mit diesen Werten.
+   (Verwandte gefederte Motive: animierte Fortschrittsbalken stiffness 90 /
+   damping 26 / mass 0.4; Prozess-Schritte stiffness 80 / damping 24 / mass 0.4.)
+   ===================================================================== */
+.scroll-progress {
+  position: fixed; left: 0; top: 0;
+  width: 100%; height: 0.125rem;    /* h-0.5 = 2px */
+  z-index: 50;
+  background: var(--color-amber);   /* permanente Amber-Grundspur */
+}
+.scroll-progress__fill {
+  height: 100%; width: 100%;
+  transform-origin: left;
+  background: var(--color-green);   /* grüne Füllung wächst von links */
+  transform: scaleX(var(--progress, 0));
+}
+@supports (animation-timeline: scroll()) {
+  .scroll-progress__fill {
+    animation: draw-x linear both;
+    animation-timeline: scroll(root block);
+  }
+}
+
+/* =====================================================================
+   FORTSCHRITTSBALKEN — amber -> grün (statische Näherung)
+   Voller Farb-Verlauf während des Wachsens braucht JS (useTransform).
+   ===================================================================== */
+.progress-track {
+  height: 0.5rem; width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  background: rgba(255, 255, 255, 0.05);
+}
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-amber) 0 55%, var(--color-green) 100%);
+}
+
+/* =====================================================================
+   HERO-GLOW HALO + SCAN-SWEEP + FLOAT (HeroExhibit)
+   Glow/Float/Scan: KEIN JS (Mount-/Loop-@keyframes). Scroll-Parallax des
+   Bildes: BRAUCHT JS (nicht enthalten — als statisch belassen).
+   ===================================================================== */
+.hero-halo {
+  position: absolute; inset: -2rem; /* -inset-8 */
+  z-index: 0; pointer-events: none;
+  background: radial-gradient(58% 58% at 62% 42%,
+              rgba(var(--aurora-amber-rgb), 0.20),
+              rgba(var(--aurora-amber-rgb), 0) 70%);
+}
+.scan-sweep {
+  position: absolute; left: 0; right: 0; /* inset-x-0 */
+  height: 7rem;                     /* h-28 = 112px */
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent,
+              rgba(var(--aurora-amber-rgb), 0.25), transparent);
+  opacity: 0;
+  animation: scan-sweep 1.7s ease-in-out .9s both;
+}
+.hero-float { animation: float 6s ease-in-out infinite; }
+
+/* =====================================================================
+   COMPLETION-BURST — einmaliger "Fertig"-Funkeneffekt rund um Box
+   Trigger (Klasse hinzufügen beim Ereignis): minimal JS. Animation: CSS.
+   MARKUP-Hinweis: <div class="burst"><span class="burst__outline"></span>
+   <span class="burst__glow"></span> + 8x <span class="burst__spark"></span>
+   (je --left/--top/--dx/--dy gesetzt, jeder 2. Funke .burst__spark--amber)>.
+   Anker (left% top% --dx --dy): 0 0 -15 -15 | 50 0 0 -15 | 100 0 15 -15 |
+   100 50 15 0 | 100 100 15 15 | 50 100 0 15 | 0 100 -15 15 | 0 50 -15 0.
+   ===================================================================== */
+.burst { position: absolute; inset: 0; z-index: 20; pointer-events: none; }
+.burst__outline {
+  position: absolute; inset: 0;
+  border: 2px solid var(--color-green);
+  opacity: .95;
+  animation: burst-outline .5s ease-out forwards;
+}
+.burst__glow {
+  position: absolute; inset: 0;
+  animation: burst-glow .6s ease-out forwards;
+}
+.burst__spark {
+  position: absolute;
+  left: var(--left, 50%); top: var(--top, 50%);
+  height: 3px; width: 3px;
+  border-radius: 9999px;
+  background: var(--color-green);
+  box-shadow: 0 0 4px var(--color-green);
+  animation: burst-spark .62s ease-out forwards;
+}
+.burst__spark--amber {
+  background: var(--color-amber);
+  box-shadow: 0 0 4px var(--color-amber);
+}
+
+/* =====================================================================
+   REVEAL-UTILITIES (Ersatz für motion whileInView)
+   BRAUCHT JS: IntersectionObserver setzt .is-visible (rootMargin -80px,
+   once). Ohne JS bleiben .js-reveal-Inhalte dank (scripting:none)-Block
+   unten sichtbar.
+   ===================================================================== */
+.js-reveal {
+  opacity: 0;
+  transform: translateY(24px);      /* fadeUp y:24 */
+  transition: opacity .6s var(--ease-expo), transform .6s var(--ease-expo);
+  will-change: opacity, transform;
+}
+.js-reveal.is-visible { opacity: 1; transform: none; }
+.js-reveal--fade { transform: none; transition: opacity .7s var(--ease-expo); } /* fadeIn */
+
+/* Stagger (staggerItem y:18, 0.55s; 0.09s je Kind, 0.05s Vorlauf) */
+.js-stagger > * {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity .55s var(--ease-expo), transform .55s var(--ease-expo);
+}
+.js-stagger.is-visible > * { opacity: 1; transform: none; }
+.js-stagger.is-visible > *:nth-child(1) { transition-delay: 0.05s; }
+.js-stagger.is-visible > *:nth-child(2) { transition-delay: calc(0.05s + 0.09s * 1); }
+.js-stagger.is-visible > *:nth-child(3) { transition-delay: calc(0.05s + 0.09s * 2); }
+.js-stagger.is-visible > *:nth-child(4) { transition-delay: calc(0.05s + 0.09s * 3); }
+.js-stagger.is-visible > *:nth-child(5) { transition-delay: calc(0.05s + 0.09s * 4); }
+.js-stagger.is-visible > *:nth-child(6) { transition-delay: calc(0.05s + 0.09s * 5); }
+
+/* Reine CSS-Reveal-Presets (beim Laden, ohne Observer) */
+.anim-fade-up { animation: fade-up .6s var(--ease-expo) both; }
+.anim-fade-in { animation: fade-in .7s var(--ease-expo) both; }
+.anim-draw-x  { transform-origin: left center; animation: draw-x .9s var(--ease-expo) both; }
+.anim-float   { animation: float 6s ease-in-out infinite; }
+.anim-scan    { animation: scan-sweep 1.7s ease-in-out .9s both; }
+
+/* =====================================================================
+   @KEYFRAMES
+   ===================================================================== */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes draw-x {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@keyframes scan-sweep {
+  0%   { transform: translateY(-40%); opacity: 0; }
+  12%  { opacity: 1; }
+  88%  { opacity: 1; }
+  100% { transform: translateY(140%); opacity: 0; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-9px); }
+}
+@keyframes burst-outline {
+  from { opacity: .95; }
+  to   { opacity: 0; }
+}
+@keyframes burst-glow {
+  from { box-shadow: 0 0 0 0 rgba(var(--aurora-green-rgb), .6); }
+  to   { box-shadow: 0 0 24px 5px rgba(var(--aurora-green-rgb), 0); }
+}
+@keyframes burst-spark {
+  from { opacity: 1; transform: translate(0, 0) scale(1); }
+  to   { opacity: 0; transform: translate(var(--dx, 0), var(--dy, 0)) scale(.3); }
+}
+
+/* =====================================================================
+   BARRIEREFREIHEIT — Fallbacks
+   ===================================================================== */
+
+/* Sichtbarer Fokus-Indikator (Tastaturbedienung) */
+:focus-visible {
+  outline: 2px solid var(--color-amber);
+  outline-offset: 2px;
+}
+
+/* no-JS / SEO: alle Reveal-Inhalte sofort sichtbar */
+@media (scripting: none) {
+  .js-reveal,
+  .js-stagger > *,
+  .measure-line__bar,
+  .measure-line__tick {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+}
+
+/* prefers-reduced-motion: alle Animationen/Transitions praktisch aus
+   (0.01ms, NICHT 0 — damit transitionend/animationend-Events noch feuern) */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .marquee__track { animation: none; justify-content: center; }
+}
