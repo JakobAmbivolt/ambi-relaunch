@@ -1,7 +1,16 @@
 "use client";
+import Link from "next/link";
 import { motion, useReducedMotion } from "motion/react";
 
-export function MarqueeBand({ text = "Jetzt Kontakt aufnehmen", className = "" }: { text?: string; className?: string }) {
+export function MarqueeBand({
+  text = "Jetzt Kontakt aufnehmen",
+  href = "/kontakt/",
+  className = "",
+}: {
+  text?: string;
+  href?: string;
+  className?: string;
+}) {
   const reduce = useReducedMotion();
   const items = Array.from({ length: 10 }, (_, i) => i);
 
@@ -17,19 +26,25 @@ export function MarqueeBand({ text = "Jetzt Kontakt aufnehmen", className = "" }
   );
 
   return (
-    <div className={`overflow-hidden bg-amber py-3.5 text-slate-900 ${className}`} aria-hidden="true">
-      {reduce ? (
-        <div className="flex justify-center">{Row}</div>
-      ) : (
-        <motion.div
-          className="flex"
-          animate={{ x: ["0%", "-50%"] }}
-          transition={{ duration: 28, ease: "linear", repeat: Infinity }}
-        >
-          {Row}
-          {Row}
-        </motion.div>
-      )}
-    </div>
+    <Link
+      href={href}
+      aria-label={text}
+      className={`block overflow-hidden bg-amber py-3.5 text-slate-900 transition-colors hover:bg-amber-bright ${className}`}
+    >
+      <div aria-hidden="true">
+        {reduce ? (
+          <div className="flex justify-center">{Row}</div>
+        ) : (
+          <motion.div
+            className="flex"
+            animate={{ x: ["0%", "-50%"] }}
+            transition={{ duration: 28, ease: "linear", repeat: Infinity }}
+          >
+            {Row}
+            {Row}
+          </motion.div>
+        )}
+      </div>
+    </Link>
   );
 }

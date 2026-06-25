@@ -19,5 +19,4 @@ export const company = {
     facebook: "https://de-de.facebook.com/people/AmbiVolt-Energietechnik-GmbH/100066468475063/",
     linkedin: "https://www.linkedin.com/company/ambivolt-energietechnik-gmbh/about/",
   },
-  agency: { name: "Wallner Marketing", url: "https://wallner-marketing.de/" },
 } as const;

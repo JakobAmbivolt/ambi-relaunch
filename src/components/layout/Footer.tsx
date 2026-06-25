@@ -3,13 +3,13 @@ import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { Icon } from "@/components/ui/Icon";
 import { company } from "@/content/company";
+import { CookieSettings } from "./CookieSettings";
 
 const serviceLinks = [
   { label: "Kontakt", href: "/kontakt/" },
   { label: "Impressum", href: "/impressum/" },
   { label: "Datenschutzerklärung", href: "/datenschutzerklaerung/" },
   { label: "AGB & Widerrufsbelehrung", href: "/agb-widerruf/" },
-  { label: "Cookie-Einstellungen", href: "#" },
 ];
 
 function ColHeading({ children }: { children: React.ReactNode }) {
@@ -51,6 +51,7 @@ export function Footer() {
           <ColHeading>Service</ColHeading>
           <ul className="space-y-2 text-sm">
             {serviceLinks.map((l) => (<li key={l.label}><Link href={l.href} className="hover:text-amber">{l.label}</Link></li>))}
+            <li><CookieSettings /></li>
           </ul>
           <div className="mt-5 flex gap-3">
             <a href={company.social.facebook} aria-label="Facebook" className="text-white/60 transition-colors hover:text-amber"><Icon name="facebook" /></a>
@@ -59,12 +60,8 @@ export function Footer() {
         </div>
       </Container>
       <div className="border-t border-white/10">
-        <Container className="flex flex-col items-center justify-between gap-2 py-5 font-mono text-[0.68rem] uppercase tracking-[0.12em] text-white/45 sm:flex-row">
+        <Container className="flex justify-center py-5 font-mono text-[0.68rem] uppercase tracking-[0.12em] text-white/45">
           <span>© 2026 {company.legalName}</span>
-          <span>
-            Made with ♥ by{" "}
-            <a href={company.agency.url} className="hover:text-amber">{company.agency.name}</a>
-          </span>
         </Container>
       </div>
     </footer>
