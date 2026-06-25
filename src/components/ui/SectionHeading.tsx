@@ -33,7 +33,7 @@ export function SectionHeading({
       >
         {title}
       </h2>
-      <MeasureLine className={`mt-5 ${centered ? "" : ""}`} width="w-20" />
+      <MeasureLine className={`mt-5 ${centered ? "" : ""}`} width="w-20" tone="green" />
     </div>
   );
 }

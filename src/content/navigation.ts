@@ -16,3 +16,11 @@ export const mainNav: NavItem[] = [
   { label: "Karriere", href: "/jobs-und-stellenangebote/" },
   { label: "Kontakt", href: "/kontakt/" },
 ];
+
+// Hervorgehobener, immer sichtbarer CTA neben dem Kontakt-Button.
+// Externer Link auf die bestehende Projektanfrage-Seite.
+export const projectInquiry = {
+  label: "Projektanfrage",
+  shortLabel: "Anfrage", // kompaktes Label für die enge Mobil-Kopfzeile
+  href: "https://ambivolt.de/projektanfrage/",
+} as const;

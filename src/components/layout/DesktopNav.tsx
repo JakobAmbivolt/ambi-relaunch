@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { mainNav } from "@/content/navigation";
+import { mainNav, projectInquiry } from "@/content/navigation";
 import { Icon } from "@/components/ui/Icon";
 import { Button } from "@/components/ui/Button";
 
@@ -98,9 +98,19 @@ export function DesktopNav() {
 
         if (item.label === "Kontakt") {
           return (
-            <Button key={item.href} href={item.href} className="px-5 py-3">
-              {item.label}
-            </Button>
+            <div key={item.href} className="flex items-center gap-3">
+              <Button href={item.href} className="px-5 py-3">
+                {item.label}
+              </Button>
+              <Button
+                href={projectInquiry.href}
+                variant="darkAccent"
+                tickClassName="bg-amber"
+                className="px-5 py-3"
+              >
+                {projectInquiry.label}
+              </Button>
+            </div>
           );
         }
 
