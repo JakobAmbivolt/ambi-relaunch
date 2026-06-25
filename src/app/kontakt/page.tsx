@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { kontakt, section } from "@/content/m3";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -35,9 +36,30 @@ export default function KontaktPage() {
             {/* Left: form */}
             <Reveal>
               <span className="mb-5 block h-10 w-0.5 bg-amber" aria-hidden="true" />
-              <h2 className="font-display text-2xl font-bold text-ink">Nachricht senden</h2>
-              <p className="mt-2 text-text">Wir setzen uns umgehend mit Ihnen in Verbindung.</p>
-              <p className="mb-6 mt-6 font-mono text-xs uppercase tracking-[0.12em] text-text">
+              <div className="flex flex-col gap-5 sm:flex-row sm:items-center">
+                <div className="relative w-[120px] shrink-0 border border-line bg-white p-1.5">
+                  <Image
+                    src="/images/franz-stangl.jpg"
+                    alt="Franz Stangl – Vertriebsingenieur"
+                    width={257}
+                    height={327}
+                    className="h-auto w-full"
+                  />
+                </div>
+                <div>
+                  <h2 className="font-display text-2xl font-bold leading-tight text-ink">
+                    Jetzt Anfrage stellen. Wir kümmern uns um den Rest.
+                  </h2>
+                  <p className="mt-3 text-text">
+                    Unser Vertriebsteam meldet sich zeitnah bei Ihnen, um alle Details zu besprechen und
+                    ein individuelles Angebot zu erstellen.
+                  </p>
+                  <p className="mt-3 font-mono text-xs uppercase tracking-[0.14em] text-amber">
+                    Franz Stangl — Vertriebsingenieur
+                  </p>
+                </div>
+              </div>
+              <p className="mb-6 mt-8 font-mono text-xs uppercase tracking-[0.12em] text-text">
                 Felder mit <span className="text-amber">*</span> sind Pflichtfelder
               </p>
               <ContactForm />

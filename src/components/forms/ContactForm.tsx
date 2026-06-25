@@ -193,7 +193,12 @@ export function ContactForm() {
             className="mt-0.5 h-4 w-4 flex-shrink-0 rounded-none border border-line accent-amber"
           />
           <span>
-            Ich habe die{" "}
+            Mit dem Absenden dieses Formulars erkläre ich mich damit einverstanden, dass meine
+            Angaben zur Bearbeitung meiner Anfrage verarbeitet werden. Sofern ich als
+            Eigenanlagen-Betreiber (Privatkunde) anfrage, bin ich damit einverstanden, dass meine
+            angegebenen Kontaktdaten zum Zweck der Vermittlung an geeignete Fach- und
+            Partnerbetriebe an Dritte weitergegeben werden. Weitere Informationen zur
+            Datenverarbeitung finde ich in der{" "}
             <a
               href="/datenschutzerklaerung/"
               className="text-amber underline hover:opacity-80"
@@ -201,9 +206,8 @@ export function ContactForm() {
               rel="noopener noreferrer"
             >
               Datenschutzerklärung
-            </a>{" "}
-            gelesen und bin damit einverstanden, dass die hier eingegebenen Informationen zum
-            Zweck der Kontaktaufnahme verarbeitet werden. *
+            </a>
+            . *
           </span>
         </label>
         {errors.datenschutz && (
