@@ -54,3 +54,7 @@ m2-*.jpeg
 /*.jpeg
 /*.png
 redesign-*.png
+
+# Katalog-/Flyer-Quell-PDFs (Recherchematerial, ~166 MB — zu groß für Git, nur lokal halten & separat sichern)
+/docs/katalog/
+/docs/katalog-muster/

@@ -1,0 +1,537 @@
+Produktkatalog  2025-1
+
+                www.ambivolt.com
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 2/21
+
+1. Inhaltsverzeichnis
+
+1. Inhaltsverzeichnis ............................................................................................................2
+2. Das Unternehmen ............................................................................................................3
+3. Sicherheitsbestimmungen................................................................................................3
+4. EasyClick ­ Klemmsystem ............................................................................................... 4
+
+      4.1. EasyClick Mittelklemme ...................................................................................... 4
+      4.2. EasyClick Endklemme ......................................................................................... 4
+      4.3. EasyClick Mittelklemme Power (demnächst) .........................................................5
+      4.1. EasyClick Endklemme Power (demnächst) ............................................................5
+      4.2. EasyClick Kreuzverbinder .....................................................................................5
+      4.3. Modulprofil AMB-P-40 ......................................................................................... 6
+      4.4. Profilverbinder .................................................................................................... 6
+      4.5. Verbinderschrauben............................................................................................ 6
+      4.6. Endkappen ......................................................................................................... 6
+      4.7. Modulprofil AMB-P-85 ..........................................................................................7
+      4.8. Schwerer Profilverbinder ......................................................................................7
+      4.9. Erdungsklemme ...................................................................................................7
+5. Trapezblechsysteme........................................................................................................ 8
+      5.1. AmbiNano Q ....................................................................................................... 8
+      5.2. AmbiNano H........................................................................................................ 8
+      5.3. AmbiU Q ............................................................................................................. 9
+      5.4. AmbiU H ............................................................................................................. 9
+      5.5. AmbiTop ............................................................................................................ 10
+      5.6. AmbiMicro H ...................................................................................................... 10
+6. Falzblechklemme ........................................................................................................... 11
+7. AmbiHook ­ Ziegel- und Steindachsystem ...................................................................... 12
+      7.1. AmbiHook V4 ..................................................................................................... 12
+      7.2. Sparrenüberspannungsprofil V4, V5 und V6........................................................ 12
+      7.3. AmbiHook V5 ..................................................................................................... 13
+      7.4. Vertikal-Adapter für AmbiHook V5....................................................................... 13
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 3/21
+
+      7.5. AmbiHook V6 ..................................................................................................... 14
+      7.6. Vertikal-Adapter für AmbiHook V6 ...................................................................... 14
+      7.7. Horizontal-Adapter............................................................................................. 15
+      7.8. Vertikal-Adapter................................................................................................. 15
+8. AmbiLight Flachdach Systeme ........................................................................................ 16
+      8.1. AmbiLight Eco Plus.............................................................................................16
+      8.2. AmbiLight Eco .................................................................................................... 16
+      8.3. AmbiLight Eco Plus Süd...................................................................................... 17
+      8.4. Gründachsystem AmbiLight GD OW ....................................................................18
+      8.5. Gründachsystem AmbiLight GD Süd....................................................................18
+9. Freilandanlagen ............................................................................................................ 20
+
+2. Das Unternehmen
+
+Als innovativer Hersteller von Montagesystemen bieten wir neben unseren Produkten für Flach-, Ziegel-
+und Blechdächer auch individuelle Lösungen für größere Projekte. Unsere Systeme werden nach
+neuestem Stand der Technik in Deutschland entwickelt und gefertigt. Durch unsere ständige Forschung
+und Weiterentwicklung sind wir häufig Trendsetter. Mit unseren Produkten zeigen wir, dass uns die
+dauerhafte Funktionsfähigkeit Ihres Daches und Ihrer Photovoltaikanlage gleichermaßen wichtig sind.
+
+3. Sicherheitsbestimmungen
+
+Beachten Sie bitte sämtliche einschlägigen Sicherheitsbestimmungen.
+Klären Sie bitte die Schnittstelle zwischen Dach und PV Anlage insbesondere im Hinblick auf die
+Krafteinleitung in das Dach und Materialverträglichkeit zur Dachhaut hin ab.
+Beachten Sie bitte auch die Bestimmungen zu den übrigen Bauteilen.
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 4/21
+
+4. EasyClick ­ Klemmsystem
+
+    1) Schräg ansetzen
+    2) Einfach Reindrehen
+
+Das Easy Click System von AmbiVolt
+
+- Legierungen:
+           o EN AW6063 T66 (Rm >= 245 N/mm²); Rp0,2 >= 200N/mm²
+           o EN AW6005-A T6 (Rm >= 255 N/mm²); Rp0,2 >= 215N/mm²
+          o A2
+
+   4.1. EasyClick Mittelklemme
+
+Mittelklemme für EasyClick System
+
+- Komplett vormontiert
+- Mit Klemmenhalter für leichtere Montage
+- Für Modulhöhen von 28 ­ 49 mm
+- Spezialausführungen bis 54 mm
+- Fressen unmöglich durch galvanisierte Edelstahlschrauben
+- Ausführungen:
+
+           o Silber
+           o Schwarz
+           o Mit Erdungsfunktion
+           o Schwarz mit Erdungsfunktion
+
+   4.2. EasyClick Endklemme
+
+Endklemme für EasyClick System
+
+- Automatische Anpassung an Modulhöhe
+- Komplett vormontiert
+- Für Modulhöhen von 24 ­ 46 mm
+- Spezialausführungen bis 52 mm
+- Fressen unmöglich durch galvanisierte Edelstahlschrauben
+- Ausführungen:
+
+           o Silber
+           o Schwarz
+           o Mit Erdungsfunktion
+           o Schwarz mit Erdungsfunktion
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 5/21
+
+   4.3. EasyClick Mittelklemme Power (demnächst)
+
+Mittelklemme für EasyClick System
+Identische Eigenschaften der klassischen EasyClick Klemme
+Zusätzlich:
+- Robuster gegen zu festes anziehen der Schraube
+- Noch einfacher zu bedienen
+- Noch sicherer in der Verarbeitung
+
+   4.1. EasyClick Endklemme Power (demnächst)
+
+Endklemme für EasyClick System
+Identische Eigenschaften der klassischen EasyClick Klemme
+Zusätzlich:
+- Robuster gegen zu festes anziehen der Schraube
+- Noch einfacher zu bedienen
+- Noch sicherer in der Verarbeitung
+
+   4.2. EasyClick Kreuzverbinder
+
+Kreuzverbinder für EasyClick System
+- Verbindet zwei Quer zueinander liegende Profile
+- Für Kreuzschienenmontage
+Weitere Varianten:
+- Mit Nutenbaustein
+- Mit M8 Schraube zur Anbindung an andere Systeme
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 6/21
+
+   4.3. Modulprofil AMB-P-40
+
+Sehr tragfähiges Profil, da es das Material genau an
+den richtigen Stellen besitzt.
+Passend für alle Schrägdachsysteme.
+In pressblank und in schwarz eloxiert.
+In Längen 240, 360, 480, 595 cm.
+Auf Wunsch auch andere Längen möglich.
+
+   4.4. Profilverbinder
+
+Innenliegender Verbinder der bei der Montage nicht stört
+
+   4.5. Verbinderschrauben
+
+Zugehörige Schrauben 5,5*19 mm mit Außensechskant Antrieb
+
+   4.6. Endkappen
+
+Passende Endkappen zum Profil AMB-P-40
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 7/21
+
+   4.7. Modulprofil AMB-P-85
+
+Sehr tragfähiges Profil mit 85 mm Bauhöhe.
+Spannt auch über 2 m von Pfette zu Pfette
+Passend für alle Schrägdachsysteme.
+In pressblank.
+Auf Wunsch auch schwarz oder in Wunschfarbe eloxiert.
+In Wunschlänge.
+Auf Wunsch auch andere Längen möglich.
+
+   4.8. Schwerer Profilverbinder
+
+Innenliegender schwerer Verbinder für AMB-P-85.
+
+   4.9. Erdungsklemme
+
+Zur Verbindung eines Aluminiumrunddrahtes mit unserem Profil.
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 8/21
+
+5. Trapezblechsysteme
+
+   5.1. AmbiNano Q
+
+Trapezblechsystem für geringste Kosten
+- Mit EasyClick System
+- Bei geringen Schneelasten
+- Quermontage
+- EPDM aufgeklebt
+- Für Dünnblechschrauben 4,5*25
+
+   5.2. AmbiNano H
+
+Trapezblechsystem für geringe Kosten
+- Hochkant Montage
+- EPDM aufgeklebt
+- Für Dünnblechschrauben 4,5*25
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 9/21
+
+   5.3. AmbiU Q
+
+Trapezblechsystem für geringe Kosten bei erhöhtem Aufbau
+
+- Mit EasyClick System
+- Bei geringen Schneelasten
+- Quermontage
+- EPDM aufgeklebt
+- 6-fach vorgelocht für Dünnblechschrauben 4,5*25
+- Bauhöhe 52 mm
+- Länge 132 mm
+
+   5.4. AmbiU H
+
+Trapezblechsystem für geringe Kosten bei erhöhtem Aufbau
+
+- Mit EasyClick System
+- Bei geringen Schneelasten
+- Quermontage
+- EPDM aufgeklebt
+- 8-fach vorgelocht für Dünnblechschrauben 4,5*25
+- Bauhöhe 52 mm
+- Sonderlösung falls AmbiMicro nicht funktioniert
+- Standardmäßig 435 mm Baulänge
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 10/21
+
+   5.5. AmbiTop
+
+Trapezblech- / Sandwichsystem mit direkter
+Anbindung an die Pfetten
+
+- Quermontage ideal
+- entwickelt, um nicht das Sandwichpaneel
+
+      mit dem gesamten Gewicht zu belasten
+- Soll verhindern, dass sich die Trapez
+
+      Oberschale durch zu hohe Belastung von
+      der Dämmung löst
+
+   5.6. AmbiMicro H
+
+Trapezblechsystem mit doppelter Verschraubung
+
+- Hochkant Montage
+- Doppelter Halt
+- Erhöhte Bodenfreiheit durch 50 mm Bauhöhe
+- EPDM aufgeklebt
+- Für Dünnblechschrauben 4,5*25
+- Für Direktverschraubung und mit Profilen
+- Standard Baulänge: 435 mm
+- Für alle gängigen Sickenabstände von 207 ­ 333 mm
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 11/21
+
+6. Falzblechklemme
+
+Klemmsystem für Falzbleche und Systembleche
+
+- Quermontage direkt
+- Hochkantmontage mit Profilen
+- Erhöhte Bodenfreiheit durch 73 mm Bauhöhe.
+- Innenhöhe 30 mm vom Auflager weg gemessen
+- Innenbreite 28 mm
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 12/21
+
+7. AmbiHook ­ Ziegel- und Steindachsystem
+
+   7.1. AmbiHook V4
+
+- Schnellmontagesystem
+- Hohe Tragfähigkeit
+- 2-fach verstellbar
+- aus Aluminium
+- mit Bügel 40 mm oder 55 mm für höhere Lasten
+
+   7.2. Sparrenüberspannungsprofil V4, V5 und V6
+
+Grundplatte des Dachhakens in 3 m Länge zur Überspannung von 2 Sparren
+- Passend für AmbiHook V4, V5 und V6
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 13/21
+
+   7.3. AmbiHook V5
+
+- Schnellmontagesystem
+- Hohe Tragfähigkeit
+- 3-fach verstellbar
+- aus Aluminium
+- mit Bügel 40 mm oder 55 mm für höhere Lasten
+- Legierungen:
+
+          o EN AW6063 T66 (Rm >= 245 N/mm²); Rp0,2 >= 200N/mm²
+          o EN AW6082 T6 (Rm >= 290 N/mm²); Rp0,2 >= 250N/mm²
+- Schrauben : A2
+
+   7.4. Vertikal-Adapter für AmbiHook V5
+
+- Schnellmontagesystem zur seitlichen Befestigung von vertikalen Profilen.
+- Für Ambihook V5 40 und AmbiHook V5 55 geeignet.
+- Legierungen:
+
+          o EN AW6063 T66 (Rm >= 245 N/mm²); Rp0,2 >= 200N/mm²
+- Schrauben : A2
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 14/21
+
+   7.5. AmbiHook V6
+
+- Schnellmontagesystem
+- Hohe Tragfähigkeit vor allem bei flacheren Dächern und sehr hohen Windlasten
+- 4-fach verstellbar
+- Auch für etwas längere Ziegel geeignet
+- aus Aluminium
+- mit Bügel 40 mm oder 55 mm für höhere Lasten
+- Legierungen:
+
+          o EN AW6063 T66 (Rm >= 245 N/mm²); Rp0,2 >= 200N/mm²
+          o EN AW6082 T6 (Rm >= 290 N/mm²); Rp0,2 >= 250N/mm²
+- Schrauben : A2
+
+   7.6. Vertikal-Adapter für AmbiHook V6
+
+Breites Oberteil als Ersatz für das normale Oberteil des AmbiHook V6.
+Ermöglicht die Montage von vertikalen Profilen.
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 15/21
+
+   7.7. Horizontal-Adapter
+
+Adapter für horizontale Flächen
+Geeignet für
+
+           o Lehmann Aufdachmodulhalter (nicht HVS)
+           o Kalzip Befestigungsklemme Typ FS
+           o Viele andere Befestigungsklemmen mit horizontaler Auflagefläche.
+-
+
+   7.8. Vertikal-Adapter
+
+Adapter für Vertikale Flächen mit Riffelung.
+Geeignet für
+- vertikale Flächen mit Riffelung
+- Lehmann Aufdachmodulhalter HVS
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 16/21
+
+8. AmbiLight Flachdach Systeme
+
+   8.1. AmbiLight Eco Plus
+
+Ost-West System für Flachdächer mit geringster Ballastierung.
+- Eckklemmung der Module
+- Einfache Montage
+- Bester Preis
+
+- Geringer Ballast
+- Windkanal getestet
+- Wenig Transportvolumen
+- Gesicherter Wasserablauf
+- Kurze Bauteile
+- Unendlich verbaubar
+
+   8.2. AmbiLight Eco
+
+Ost-West System für Flachdächer mit geringster Ballastierung.
+- Befestigung am optimalen Klemmpunkt
+- Einfache Montage
+
+- Geringer Ballast
+- Windkanal getestet
+- Wenig Transportvolumen
+- Gesicherter Wasserablauf
+- Kurze Bauteile
+- Unendlich verbaubar
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 17/21
+
+   8.3. AmbiLight Eco Plus Süd
+
+Süd System für Flachdächer mit geringster Ballastierung.
+- Eckklemmung der Module
+- Einfache Montage
+- Geringer Ballast
+
+- Windkanal getestet
+- Wenig Transportvolumen
+- Gesicherter Wasserablauf
+- Kurze Bauteile
+- Unendlich verbaubar
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 18/21
+
+   8.4. Gründachsystem AmbiLight GD OW
+
+Gründachsystem für Flachdächer in Ost West Ausrichtung.
+
+- Weitgehend vormontiert
+- Einfache Montage
+- Windkanal getestet
+- Gesicherter Wasserablauf
+- Kurze Bauteile
+- Gute Zugänglichkeit
+- Wunschhöhe
+- Wunschwinkel
+- Mittlerer Ballast
+
+   8.5. Gründachsystem AmbiLight GD Süd
+
+West System für Flachdächer.
+
+- Weitgehend vormontiert
+- Einfache Montage
+- Höherer Ballast
+- Gesicherter Wasserablauf
+- Kurze Bauteile
+- Windkanal getestet
+- Gute Zugänglichkeit
+- Wunschhöhe
+- Wunschwinkel
+- Bedingt unendlich verbaubar
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 19/21
+
+Mengenermittlung für AmbiLight Eco (Plus) und Opti (Plus)                                 Ergebnis
+Modulfeld
+
+                                                                                          1:Modulplatz
+                                                                                                2: Nordabschluß (kurz)
+                                                                                                      3: Ostabschluß (lang)
+                                                                                                             4: Aussenecke
+                                                                                                                   5: Innenecke
+                                                                                                                         6: Versteifung für Einzelreihen
+
+4,2 2 2              22  22       2 2 2,4                                      4,2 2,4
+                                                   3
+                                                                                  6    3
+
+                                                                                          12 12 2 4 0 1
+
+   5                     5
+
+3                                 3                                               6    3
+
+                                                                                          80302 1
+
+3                                 3                                               6    3
+
+   5                     5                                                                80302 1
+
+      2 22 2
+
+                                  3                                               6    3
+
+                                                                                          12 4 2 0 0 1
+
+                                                                            3     6    3
+4
+                                                                                          12 0 2 1 0 1
+            5
+
+                                  3                                               6    3
+
+   4                              4                                            4       4 10 0 2 4 1 1
+
+                                                                                          000000
+
+   4,2 2 2               22       2 2 2,4
+   4                                               3
+                                                   4                                      88 1400
+
+                                                                               Summe:     70 24 15 13 5 6
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 20/21
+
+9. Freilandanlagen
+
+Einschiebesystem Hochkant Flexibel
+
+- 2-4 Module übereinander
+- Sehr schnelle Montage
+- Sehr flexibel, auch für stark unterschiedliches Gelände
+- Überbaut Gruben und Sickerflächen problemlos
+- Hohe Flexibilität durch zweiteilige Pfosten
+- Einfaches Rammen durch zweiteilige Pfosten.
+- Gute Positionsfindung durch optimale Pfostengeometrie
+- Kein zurückschnappen des Pfostens
+- Modulklemmung von unten
+Produktkatalog 2025-1
+
+Revision 17.04.2025  Seite 21/21
+
+Einschiebesystem
+
+- 6 reihig Quer
+- Sehr schnelle Montage
+- Pfosten setzen mit GPS geführter Ramme
+- Anzahl Pfosten je nach Gelände
+
+AmbiVolt Energietechnik GmbH
+Oberalmsham 1
+84140 Gangkofen
+Deutschland
+
+Tel: +49 8722 966 8577
+E-Mail anfrage@ambivolt.com
+www.ambivolt.de
+

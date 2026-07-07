@@ -1,0 +1,914 @@
+{
+  "quelle": "C:/Users/ambiv/Downloads/fertige Flyer/fertige Flyer/ (9 Produkt-Flyer, PDF, je 2 Seiten)",
+  "extrahiertAm": "2026-07-03",
+  "hinweis": "Wortgetreue Extraktion der Flyer-Inhalte als Quellmaterial fuer den Produktkatalog (klickbares PDF aus HTML). ** = im Original fett.",
+  "produkte": [
+    {
+      "flyerFile": "Ambivolt-AmbiHook-V5_Flyer_A4.pdf",
+      "productName": "AmbiHook V5",
+      "productLine": "AmbiHook",
+      "roofType": "Dachhaken – auf dem Flyer nur mit dem Kategorielabel „DACHHAKEN\" bezeichnet. Anwendung: klassischer Dachhaken für geneigte Schrägdächer (Ziegel-/Steindach). Der Flyer nennt keine Dachform explizit, verweist aber auf „verwinkelte Dächer\" und Montage „zwischen Sparren\".",
+      "siteCategory": "ziegel",
+      "tagline": "SCHNELL MONTIERT, DAUERHAFT STARK!",
+      "subtitle": "",
+      "keyBadges": [
+        "DREIFACH VERSTELLBAR",
+        "EXTREM TRAGFÄHIG",
+        "MIT EASY-CLICK-KLEMME"
+      ],
+      "featureSections": [
+        {
+          "heading": "FLEXIBILITÄT & OPTIK",
+          "bullets": [
+            "Erhältlich in **Schwarz oder Silber** – passend zum Moduldesign",
+            "**Optional mit Erdungspins** – für elektrischen Potenzialausgleich",
+            "**Endkappe** für abgerundeten Look"
+          ]
+        },
+        {
+          "heading": "MONTAGE LEICHT GEMACHT",
+          "bullets": [
+            "**Easy-Click-Klemmen** – spart Zeit und Nerven",
+            "**Nur 1 Werkzeug nötig:** Torx T30 (ggf. zusätzlich 15er Ratschen- oder Gabelschlüssel)",
+            "**Klemmbereich 28 – 45 mm** – für gängige Modultypen optimiert"
+          ]
+        },
+        {
+          "heading": "BESONDERE DACHGEOMETRIEN? KEIN PROBLEM.",
+          "bullets": [
+            "**Sonderzubehör für verwinkelte Dächer** – präzise und sicher montieren",
+            "**Längere Grundplatte** – Haken auch zwischen Sparren einsetzbar"
+          ]
+        },
+        {
+          "heading": "OHNE KREUZVERBUND? GEHT KLAR.",
+          "bullets": [
+            "Dachhaken-Adapter für direkte **senkrechte Schienenmontage**",
+            "Alternativ auch **mit Kreuzverbund** möglich"
+          ]
+        },
+        {
+          "heading": "ZUSÄTZLICHE FEATURES",
+          "bullets": [
+            "Profil in **Schwarz oder Silber** erhältlich",
+            "**Innenliegender Profilverbinder** – robuste Verbindung, unsichtbares Finish",
+            "Äußerst **verwindungs- und biegefest** – für dauerhafte Stabilität"
+          ]
+        }
+      ],
+      "technicalSpecs": [
+        {
+          "label": "Klemmbereich (Modulklemme)",
+          "value": "28 – 45 mm"
+        },
+        {
+          "label": "Benötigtes Werkzeug",
+          "value": "Torx T30 (ggf. zusätzlich 15er Ratschen- oder Gabelschlüssel)"
+        },
+        {
+          "label": "Verstellbarkeit",
+          "value": "dreifach verstellbar"
+        },
+        {
+          "label": "Tragprofil",
+          "value": "V450 (V450 mit Tragprofil und Klemme)"
+        },
+        {
+          "label": "Haltbarkeitsgarantie",
+          "value": "10 Jahre"
+        },
+        {
+          "label": "Farboptionen Haken/Klemmen",
+          "value": "Schwarz oder Silber"
+        },
+        {
+          "label": "Farboptionen Profil",
+          "value": "Schwarz oder Silber"
+        }
+      ],
+      "targetApplication": "Dachhaken zur Befestigung von PV-Modulen auf geneigten Dächern (Schrägdach, klassisch Ziegel-/Steindach). Durch dreifache Verstellbarkeit, längere Grundplatte und Sonderzubehör auch für verwinkelte Dachgeometrien und Montage zwischen den Sparren geeignet. Wahlweise mit Kreuzverbund oder ohne (per Dachhaken-Adapter für senkrechte Schienenmontage). Optional mit Erdungspins für den elektrischen Potenzialausgleich.",
+      "certifications": [
+        "ISO 9001 (Siegel „ISO 9001 – EINGETRAGENE FIRMA\")",
+        "10 Jahre Haltbarkeitsgarantie (grünes Siegel „10 JAHRE HALTBARKEITSGARANTIE\")"
+      ],
+      "madeInGermany": true,
+      "hasMontageVideo": true,
+      "notableClaims": [
+        "Dreifach verstellbar",
+        "Extrem tragfähig",
+        "Mit Easy-Click-Klemme – Montage in 2 Schritten: „1 Schräg ansetzen\", „2 Einfach reindrehen\" (Die Easy-Click-Klemme von AmbiVolt)",
+        "Nur 1 Werkzeug nötig (Torx T30)",
+        "Innenliegender Profilverbinder für robuste Verbindung und unsichtbares Finish",
+        "Äußerst verwindungs- und biegefest für dauerhafte Stabilität",
+        "Längere Grundplatte – Haken auch zwischen Sparren einsetzbar",
+        "Sonderzubehör für verwinkelte Dächer",
+        "Optional mit Erdungspins für elektrischen Potenzialausgleich",
+        "Wahlweise mit oder ohne Kreuzverbund montierbar",
+        "Endkappe für abgerundeten Look"
+      ],
+      "imagesDescribed": [
+        "Seite 1 (Cover-Hero): Großes isometrisches 3D-Rendering des AmbiHook V5 – Z-förmiger, verstellbarer Dachhaken mit gelochter Grundplatte, montiert auf einer Montageschiene, die zwei schwarze Modulklemmen (End- und Mittelklemme) trägt; im Hintergrund angedeutete Solarmodule/Dachfläche. Ohne separate Bildunterschrift.",
+        "Seite 1 & 2: Rundes Erklär-Icon „DIE EASY CLICK KLEMME VON AMBIVOLT\" – zeigt die 2-Schritt-Montage der Klemme mit Drehpfeil: „1 SCHRÄG ANSETZEN\" (orange) und „2 EINFACH REINDREHEN\" (grün).",
+        "Seite 1: QR-Code in dunklem Kreis mit gebogener Bildunterschrift „HIER GEHT'S ZUM MONTAGE VIDEO!\".",
+        "Seite 1 (unten rechts): ISO-9001-Siegel („ISO 9001 – EINGETRAGENE FIRMA\") sowie grünes Siegel „10 JAHRE HALTBARKEITSGARANTIE\".",
+        "Seite 2 (oben rechts): Zwei schwarze Klemmen-Renderings mit Bildunterschriften „SCHWARZE ENDKLEMME\" und „SCHWARZE MITTELKLEMME\".",
+        "Seite 2 (Mitte): Rendering eines Schienen-/Kreuzverbund-Aufbaus (Montageschiene mit Dachhaken und Kreuzverbinder) mit Detail-Kreisen; Bildunterschriften „LÄNGERE BASISPLATTE\" und „V450 MIT TRAGPROFIL UND KLEMME\".",
+        "Seite 2 (unten rechts): Rendering eines schwarzen Tragprofils, Bildunterschrift „SCHWARZES PROFIL\"; Detail-Kreis „PROFIL-ZUSAMMENBAU\" (innenliegender Profilverbinder) und kleine schwarze Endkappe „SCHWARZE ENDKAPPE\".",
+        "Seite 2 (oben rechts): „MADE IN GERMANY\" mit Deutschland-Flagge (Schwarz-Rot-Gold-Balken).",
+        "AmbiVolt-Logo: Seite 1 oben rechts (grün/orange) und Seite 2 im orangen Footer (weiß), Footer mit Kontaktdaten: AmbiVolt Energietechnik GmbH · Oberalmsham 1 · 84140 Gangkofen · +49 8722 966 85 77 · anfrage@ambivolt.de · www.ambivolt.de."
+      ]
+    },
+    {
+      "flyerFile": "Ambivolt-AmbiHook-V6_Flyer_A4.pdf",
+      "productName": "AmbiHook V6 (im Flyer als \"AMBIHOOK V6\" gesetzt)",
+      "productLine": "AmbiHook",
+      "roofType": "Dachhaken (Flyer-Kategorie: \"DACHHAKEN\") – für geneigte Ziegel-/Steindächer; Hinweise auf Sparren-/Dachgeometrie im Text",
+      "siteCategory": "ziegel",
+      "tagline": "SCHNELL MONTIERT, DAUERHAFT STARK!",
+      "subtitle": "",
+      "keyBadges": [
+        "MAXIMALER WIND-WIDERSTAND",
+        "VIERFACH VERSTELLBAR",
+        "MIT EASY-CLICK-KLEMME",
+        "IDEAL FÜR WINDIGE REGIONEN WIE NORD- & OSTSEE"
+      ],
+      "featureSections": [
+        {
+          "heading": "FLEXIBILITÄT & OPTIK",
+          "bullets": [
+            "Erhältlich in Schwarz oder Silber – passend zum Moduldesign",
+            "Optional mit Erdungspins – für elektrischen Potenzialausgleich",
+            "Endkappe für abgerundeten Look"
+          ]
+        },
+        {
+          "heading": "MONTAGE LEICHT GEMACHT",
+          "bullets": [
+            "Easy-Click-Klemmen – spart Zeit und Nerven",
+            "Nur 1 Werkzeug nötig: Torx T30 (ggf. zusätzlich 15er Ratschen- oder Gabelschlüssel)",
+            "Klemmbereich 28 – 45 mm – für gängige Modultypen optimiert"
+          ]
+        },
+        {
+          "heading": "BESONDERE DACHGEOMETRIEN? KEIN PROBLEM.",
+          "bullets": [
+            "Sonderzubehör für verwinkelte Dächer – präzise und sicher montieren",
+            "Längere Grundplatte – Haken auch zwischen Sparren einsetzbar"
+          ]
+        },
+        {
+          "heading": "EXTREM STARKER WIND? GEHT KLAR.",
+          "bullets": [
+            "Optimiert für höchste Windlasten, deshalb ideal für windige Lagen an der Nord- & Ostsee"
+          ]
+        },
+        {
+          "heading": "ZUSÄTZLICHE FEATURES",
+          "bullets": [
+            "Profil in Schwarz oder Silber erhältlich",
+            "Innenliegender Profilverbinder – robuste Verbindung, unsichtbares Finish",
+            "Äußerst verwindungs- und biegefest – für dauerhafte Stabilität"
+          ]
+        }
+      ],
+      "technicalSpecs": [
+        {
+          "label": "Klemmbereich",
+          "value": "28 – 45 mm (für gängige Modultypen optimiert)"
+        },
+        {
+          "label": "Verstellbarkeit",
+          "value": "Vierfach verstellbar"
+        },
+        {
+          "label": "Montagewerkzeug",
+          "value": "Torx T30 (nur 1 Werkzeug nötig)"
+        },
+        {
+          "label": "Zusätzliches Werkzeug (ggf.)",
+          "value": "15er Ratschen- oder Gabelschlüssel"
+        },
+        {
+          "label": "Klemmsystem",
+          "value": "Easy-Click-Klemmen"
+        },
+        {
+          "label": "Farbvarianten Haken",
+          "value": "Schwarz oder Silber"
+        },
+        {
+          "label": "Farbvarianten Profil",
+          "value": "Schwarz oder Silber"
+        },
+        {
+          "label": "Profilverbinder",
+          "value": "Innenliegend (unsichtbares Finish)"
+        },
+        {
+          "label": "Erdungspins",
+          "value": "Optional – für elektrischen Potenzialausgleich"
+        },
+        {
+          "label": "Grundplatte",
+          "value": "Längere Basis-/Grundplatte – auch zwischen Sparren einsetzbar"
+        }
+      ],
+      "targetApplication": "Dachhaken zur PV-Modulmontage auf geneigten (Ziegel-/Stein-)Dächern. Besonders ausgelegt für windexponierte Standorte (Nord- & Ostsee) mit höchsten Windlasten sowie für verwinkelte/besondere Dachgeometrien; dank längerer Grundplatte auch zwischen Sparren montierbar.",
+      "certifications": [],
+      "madeInGermany": false,
+      "hasMontageVideo": false,
+      "notableClaims": [
+        "Maximaler Wind-Widerstand – optimiert für höchste Windlasten, ideal für windige Regionen wie Nord- & Ostsee",
+        "Vierfach verstellbar",
+        "Easy-Click-Klemme: nur 1 Werkzeug nötig (Torx T30), spart Zeit und Nerven",
+        "Längere Grundplatte ermöglicht Montage auch zwischen den Sparren",
+        "Sonderzubehör für verwinkelte / besondere Dachgeometrien",
+        "Innenliegender Profilverbinder für robuste Verbindung und unsichtbares Finish",
+        "Äußerst verwindungs- und biegefest für dauerhafte Stabilität",
+        "Optional mit Erdungspins für elektrischen Potenzialausgleich"
+      ],
+      "imagesDescribed": [
+        "Titelseite: großes Produkt-Rendering des AmbiHook V6 Dachhakens (schwarz) mit montiertem Profil/Klemme; darüber Eyebrow 'DACHHAKEN' und Titel 'AMBIHOOK V6'. Runder oranger Störer/Stempel mit Text 'IDEAL FÜR WINDIGE REGIONEN WIE NORD- & OSTSEE'. (Bildinhalt aus Beschriftung erschlossen – PDF konnte nicht gerendert werden.)",
+        "Rendering mit Bildunterschrift 'SCHWARZE ENDKLEMME' – zeigt die schwarze Endklemme des Systems",
+        "Rendering mit Bildunterschrift 'SCHWARZE MITTELKLEMME' – zeigt die schwarze Mittelklemme",
+        "Rendering mit Bildunterschrift 'LÄNGERE BASISPLATTE' – Dachhaken mit verlängerter Grund-/Basisplatte",
+        "Rendering/Explosionsdarstellung mit Bildunterschrift 'PROFIL-ZUSAMMENBAU' – zeigt den Zusammenbau des Profils",
+        "Rendering mit Bildunterschrift 'SCHWARZES PROFIL' – zeigt das schwarze Montageprofil",
+        "Rendering mit Bildunterschrift 'SCHWARZE ENDKAPPE' – zeigt die schwarze Endkappe für abgerundeten Look"
+      ]
+    },
+    {
+      "flyerFile": "Ambivolt-AmbiMicro-AmbiU_Flyer_A4.pdf",
+      "productName": "AmbiMicro",
+      "productLine": "AmbiMicro",
+      "roofType": "Trapezblechdächer (Hochkantmontage auf der Hochsicke)",
+      "siteCategory": "trapez",
+      "tagline": "SCHNELL MONTIERT, DAUERHAFT STARK!",
+      "subtitle": "MONTAGESYSTEM (Eyebrow-Label über dem Produktnamen auf der Titelseite)",
+      "keyBadges": [
+        "IDEAL FÜR HOCHKANTMONTAGE",
+        "GEEIGNET FÜR TRAPEZBLECHDÄCHER",
+        "MIT EASY-CLICK-KLEMME"
+      ],
+      "featureSections": [
+        {
+          "heading": "FLEXIBILITÄT & OPTIK",
+          "bullets": [
+            "**Erhältlich in Schwarz oder Silber** – passend zum Moduldesign",
+            "**Optional mit Erdungspins** – für elektrischen Potenzialausgleich"
+          ]
+        },
+        {
+          "heading": "MONTAGE LEICHT GEMACHT",
+          "bullets": [
+            "**Easy-Click-Klemmen** – spart Zeit und Nerven"
+          ]
+        },
+        {
+          "heading": "BESONDERE DACHGEOMETRIEN? KEIN PROBLEM.",
+          "bullets": [
+            "Schnelle Montage und hoher Ausgleich von Montagetoleranzen",
+            "**Enorme Haltekraft** durch die Anordnung der Dünnblechschrauben – kein Vorbohren nötig"
+          ]
+        },
+        {
+          "heading": "KEIN EINDRINGEN VON WASSER",
+          "bullets": [
+            "Vier Bohrungen mit EPDM-Streifen an der Unterseite",
+            "Auch die beiliegenden Schrauben verfügen über eine Dichtscheibe"
+          ]
+        },
+        {
+          "heading": "ZUSÄTZLICHE FEATURES",
+          "bullets": [
+            "**Äußerst verwindungs- und biegefest** – für dauerhafte Stabilität",
+            "**Optimale Hinterlüftung** durch hohen Abstand zwischen Hochsicke und Modul"
+          ]
+        }
+      ],
+      "technicalSpecs": [
+        {
+          "label": "Geeignete Dachform",
+          "value": "Trapezblechdächer"
+        },
+        {
+          "label": "Montageausrichtung",
+          "value": "Hochkantmontage"
+        },
+        {
+          "label": "Klemmensystem",
+          "value": "Easy-Click-Klemme"
+        },
+        {
+          "label": "Verfügbare Farben",
+          "value": "Schwarz oder Silber"
+        },
+        {
+          "label": "Klemmentypen",
+          "value": "Endklemme und Mittelklemme"
+        },
+        {
+          "label": "Erdung (optional)",
+          "value": "Erdungspins für elektrischen Potenzialausgleich"
+        },
+        {
+          "label": "Befestigung",
+          "value": "Dünnblechschrauben – kein Vorbohren nötig"
+        },
+        {
+          "label": "Abdichtung Unterseite",
+          "value": "vier Bohrungen mit EPDM-Streifen"
+        },
+        {
+          "label": "Schraubenabdichtung",
+          "value": "beiliegende Schrauben mit Dichtscheibe"
+        }
+      ],
+      "targetApplication": "Montagesystem für die Hochkantmontage von PV-Modulen auf Trapezblechdächern. Die Easy-Click-Klemmen werden mit Dünnblechschrauben direkt (ohne Vorbohren) auf die Hochsicke des Trapezblechs gesetzt; laut Flyer auch für besondere Dachgeometrien geeignet, mit hohem Ausgleich von Montagetoleranzen und wasserdichter EPDM-Abdichtung.",
+      "certifications": [],
+      "madeInGermany": false,
+      "hasMontageVideo": false,
+      "notableClaims": [
+        "Ideal für Hochkantmontage",
+        "Geeignet für Trapezblechdächer",
+        "Easy-Click-Klemme – spart Zeit und Nerven bei der Montage",
+        "Enorme Haltekraft durch die Anordnung der Dünnblechschrauben – kein Vorbohren nötig",
+        "Auch für besondere Dachgeometrien geeignet, hoher Ausgleich von Montagetoleranzen",
+        "Kein Eindringen von Wasser: vier Bohrungen mit EPDM-Streifen an der Unterseite; auch die beiliegenden Schrauben mit Dichtscheibe",
+        "Optimale Hinterlüftung durch hohen Abstand zwischen Hochsicke und Modul",
+        "Äußerst verwindungs- und biegefest für dauerhafte Stabilität",
+        "Erhältlich in Schwarz oder Silber, passend zum Moduldesign",
+        "Optional mit Erdungspins für elektrischen Potenzialausgleich"
+      ],
+      "imagesDescribed": [
+        "Titelseite (S.1): Produkt-Rendering des AmbiMicro-Montagesystems; darüber Eyebrow-Label 'MONTAGESYSTEM', großer Titel 'AMBIMICRO' und drei orange Badges (IDEAL FÜR HOCHKANTMONTAGE / GEEIGNET FÜR TRAPEZBLECHDÄCHER / MIT EASY-CLICK-KLEMME).",
+        "S.2: Rendering einer schwarzen Endklemme – Bildunterschrift 'SCHWARZE ENDKLEMME'.",
+        "S.2: Rendering einer schwarzen Mittelklemme – Bildunterschrift 'SCHWARZE MITTELKLEMME'.",
+        "S.2: Rendering einer Endklemme (ohne Farbzusatz, vermutlich Silber-Variante) – Bildunterschrift 'ENDKLEMME'.",
+        "S.2: Rendering einer Mittelklemme (ohne Farbzusatz, vermutlich Silber-Variante) – Bildunterschrift 'MITTELKLEMME'.",
+        "S.2 unten: Anwendungs-/Detailbild mit orangem Badge 'IDEAL FÜR HOCHKANTMONTAGE' (PV-Modul in Hochkantmontage auf Trapezblech). Hinweis: Bilder wurden anhand der eingebetteten Bildunterschriften und des Layouts beschrieben, da im Environment kein PDF-Bild-Rendering verfügbar war."
+      ]
+    },
+    {
+      "flyerFile": "Ambivolt-AmbiNano-AmbiU_Flyer_A4.pdf",
+      "productName": "AmbiNano",
+      "productLine": "AmbiNano / AmbiU",
+      "roofType": "Trapezblechdächer (Trapezblech) — inkl. AmbiU-Ergänzung für mehr Hinterlüftung zwischen Hochsicke und Modul",
+      "siteCategory": "trapez",
+      "tagline": "SCHNELL MONTIERT, DAUERHAFT STARK!",
+      "subtitle": "",
+      "keyBadges": [
+        "SCHNELLSTE MONTAGE",
+        "IDEAL FÜR TRAPEZBLECHDÄCHER",
+        "MIT EASY-CLICK-KLEMME",
+        "FÜR MEHR HINTERLÜFTUNG",
+        "IDEAL FÜR QUERMONTAGE"
+      ],
+      "featureSections": [
+        {
+          "heading": "FLEXIBILITÄT & OPTIK",
+          "bullets": [
+            "**Erhältlich in Schwarz oder Silber** – passend zum Moduldesign",
+            "**Optional mit Erdungspins** – für elektrischen Potenzialausgleich"
+          ]
+        },
+        {
+          "heading": "MONTAGE LEICHT GEMACHT",
+          "bullets": [
+            "**Easy-Click-Klemmen** – spart Zeit und Nerven"
+          ]
+        },
+        {
+          "heading": "BESONDERE DACHGEOMETRIEN? KEIN PROBLEM.",
+          "bullets": [
+            "**Schnelle Montage** und hoher Ausgleich von Montagetoleranzen",
+            "**Enorme Haltekraft** durch die Anordnung der Dünnblechschrauben – kein Vorbohren nötig"
+          ]
+        },
+        {
+          "heading": "KEIN EINDRINGEN VON WASSER",
+          "bullets": [
+            "**Zwei Bohrungen mit EPDM-Streifen** an der Unterseite",
+            "**Auch die beiliegenden Schrauben** verfügen über eine Dichtscheibe"
+          ]
+        },
+        {
+          "heading": "AMBIU",
+          "bullets": [
+            "**Optimale Hinterlüftung** durch hohen Abstand zwischen Hochsicke und Modul"
+          ]
+        }
+      ],
+      "technicalSpecs": [],
+      "targetApplication": "Photovoltaik-Montagesystem für Trapezblechdächer, besonders geeignet für die Quermontage von Modulen. Die Befestigung erfolgt über Dünnblechschrauben (kein Vorbohren nötig). Die AmbiU-Ergänzung schafft zusätzliche Hinterlüftung durch einen hohen Abstand zwischen Hochsicke und Modul.",
+      "certifications": [],
+      "madeInGermany": false,
+      "hasMontageVideo": false,
+      "notableClaims": [
+        "Kombi-Flyer: AmbiNano (Montagesystem) + AmbiU (Ergänzung für mehr Hinterlüftung)",
+        "Easy-Click-Klemme für schnellste Montage (spart Zeit und Nerven)",
+        "Erhältlich in Schwarz oder Silber – passend zum Moduldesign",
+        "Optional mit Erdungspins für elektrischen Potenzialausgleich",
+        "Kein Vorbohren nötig dank Dünnblechschrauben",
+        "Enorme Haltekraft durch die Anordnung der Dünnblechschrauben",
+        "Hoher Ausgleich von Montagetoleranzen bei besonderen Dachgeometrien",
+        "Wasserdicht: zwei Bohrungen mit EPDM-Streifen an der Unterseite; beiliegende Schrauben mit Dichtscheibe",
+        "Ideal für Quermontage",
+        "AmbiU: optimale Hinterlüftung durch hohen Abstand zwischen Hochsicke und Modul"
+      ],
+      "imagesDescribed": [
+        "Seite 1 (Cover): Produktrendering/Foto des AmbiNano-Montagesystems mit PV-Modulen auf einem Trapezblechdach; oben Kategorie-Label 'MONTAGESYSTEM', großer Produktname 'AMBINANO', dazu orange Badges 'SCHNELLSTE MONTAGE', 'IDEAL FÜR TRAPEZBLECHDÄCHER' und 'MIT EASY-CLICK-KLEMME'.",
+        "Seite 1 (Cover): Separat abgebildetes AmbiU-Element (Hinterlüftungs-Aufständerung) mit Kennzeichnung 'AMBIU' und Text 'FÜR MEHR HINTERLÜFTUNG'.",
+        "Seite 2: Rendering einer schwarzen Endklemme, Bildunterschrift 'SCHWARZE ENDKLEMME'.",
+        "Seite 2: Rendering einer schwarzen Mittelklemme, Bildunterschrift 'SCHWARZE MITTELKLEMME'.",
+        "Seite 2: Abbildung der Dünnblechschrauben, Bildunterschrift 'DÜNNBLECHSCHRAUBEN'.",
+        "Seite 2: Darstellung der Modul-Quermontage auf Trapezblech, Bildunterschrift 'IDEAL FÜR QUERMONTAGE'.",
+        "Hinweis: Bild-Rendering-Tools waren nicht verfügbar; die Bildbeschreibungen sind aus den im PDF-Text enthaltenen Bildunterschriften/Labels abgeleitet."
+      ]
+    },
+    {
+      "flyerFile": "Ambivolt-AmbiTop_Flyer_A4.pdf",
+      "productName": "AmbiTop",
+      "productLine": "AmbiTop",
+      "roofType": "Sandwich-Dächer (trapezförmige Sandwichpaneele mit direkter Anbindung an die Pfette)",
+      "siteCategory": "trapez",
+      "tagline": "SCHNELL MONTIERT, DAUERHAFT STARK!",
+      "subtitle": "MONTAGESYSTEM",
+      "keyBadges": [
+        "OPTIMAL FÜR SANDWICH-DÄCHER",
+        "EXTREM TRAGFÄHIG",
+        "MIT EASY-CLICK-KLEMME"
+      ],
+      "featureSections": [
+        {
+          "heading": "FLEXIBILITÄT & OPTIK",
+          "bullets": [
+            "Erhältlich in **Schwarz oder Silber** – passend zum Moduldesign",
+            "**Optional mit Erdungspins** – für elektrischen Potenzialausgleich",
+            "**Endkappe für abgerundeten Look**"
+          ]
+        },
+        {
+          "heading": "MONTAGE LEICHT GEMACHT",
+          "bullets": [
+            "**Easy-Click-Klemmen** – spart Zeit und Nerven",
+            "**Klemmbereich 28 – 45 mm** – für gängige Modultypen optimiert"
+          ]
+        },
+        {
+          "heading": "BESONDERE DACHGEOMETRIEN? KEIN PROBLEM.",
+          "bullets": [
+            "Optimal geeignet für **Sandwich-Dächer**",
+            "**Reduzierte Belastung** der Oberschale durch direkte Anbindung an die Pfette",
+            "Selbst für **hohe Pfettenabstände von 2–3 m** geeignet",
+            "**Schnelle Montage** und hoher Ausgleich von Montagetoleranzen"
+          ]
+        },
+        {
+          "heading": "ZUSÄTZLICHE FEATURES",
+          "bullets": [
+            "Profil in **Schwarz oder Silber** erhältlich",
+            "**Innenliegender Profilverbinder** – robuste Verbindung, unsichtbares Finish",
+            "Äußerst **verwindungs- und biegefest** – für dauerhafte Stabilität"
+          ]
+        }
+      ],
+      "technicalSpecs": [
+        {
+          "label": "Klemmbereich",
+          "value": "28 – 45 mm"
+        },
+        {
+          "label": "Geeignete Pfettenabstände",
+          "value": "hohe Pfettenabstände von 2–3 m"
+        },
+        {
+          "label": "Farbvarianten (Klemmen & Profil)",
+          "value": "Schwarz oder Silber"
+        },
+        {
+          "label": "Haltbarkeitsgarantie",
+          "value": "10 Jahre (auf dieses Montagesystem)"
+        }
+      ],
+      "targetApplication": "Photovoltaik-Montagesystem speziell für Sandwich-Dächer (trapezförmige Sandwichpaneele im gewerblich-industriellen Bereich). Die Module werden über ein Profil mit Easy-Click-Klemmen direkt an die tragende Pfette angebunden, was die Oberschale entlastet. Auch für besondere Dachgeometrien und große Pfettenabstände (2–3 m) geeignet, mit hohem Ausgleich von Montagetoleranzen.",
+      "certifications": [
+        "ISO 9001 (eingetragene Firma)",
+        "10 Jahre Haltbarkeitsgarantie auf dieses Montagesystem"
+      ],
+      "madeInGermany": true,
+      "hasMontageVideo": false,
+      "notableClaims": [
+        "Die EasyClick Klemme von AmbiVolt – 2-Schritt-Montage: 1. SCHRÄG ANSETZEN, 2. EINFACH REINDREHEN",
+        "Extrem tragfähig durch direkte Anbindung an die Pfette",
+        "Reduzierte Belastung der Oberschale (des Sandwichpaneels)",
+        "Innenliegender Profilverbinder für robuste Verbindung und unsichtbares Finish",
+        "Hoher Ausgleich von Montagetoleranzen",
+        "Made in Germany"
+      ],
+      "imagesDescribed": [
+        "Seite 1, Hero-Rendering: 3D-Darstellung des AmbiTop-Profils/der Schiene mit aufgesetzter Easy-Click-Klemme und Torx-Schraube, freigestellt vor einem hellen Hintergrund aus Solarmodulen. Keine Bildunterschrift.",
+        "Seite 1, unten links: Kreisförmige Montage-Illustration 'DIE EASYCLICK KLEMME VON AMBIVOLT' mit 2-Schritt-Ablauf – Schritt '1 SCHRÄG ANSETZEN' (orange) und Schritt '2 EINFACH REINDREHEN' (grün), zeigt die Klemme mit Schraube auf einem schwarzen Profil.",
+        "Seite 1, unten rechts: Zertifizierungs-Siegel – ISO-9001-Logo mit Zusatz 'EINGETRAGENE FIRMA' sowie rundes grünes Siegel '10 JAHRE HALTBARKEITSGARANTIE – AUF DIESES MONTAGESYSTEM'. Oben rechts das AmbiVolt-Logo.",
+        "Seite 2, oben rechts: 'MADE IN GERMANY' mit Deutschland-Flaggenbalken (schwarz-rot-gold), darunter erneut die kreisförmige 2-Schritt-Klemmen-Illustration 'DIE EASYCLICK KLEMME VON AMBIVOLT'.",
+        "Seite 2, rechts oben: Zwei 3D-Renderings schwarzer Klemmen mit Torx-Schraube auf schwarzem Profil – Bildunterschriften 'SCHWARZE ENDKLEMME' und 'SCHWARZE MITTELKLEMME' (orange Labels).",
+        "Seite 2, links mittig: 3D-Rendering eines braun-roten Trapez-/Sandwichdachs mit zwei aufgeständerten schwarzen PV-Modulen auf schwarzen AmbiTop-Schienen (montiertes System). Keine Bildunterschrift.",
+        "Seite 2, unten links: Drei 3D-Renderings des Profils mit langer durchgehender Schraube/Bolzen, die die direkte Anbindung an die Pfette und die Tragfähigkeit zeigen; oranges Label 'EXTREM TRAGFÄHIG'.",
+        "Seite 2, unten rechts: 3D-Rendering des schwarzen Profils mit kreisförmigem Inset 'PROFIL-ZUSAMMENBAU' (Profilzusammenbau mit innenliegendem Verbinder); Bildunterschriften 'SCHWARZES PROFIL' und 'SCHWARZE ENDKAPPE' (schwarze Endkappe).",
+        "Seite 2, Fußzeile: AmbiVolt-Logo (weiß) auf orangem Balken mit Kontaktdaten."
+      ]
+    },
+    {
+      "flyerFile": "Ambivolt-Flachdach-EcoPlus_Flyer_A4.pdf",
+      "productName": "AmbiLight EcoPlus",
+      "productLine": "AmbiLight",
+      "roofType": "Flachdach (Flachdächer) – geeignet für sämtliche neuartige Kies-, Folien- und Bitumendächer",
+      "siteCategory": "flachdach",
+      "tagline": "SCHNELL MONTIERT, DAUERHAFT STARK!",
+      "subtitle": "MONTAGESYSTEM",
+      "keyBadges": [
+        "OST-WEST-ORIENTIERUNG",
+        "IDEAL FÜR FLACHDÄCHER",
+        "UNSCHLAGBAR WENIG BALLAST",
+        "IDEAL FÜR HOHE WINDLAST"
+      ],
+      "featureSections": [
+        {
+          "heading": "MONTAGE LEICHT GEMACHT",
+          "bullets": [
+            "**Extrem schneller Aufbau** dank vormontierter Baugruppen",
+            "Regelmäßige Querschienen – ideal zur **Kabelbefestigung**",
+            "**Keine Dehnfuge** erforderlich – beliebig große Modulfelder möglich dank integrierter Temperaturausdehnung"
+          ]
+        },
+        {
+          "heading": "GERINGE ZULÄSSIGE DACHLAST? KEIN PROBLEM.",
+          "bullets": [
+            "**Minimaler Ballast** auch bei hoher Windlast – praktisch immer **unter 20 kg/m²**",
+            "**Superleichte Unterkonstruktion** – ideal für Flachdächer mit geringer zulässiger Dachlast",
+            "**Integrierte Schutzschicht** aus Polyestervlies, geeignet für sämtliche neuartige Kies-, Folien- und Bitumendächer"
+          ]
+        },
+        {
+          "heading": "ZUSÄTZLICHE FEATURES",
+          "bullets": [
+            "**Schonend zur Dämmung** – 15 cm breite Fußprofile, meterlange Auflage",
+            "**Einfache Wartung** von beiden Seiten dank 18–32 cm Firstspalt"
+          ]
+        },
+        {
+          "heading": "Windlastzonen Deutschland (Kartenlegende)",
+          "bullets": [
+            "Windzone 1",
+            "Windzone 2",
+            "Windzone 3",
+            "Windzone 4"
+          ]
+        }
+      ],
+      "technicalSpecs": [
+        {
+          "label": "Minimaler Ballast",
+          "value": "praktisch immer unter 20 kg/m²"
+        },
+        {
+          "label": "Breite Fußprofile",
+          "value": "15 cm breit (meterlange Auflage)"
+        },
+        {
+          "label": "Firstspalt (Wartung von beiden Seiten)",
+          "value": "18–32 cm"
+        },
+        {
+          "label": "Haltbarkeitsgarantie",
+          "value": "10 Jahre auf dieses Montagesystem"
+        },
+        {
+          "label": "Windlastzonen (Karte Deutschland)",
+          "value": "Windzone 1 bis 4"
+        }
+      ],
+      "targetApplication": "Photovoltaik-Montagesystem für Flachdächer, speziell für Dächer mit geringer zulässiger Dachlast. Geeignet für neuartige Kies-, Folien- und Bitumendächer. Ermöglicht Ost-West-Orientierung sowie Süd-Orientierung (EcoPlus) und funktioniert auch bei hoher Windlast dank sehr geringem Ballast (unter 20 kg/m²).",
+      "certifications": [
+        "ISO 9001 (eingetragene Firma)",
+        "10 Jahre Haltbarkeitsgarantie auf dieses Montagesystem"
+      ],
+      "madeInGermany": true,
+      "hasMontageVideo": true,
+      "notableClaims": [
+        "UNSCHLAGBAR WENIG BALLAST – praktisch immer unter 20 kg/m² auch bei hoher Windlast",
+        "Ost-West-Orientierung sowie Süd-Orientierung (EcoPlus – Südorientierung) möglich",
+        "Keine Dehnfuge erforderlich – beliebig große Modulfelder möglich dank integrierter Temperaturausdehnung",
+        "Extrem schneller Aufbau dank vormontierter Baugruppen (vormontiert mit Bautenschutz)",
+        "Superleichte Unterkonstruktion – ideal für Flachdächer mit geringer zulässiger Dachlast",
+        "Integrierte Schutzschicht aus Polyestervlies, geeignet für sämtliche neuartige Kies-, Folien- und Bitumendächer",
+        "Schonend zur Dämmung durch 15 cm breite Fußprofile mit meterlanger Auflage",
+        "Einfache Wartung von beiden Seiten dank 18–32 cm Firstspalt",
+        "Ideal für hohe Windlast (Bezug auf alle Windlastzonen Deutschlands)",
+        "Made in Germany"
+      ],
+      "imagesDescribed": [
+        "Seite 1, Hero-Rendering: 3D-Darstellung des AmbiLight EcoPlus Montagesystems mit schwarzen PV-Modulen in Ost-West-Aufständerung auf einem hellen Flachdach; im Hintergrund weitere Solarmodulflächen. Zeigt Aluminium-Unterkonstruktion mit Querschienen. Keine Bildunterschrift.",
+        "Seiten 1 und 2, oben rechts: AmbiVolt-Firmenlogo (oranges Sonnen-/Kreissymbol plus Schriftzug 'AmbiVolt' in Grün und Orange).",
+        "Seite 1, unten links: QR-Code in dunkelblauem Kreis, umlaufender Text 'HIER GEHT'S ZUM MONTAGE VIDEO!' (Verweis auf Montagevideo).",
+        "Seite 1, unten rechts: ISO-9001-Siegel mit Beschriftung 'ISO 9001 / EINGETRAGENE FIRMA' und grünes rundes Siegel '10 JAHRE HALTBARKEITSGARANTIE AUF DIESES MONTAGESYSTEM'.",
+        "Seite 2, oben rechts: Schriftzug 'MADE IN GERMANY' mit Deutschlandfahnen-Farbbalken (schwarz, rot, gold).",
+        "Seite 2, rechts oben: Foto eines Monteurs in dunkler Arbeitskleidung, der auf einem Flachdach ein langes Aluminium-Fußprofil/eine vormontierte Baugruppe platziert. Orange Bildunterschrift: 'VORMONTIERT MIT BAUTENSCHUTZ'.",
+        "Seite 2, links Mitte: Deutschlandkarte mit Überschrift 'Windlastzonen Deutschland', farblich markierten Windzonen 1–4 (grün bis orange/rot) und Städtebeschriftungen (u. a. Kiel, Hamburg, Bremen, Hannover, Berlin, Potsdam, Magdeburg, Leipzig, Dresden, Erfurt, Frankfurt am Main, Trier, Saarbrücken, Nürnberg, Stuttgart, München, Freiburg). Orange Bildunterschrift: 'IDEAL FÜR HOHE WINDLAST'.",
+        "Seite 2, unten rechts: 3D-Rendering des Montagesystems mit schwarzen PV-Modulen in Süd-Aufständerung (mehrere parallele Modulreihen auf Aluminium-Unterkonstruktion). Orange Bildunterschrift: 'ECOPLUS – SÜDORIENTIERUNG'.",
+        "Seite 2, unten rechts (weiß auf Orange): großes AmbiVolt-Logo im Footer-Balken."
+      ]
+    },
+    {
+      "flyerFile": "Ambivolt-Flachdach-Eco_Flyer_A4.pdf",
+      "productName": "AmbiLight Eco",
+      "productLine": "AmbiLight",
+      "roofType": "Flachdach — \"GEEIGNET FÜR FLACHDÄCHER\"; geeignet für sämtliche neuartige Kies-, Folien- und Bitumendächer",
+      "siteCategory": "flachdach",
+      "tagline": "SCHNELL MONTIERT, DAUERHAFT STARK!",
+      "subtitle": "Montagesystem",
+      "keyBadges": [
+        "IDEAL FÜR HÖCHSTE SCHNEE- UND WINDLAST",
+        "GEEIGNET FÜR FLACHDÄCHER",
+        "UNSCHLAGBAR WENIG BALLAST",
+        "IDEAL FÜR SEHR HOHE WIND- UND SCHNEELAST"
+      ],
+      "featureSections": [
+        {
+          "heading": "HÖCHSTER SCHNEEWIDERSTAND",
+          "bullets": [
+            "**Modulklemmung am Viertelspunkt** – auch nach vielen Jahren noch starke Module wie neu trotz maximalem Schnee",
+            "Durchdachte Anordnung",
+            "**Keine Dehnfuge** erforderlich – beliebig große Modulfelder möglich dank integrierter Temperaturausdehnung",
+            "**Einfache Wartung** von beiden Seiten dank 18–32 cm Firstspalt"
+          ]
+        },
+        {
+          "heading": "GERINGE ZULÄSSIGE DACHLAST? KEIN PROBLEM.",
+          "bullets": [
+            "**Superleichte Unterkonstruktion** – ideal für Flachdächer mit geringer zulässiger Dachlast",
+            "**Minimaler Ballast** auch bei hoher Windlast – in den meisten Fällen **unter 20 kg/m²**"
+          ]
+        },
+        {
+          "heading": "MONTAGE LEICHT GEMACHT",
+          "bullets": [
+            "**Extrem schneller Aufbau** dank vormontierter Baugruppen",
+            "**Integrierte Schutzschicht** aus Polyestervlies, geeignet für sämtliche neuartige Kies-, Folien- und Bitumendächer",
+            "**Schonend zur Dämmung** – 15 cm breite Fußprofile"
+          ]
+        }
+      ],
+      "technicalSpecs": [
+        {
+          "label": "Firstspalt (Wartungszugang von beiden Seiten)",
+          "value": "18–32 cm"
+        },
+        {
+          "label": "Ballast (auch bei hoher Windlast, in den meisten Fällen)",
+          "value": "unter 20 kg/m²"
+        },
+        {
+          "label": "Fußprofile (Breite)",
+          "value": "15 cm breit"
+        },
+        {
+          "label": "Modulklemmung",
+          "value": "am Viertelspunkt (Viertelpunkt-Klemmung)"
+        },
+        {
+          "label": "Integrierte Schutzschicht (Material)",
+          "value": "Polyestervlies"
+        },
+        {
+          "label": "Haltbarkeitsgarantie auf dieses Montagesystem",
+          "value": "10 Jahre"
+        }
+      ],
+      "targetApplication": "Flachdach-PV-Montagesystem für Flachdächer mit geringer zulässiger Dachlast und für Regionen mit sehr hoher Schnee- und Windlast. Geeignet für sämtliche neuartige Kies-, Folien- und Bitumendächer; besonders leicht (minimaler Ballast) und schonend zur Dämmung.",
+      "certifications": [
+        "ISO 9001 (EINGETRAGENE FIRMA)",
+        "10 Jahre Haltbarkeitsgarantie auf dieses Montagesystem"
+      ],
+      "madeInGermany": true,
+      "hasMontageVideo": true,
+      "notableClaims": [
+        "UNSCHLAGBAR WENIG BALLAST",
+        "Minimaler Ballast auch bei hoher Windlast – in den meisten Fällen unter 20 kg/m²",
+        "Superleichte Unterkonstruktion – ideal für Flachdächer mit geringer zulässiger Dachlast",
+        "Keine Dehnfuge erforderlich – beliebig große Modulfelder möglich dank integrierter Temperaturausdehnung",
+        "Modulklemmung am Viertelspunkt sorgt für höchsten Schneewiderstand (auch nach vielen Jahren noch starke Module wie neu)",
+        "Einfache Wartung von beiden Seiten dank 18–32 cm Firstspalt",
+        "Extrem schneller Aufbau dank vormontierter Baugruppen (vormontiert mit Bautenschutz)",
+        "Integrierte Schutzschicht aus Polyestervlies, schonend zur Dämmung mit 15 cm breiten Fußprofilen",
+        "Made in Germany",
+        "Kleiner orangefarbener Kategorie-Badge über dem Produktnamen: 'MONTAGESYSTEM'"
+      ],
+      "imagesDescribed": [
+        "Seite 1, Hero-Rendering: 3D-CAD-Darstellung des AmbiLight Eco Flachdach-Montagesystems — schwarze PV-Module aufgeständert in aerodynamischer Reihenanordnung auf grauen Aluminium-Schienen mit Fußprofilen/Grundschienen; rote Pfeil-/Maßmarkierungen deuten Ausrichtung an; heller Hintergrund einer Solarmodul-/Dachfläche.",
+        "Seite 1, oben rechts: AmbiVolt-Logo (orangefarbene Sonne/Kreis + Schriftzug 'Ambi' grün, 'Volt' orange).",
+        "Seite 1, unten links: QR-Code in dunklem Kreis mit geschwungener Bildunterschrift 'HIER GEHT'S ZUM MONTAGE VIDEO!'.",
+        "Seite 1, unten: ISO-9001-Prüfsiegel 'ISO 9001 EINGETRAGENE FIRMA' mit Lorbeerkranz-Emblem und Q-Prüfzeichen-Logo.",
+        "Seite 1, unten rechts: grünes Rundsiegel '10 JAHRE HALTBARKEITSGARANTIE AUF DIESES MONTAGESYSTEM'.",
+        "Seite 2, Foto oben rechts: Monteur auf einem Flachdach legt/montiert vormontierte Alu-Grundschienen (Fußprofile) auf einer Folien-/Bitumendachfläche vor Industriehalle; orange Bildunterschrift 'VORMONTIERT MIT BAUTENSCHUTZ'.",
+        "Seite 2, Mitte links: Deutschlandkarte 'Schneelastzonen Deutschland' mit Legende 'Zone 1', 'Zone 1a', 'Zone 2', 'Zone 2a', 'Zone 3' (Grün- und Orangetöne) und Städtebeschriftung (Kiel, Hamburg, Bremen, Hannover, Berlin, Potsdam, Magdeburg, Leipzig, Münster, Erfurt, Dresden, Trier, Saarbrücken, Frankfurt am Main, Nürnberg, Stuttgart, Freiburg, München); darunter orange Badge 'IDEAL FÜR SEHR HOHE WIND- UND SCHNEELAST'.",
+        "Seite 2, Foto unten rechts: fertig installierte PV-Anlage auf einem großen Flachdach — viele schwarze Module in langen Reihen; orange Bildunterschrift 'VIERTELPUNKT-KLEMMUNG'.",
+        "Seite 2, oben rechts: 'MADE IN GERMANY' mit Farbbalken in Deutschland-Flaggenfarben (schwarz-rot-gold).",
+        "Seite 2, Fußzeile unten rechts: weißes AmbiVolt-Logo auf orangem Balken."
+      ]
+    },
+    {
+      "flyerFile": "Ambivolt-Gruendach-S-W_Flyer_A4.pdf",
+      "productName": "AmbiLight Gründach",
+      "productLine": "AmbiLight",
+      "roofType": "Gründach – geeignet für extensive und intensive Gründächer (begrüntes Flachdach), Ost-West-Orientierung, auch mit Südorientierung",
+      "siteCategory": "gruendach",
+      "tagline": "SCHNELL MONTIERT, DAUERHAFT STARK!",
+      "subtitle": "Montagesystem",
+      "keyBadges": [
+        "OST-WEST-ORIENTIERUNG",
+        "IDEAL FÜR GRÜNDÄCHER",
+        "MINIMALER BALLAST",
+        "SEHR BREITE KABELKANÄLE",
+        "IDEAL FÜR HOHE WINDLAST",
+        "AUCH MIT SÜDORIENTIERUNG"
+      ],
+      "featureSections": [
+        {
+          "heading": "MONTAGE LEICHT GEMACHT",
+          "bullets": [
+            "Extrem schneller Aufbau dank vormontierter Baugruppen → siehe Montagevideo",
+            "In der Regel ist keine Dehnfuge erforderlich – beliebig große Modulfelder möglich",
+            "Regelmäßige Querschienen zur Kabelbefestigung",
+            "In Längsrichtung sehr breite Kabelkanäle für Ordnung auf dem Dach"
+          ]
+        },
+        {
+          "heading": "GERINGE ZULÄSSIGE DACHLAST? KEIN PROBLEM.",
+          "bullets": [
+            "Durchdringungsfreie Befestigung – geeignet für extensive und intensive Gründächer",
+            "Minimaler Ballast auch bei hoher Windlast – in den meisten Fällen unter 20 kg/m²"
+          ]
+        },
+        {
+          "heading": "ZUSÄTZLICHE FEATURES",
+          "bullets": [
+            "Pflegefreundlich – 50–70 cm Firstspalt für gute Erreichbarkeit des Gründachs",
+            "Ballastierung wahlweise mit Granulat oder Ballaststeinen"
+          ]
+        }
+      ],
+      "technicalSpecs": [
+        {
+          "label": "Ausrichtung",
+          "value": "Ost-West-Orientierung (auch mit Südorientierung möglich)"
+        },
+        {
+          "label": "Ballast (auch bei hoher Windlast)",
+          "value": "in den meisten Fällen unter 20 kg/m²"
+        },
+        {
+          "label": "Firstspalt",
+          "value": "50–70 cm (für gute Erreichbarkeit/Pflege des Gründachs)"
+        },
+        {
+          "label": "Dehnfuge",
+          "value": "in der Regel nicht erforderlich – beliebig große Modulfelder möglich"
+        },
+        {
+          "label": "Befestigung",
+          "value": "durchdringungsfrei"
+        },
+        {
+          "label": "Ballastierung",
+          "value": "wahlweise mit Granulat oder Ballaststeinen"
+        },
+        {
+          "label": "Geeignete Gründächer",
+          "value": "extensiv und intensiv"
+        }
+      ],
+      "targetApplication": "PV-Aufständerung für begrünte Flachdächer (extensive und intensive Gründächer) in Ost-West-Ausrichtung, optional mit Südorientierung. Durchdringungsfreie, ballastierte Befestigung – besonders geeignet bei geringer zulässiger Dachlast und hoher Windlast; ballastierbar mit Granulat oder Ballaststeinen.",
+      "certifications": [],
+      "madeInGermany": false,
+      "hasMontageVideo": true,
+      "notableClaims": [
+        "Durchdringungsfreie Befestigung – geeignet für extensive und intensive Gründächer",
+        "In der Regel keine Dehnfuge erforderlich – beliebig große Modulfelder möglich",
+        "Extrem schneller Aufbau dank vormontierter Baugruppen",
+        "Minimaler Ballast auch bei hoher Windlast – in den meisten Fällen unter 20 kg/m²",
+        "In Längsrichtung sehr breite Kabelkanäle für Ordnung auf dem Dach",
+        "Regelmäßige Querschienen zur Kabelbefestigung",
+        "Ost-West-Orientierung, auch mit Südorientierung möglich",
+        "Ballastierung wahlweise mit Granulat oder Ballaststeinen",
+        "Pflegefreundlich durch 50–70 cm Firstspalt für gute Erreichbarkeit des Gründachs",
+        "Ideal für hohe Windlast und geringe zulässige Dachlast"
+      ],
+      "imagesDescribed": [
+        "Hero-Bild oben: Produkt-Rendering/Foto des AmbiLight-Gründach-Montagesystems auf einem begrünten Flachdach mit Ost-West-aufgeständerten PV-Modulen (Systemname 'AmbiLight Gründach' / Eyebrow 'MONTAGESYSTEM').",
+        "QR-Code mit Bildunterschrift 'HIER GEHT'S ZUM MONTAGE VIDEO!' – Verlinkung zum Montagevideo.",
+        "Deutschland-Karte mit zahlreichen markierten Städten (u. a. Kiel, Hamburg, Bremen, Hannover, Magdeburg, Berlin, Potsdam, Münster, Leipzig, Erfurt, Dresden, Trier, Frankfurt am Main, Saarbrücken, Stuttgart, Nürnberg, Freiburg, München) im Abschnitt 'GERINGE ZULÄSSIGE DACHLAST / IDEAL FÜR HOHE WINDLAST' – illustriert bundesweite Eignung bzw. Wind-/Lastzonen. (Hinweis: nur die Städtebeschriftungen konnten als Text ausgelesen werden, das Kartenbild selbst nicht gerastert.)",
+        "Detail-/Systembild mit orangem Badge 'SEHR BREITE KABELKANÄLE' – zeigt die breiten Kabelkanäle/Kabelführung in Längsrichtung.",
+        "Systembild mit orangem Badge 'AUCH MIT SÜDORIENTIERUNG' – zeigt die Variante mit Süd-Aufständerung.",
+        "Badge 'IDEAL FÜR HOHE WINDLAST' als hervorgehobene Bildunterschrift im Karten-/Lastabschnitt."
+      ]
+    },
+    {
+      "flyerFile": "Ambivolt-Stockschraube_Flyer_A4.pdf",
+      "productName": "Stockschraube",
+      "productLine": "Stockschraube",
+      "roofType": "Wellblech / Welleternit (Welldächer); laut Flyer ideal für hochbelastete Dächer mit extrem hohen Schneelasten. Badge: \"IDEAL FÜR WELLBLECH\", Bildunterschrift: \"EINFACHE MONTAGE AUF WELLETERNIT\".",
+      "siteCategory": "well",
+      "tagline": "SCHNELL MONTIERT, DAUERHAFT STARK!",
+      "subtitle": "Montagesystem",
+      "keyBadges": [
+        "SCHNELL MONTIERBAR",
+        "HOHE MONTAGETOLERANZ",
+        "IDEAL FÜR WELLBLECH"
+      ],
+      "featureSections": [
+        {
+          "heading": "FLEXIBILITÄT & OPTIK",
+          "bullets": [
+            "**Erhältlich in Schwarz oder Silber** – passend zum Moduldesign",
+            "**Optional mit Erdungspins** – für elektrischen Potenzialausgleich",
+            "**Endkappe** für abgerundeten Look"
+          ]
+        },
+        {
+          "heading": "MONTAGE LEICHT GEMACHT",
+          "bullets": [
+            "**Easy-Click-Klemmen** – spart Zeit und Nerven"
+          ]
+        },
+        {
+          "heading": "EXTREM HOHE SCHNEELASTEN? KEIN PROBLEM.",
+          "bullets": [
+            "**Doppelschraubensystem für hochbelastete Dächer** – präzise und sicher montieren",
+            "Mit dem **Easy-Click-Kreuzverbinder** wird nur durch Anziehen einer Schraube das Profil befestigt"
+          ]
+        },
+        {
+          "heading": "OPTIMALER KRAFTFLUSS",
+          "bullets": [
+            "**Noch höhere Tragfähigkeit** durch optimal gewährleisteten Kraftfluss",
+            "**Tragprofil ist direkt über der Stockschraube positionierbar**"
+          ]
+        },
+        {
+          "heading": "ZUSÄTZLICHE FEATURES",
+          "bullets": [
+            "**Nachträglicher Höhenausgleich von bis zu 25 mm**, sogar nach der Montage am Dach",
+            "**Extreme Flexibilität und Tragfähigkeit**",
+            "**Äußerst verwindungs- und biegefest** – für dauerhafte Stabilität",
+            "**Optimale Hinterlüftung**"
+          ]
+        }
+      ],
+      "technicalSpecs": [
+        {
+          "label": "Nachträglicher Höhenausgleich",
+          "value": "bis zu 25 mm (sogar nach der Montage am Dach)"
+        },
+        {
+          "label": "Profilbefestigung (Easy-Click-Kreuzverbinder)",
+          "value": "durch Anziehen nur einer (1) Schraube"
+        },
+        {
+          "label": "Farboptionen",
+          "value": "Schwarz oder Silber"
+        },
+        {
+          "label": "Schraubensystem",
+          "value": "Doppelschraubensystem für hochbelastete Dächer"
+        }
+      ],
+      "targetApplication": "Montagesystem für Wellblech- und Welleternit-Dächer (Welldächer). Besonders geeignet für hochbelastete Dächer mit extrem hohen Schnee- und Traglasten: die Stockschraube (Doppelgewinde-/Doppelschraubensystem) wird in die Unterkonstruktion geschraubt und über einen Easy-Click-Kreuzverbinder mit dem Tragprofil verbunden. Bietet nachträglichen Höhenausgleich, hohe Montagetoleranz und optimale Hinterlüftung.",
+      "certifications": [],
+      "madeInGermany": false,
+      "hasMontageVideo": false,
+      "notableClaims": [
+        "Eyebrow/Kategorielabel \"MONTAGESYSTEM\" über dem Produktnamen \"STOCKSCHRAUBE\"",
+        "Doppelschraubensystem für hochbelastete Dächer – präzise und sicher montieren",
+        "Easy-Click-System: Easy-Click-Klemmen und Easy-Click-Kreuzverbinder; Profil wird durch Anziehen nur einer Schraube befestigt (spart Zeit und Nerven)",
+        "Für extrem hohe Schneelasten geeignet (\"EXTREM HOHE SCHNEELASTEN? KEIN PROBLEM.\")",
+        "Optimaler Kraftfluss: Tragprofil direkt über der Stockschraube positionierbar für noch höhere Tragfähigkeit",
+        "Erhältlich in Schwarz oder Silber, passend zum Moduldesign; Endkappe für abgerundeten Look",
+        "Optional mit Erdungspins für elektrischen Potenzialausgleich",
+        "Nachträglicher Höhenausgleich bis zu 25 mm – sogar nach der Montage am Dach",
+        "Äußerst verwindungs- und biegefest, extreme Flexibilität und Tragfähigkeit, optimale Hinterlüftung",
+        "Speziell für Wellblech / Welleternit ausgelegt; schnell montierbar mit hoher Montagetoleranz"
+      ],
+      "imagesDescribed": [
+        "Titelbereich (Seite 1, links): kleines Eyebrow-Label \"MONTAGESYSTEM\" über der großen Headline \"STOCKSCHRAUBE\"; großes Produktrendering der Stockschraube (Doppelgewinde-/Stockschraube) als Hauptmotiv.",
+        "Oben rechts drei orange runde Badges/Störer mit Text: \"SCHNELL MONTIERBAR\", \"HOHE MONTAGETOLERANZ\", \"IDEAL FÜR WELLBLECH\".",
+        "Detail-Rendering mit Bildunterschrift \"SCHWARZE ENDKLEMME\" – Nahaufnahme einer schwarzen Endklemme (Modul-Randklemme).",
+        "Detail-Rendering mit Bildunterschrift \"SCHWARZE MITTELKLEMME\" – Nahaufnahme einer schwarzen Mittelklemme (Klemme zwischen zwei Modulen).",
+        "Rendering(s) mit Bildunterschrift \"OPTIMALER KRAFTFLUSS\" (Unterschrift erscheint zweimal) – Darstellung des Doppelschraubensystems/Easy-Click-Kreuzverbinders mit Tragprofil direkt über der Stockschraube; visualisiert Kraftfluss und Montagedetail.",
+        "Rendering/Foto mit Bildunterschrift \"EINFACHE MONTAGE AUF WELLETERNIT\" – Montagesituation der Stockschraube auf einem Welleternit-/Wellblechdach.",
+        "Fußzeile mit Firmen-/Kontaktangaben: AmbiVolt Energietechnik GmbH • Oberalmsham 1 • 84140 Gangkofen · +49 8722 966 85 77 · anfrage@ambivolt.de · www.ambivolt.de.",
+        "Hinweis: Bilder konnten nicht visuell gerendert werden (keine PDF-Render-Tools verfügbar); Beschreibungen basieren auf den extrahierten Bildunterschriften, den Layout-Positionen und dem Produktkontext."
+      ]
+    }
+  ]
+}

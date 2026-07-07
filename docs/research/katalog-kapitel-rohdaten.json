@@ -1,0 +1,2270 @@
+[
+  {
+    "kind": "easyclick",
+    "data": {
+      "chapterId": "easyclick",
+      "title": "EasyClick-Klemmsystem",
+      "intro": "Das Easy Click System von AmbiVolt: 1) Schräg ansetzen, 2) Einfach Reindrehen. Die EasyClick Klemmen können unter leichter Drehung bei minimalem Kraftaufwand von oben in das Profil AMB P 40 eingeklickt werden. Die EasyClick Klemme hat eine Haltekraft von bis zu 6 kN (entspricht 600 kg). EasyClick Klemmen wurden über die FEM Analyse optimiert – dadurch wird eine hohe Tragkraft bei moderatem Materialeinsatz erreicht.",
+      "products": [
+        {
+          "id": "easyclick-mittelklemme",
+          "name": "EasyClick Mittelklemme",
+          "layout": "B",
+          "eyebrow": "EasyClick-Klemmsystem",
+          "subtitle": "Mittelklemme für EasyClick System",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Komplett vormontiert",
+            "Mit Klemmenhalter für leichtere Montage",
+            "Für Modulhöhen von 28 – 49 mm (Spezialausführungen bis 54 mm)",
+            "Fressen unmöglich durch galvanisierte Edelstahlschrauben",
+            "Ausführungen: Silber · Schwarz · mit Erdungsfunktion · Schwarz mit Erdungsfunktion",
+            "Die EasyClick Klemmen können unter leichter Drehung bei minimalem Kraftaufwand von oben in das Profil AMB P 40 eingeklickt werden"
+          ],
+          "specs": [
+            {
+              "label": "Modulhöhen",
+              "value": "28 – 49 mm, Spezialausführungen bis 54 mm"
+            },
+            {
+              "label": "Haltekraft",
+              "value": "bis zu 6 kN (entspricht 600 kg)"
+            },
+            {
+              "label": "Drehmoment",
+              "value": "ca. 5 – 10 Nm (durch die extrem gleitfähige Schraube)"
+            },
+            {
+              "label": "Schrauben",
+              "value": "galvanisierte Edelstahlschrauben"
+            },
+            {
+              "label": "Ausführungen",
+              "value": "Silber · Schwarz · mit Erdungsfunktion · Schwarz mit Erdungsfunktion"
+            },
+            {
+              "label": "Legierungen (EasyClick System)",
+              "value": "EN AW6063 T66 (Rm ≥ 245 N/mm²; Rp0,2 ≥ 200 N/mm²) · EN AW6005-A T6 (Rm ≥ 255 N/mm²; Rp0,2 ≥ 215 N/mm²) · A2"
+            }
+          ],
+          "keySpecs": [
+            {
+              "k": "Modulhöhen",
+              "v": "28 – 49",
+              "unit": "mm"
+            },
+            {
+              "k": "Haltekraft",
+              "v": "bis zu 6",
+              "unit": "kN"
+            },
+            {
+              "k": "Drehmoment",
+              "v": "ca. 5 – 10",
+              "unit": "Nm"
+            }
+          ],
+          "chips": [
+            "Komplett vormontiert",
+            "Haltekraft bis 6 kN",
+            "FEM-optimiert"
+          ],
+          "image": "/images/products/ambivolt-easyclick-mittelklemme-01.jpg",
+          "photos": [
+            {
+              "src": "/images/products/MittelklemmeSet-Schwarz.jpg",
+              "caption": "Mittelklemmen-Set Schwarz"
+            }
+          ],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        },
+        {
+          "id": "easyclick-endklemme",
+          "name": "EasyClick Endklemme",
+          "layout": "B",
+          "eyebrow": "EasyClick-Klemmsystem",
+          "subtitle": "Endklemme für EasyClick System",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Automatische Anpassung an Modulhöhe",
+            "Komplett vormontiert",
+            "Für Modulhöhen von 24 – 46 mm (Spezialausführungen bis 52 mm)",
+            "Fressen unmöglich durch galvanisierte Edelstahlschrauben",
+            "Ausführungen: Silber · Schwarz · mit Erdungsfunktion · Schwarz mit Erdungsfunktion",
+            "Die EasyClick Klemmen können unter leichter Drehung bei minimalem Kraftaufwand von oben in das Profil AMB P 40 eingeklickt werden"
+          ],
+          "specs": [
+            {
+              "label": "Modulhöhen",
+              "value": "24 – 46 mm, Spezialausführungen bis 52 mm"
+            },
+            {
+              "label": "Haltekraft",
+              "value": "bis zu 6 kN (entspricht 600 kg)"
+            },
+            {
+              "label": "Drehmoment",
+              "value": "ca. 5 – 10 Nm (durch die extrem gleitfähige Schraube)"
+            },
+            {
+              "label": "Schrauben",
+              "value": "galvanisierte Edelstahlschrauben"
+            },
+            {
+              "label": "Ausführungen",
+              "value": "Silber · Schwarz · mit Erdungsfunktion · Schwarz mit Erdungsfunktion"
+            },
+            {
+              "label": "Legierungen (EasyClick System)",
+              "value": "EN AW6063 T66 (Rm ≥ 245 N/mm²; Rp0,2 ≥ 200 N/mm²) · EN AW6005-A T6 (Rm ≥ 255 N/mm²; Rp0,2 ≥ 215 N/mm²) · A2"
+            }
+          ],
+          "keySpecs": [
+            {
+              "k": "Modulhöhen",
+              "v": "24 – 46",
+              "unit": "mm"
+            },
+            {
+              "k": "Haltekraft",
+              "v": "bis zu 6",
+              "unit": "kN"
+            },
+            {
+              "k": "Drehmoment",
+              "v": "ca. 5 – 10",
+              "unit": "Nm"
+            }
+          ],
+          "chips": [
+            "Automatische Anpassung an Modulhöhe",
+            "Komplett vormontiert",
+            "Haltekraft bis 6 kN"
+          ],
+          "image": "/images/products/ambivolt-easyclick-endklemme.jpg",
+          "photos": [
+            {
+              "src": "/images/products/EndklemmeSet-Schwarz.jpg",
+              "caption": "Endklemmen-Set Schwarz"
+            }
+          ],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        },
+        {
+          "id": "easyclick-mittelklemme-power",
+          "name": "EasyClick Mittelklemme Power",
+          "layout": "C",
+          "eyebrow": "EasyClick-Klemmsystem",
+          "subtitle": "Mittelklemme für EasyClick System – identische Eigenschaften der klassischen EasyClick Klemme.",
+          "badges": [
+            "DEMNÄCHST"
+          ],
+          "featureSections": [],
+          "bullets": [
+            "Robuster gegen zu festes Anziehen der Schraube",
+            "Noch einfacher zu bedienen",
+            "Noch sicherer in der Verarbeitung"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": null,
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        },
+        {
+          "id": "easyclick-endklemme-power",
+          "name": "EasyClick Endklemme Power",
+          "layout": "C",
+          "eyebrow": "EasyClick-Klemmsystem",
+          "subtitle": "Endklemme für EasyClick System – identische Eigenschaften der klassischen EasyClick Klemme.",
+          "badges": [
+            "DEMNÄCHST"
+          ],
+          "featureSections": [],
+          "bullets": [
+            "Robuster gegen zu festes Anziehen der Schraube",
+            "Noch einfacher zu bedienen",
+            "Noch sicherer in der Verarbeitung"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": null,
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        },
+        {
+          "id": "easyclick-kreuzverbinder",
+          "name": "EasyClick Kreuzverbinder",
+          "layout": "C",
+          "eyebrow": "EasyClick-Klemmsystem",
+          "subtitle": "Kreuzverbinder für EasyClick System – das ideale Verbindungsstück zum Profil AMB P 40.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Verbindet zwei quer zueinander liegende Profile – für Kreuzschienenmontage",
+            "Weitere Varianten: mit Nutenbaustein oder mit M8 Schraube zur Anbindung an andere Systeme",
+            "Ermöglicht Kreuzverbindungen unter AMB P 40 Profilen ohne langwierige Einfädelungsprozesse. Eindrehen, festschrauben, fertig.",
+            "Erhältlich mit und ohne Anker, mit verschiedenster Schrauben und Muttern Variation, speziell für Ihren Anwendungsfall"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": "/images/products/ambivolt-easyclick-kreuzverbinder.jpg",
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        },
+        {
+          "id": "modulprofil-amb-p-40",
+          "name": "Modulprofil AMB-P-40",
+          "layout": "C",
+          "eyebrow": "EasyClick-Klemmsystem",
+          "subtitle": "Sehr tragfähiges Profil, da es das Material genau an den richtigen Stellen besitzt.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Passend für alle Schrägdachsysteme",
+            "In pressblank und in schwarz eloxiert",
+            "In Längen 240, 360, 480, 595 cm – auf Wunsch auch andere Längen möglich",
+            "Maximale Arbeitszeitersparnis durch die Verbindung des AMB P 40 Profils mit dem EasyClick System: Klemmen, eindrehen und festschrauben. Fertig."
+          ],
+          "specs": [
+            {
+              "label": "Längen",
+              "value": "240, 360, 480, 595 cm (auf Wunsch auch andere Längen möglich)"
+            },
+            {
+              "label": "Ausführungen",
+              "value": "pressblank, schwarz eloxiert"
+            }
+          ],
+          "keySpecs": [],
+          "chips": [],
+          "image": "/images/products/ambivolt-profil-amb-p-40.jpg",
+          "photos": [
+            {
+              "src": "/images/products/Profil-AMB_P_40-Zusammenbau-5.jpg",
+              "caption": "Profil AMB P 40 im Zusammenbau"
+            }
+          ],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        },
+        {
+          "id": "profilverbinder",
+          "name": "Profilverbinder",
+          "layout": "C",
+          "eyebrow": "EasyClick-Klemmsystem",
+          "subtitle": "Innenliegender Verbinder, der bei der Montage nicht stört.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Verbindungsstück für AMB P 40 Profile, 250 mm lang",
+            "Mit selbstbohrenden Schrauben im Profil AMB P 40 montierbar",
+            "Verwendung von nur einer Schraube pro Profilverbinder, um Dehnungsfugen einzubauen",
+            "Verwendung von zwei Schrauben, um eine kraftschlüssige Verbindung zwischen Profilen herzustellen"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": "/images/products/ambivolt-profilverbinder.jpg",
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        },
+        {
+          "id": "verbinderschrauben",
+          "name": "Verbinderschrauben",
+          "layout": "C",
+          "eyebrow": "EasyClick-Klemmsystem",
+          "subtitle": "Zugehörige Schrauben 5,5×19 mm mit Außensechskant Antrieb.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Zugehörige Schrauben zum Profilverbinder",
+            "5,5 × 19 mm",
+            "Mit Außensechskant Antrieb"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": "/images/products/7504_55_19.gif",
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        },
+        {
+          "id": "endkappen",
+          "name": "Endkappen",
+          "layout": "C",
+          "eyebrow": "EasyClick-Klemmsystem",
+          "subtitle": "Passende Endkappen zum Profil AMB-P-40.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Schwarzes Endstück, um einen optisch ansprechenden Abschluss im Profil zu erzeugen",
+            "**Endkappe** für abgerundeten Look"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": "/images/products/Endkappe1.webp",
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        },
+        {
+          "id": "modulprofil-amb-p-85",
+          "name": "Modulprofil AMB-P-85",
+          "layout": "C",
+          "eyebrow": "EasyClick-Klemmsystem",
+          "subtitle": "Sehr tragfähiges Profil mit 85 mm Bauhöhe.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Spannt auch über 2 m von Pfette zu Pfette",
+            "Passend für alle Schrägdachsysteme",
+            "In pressblank – auf Wunsch auch schwarz oder in Wunschfarbe eloxiert",
+            "In Wunschlänge – auf Wunsch auch andere Längen möglich"
+          ],
+          "specs": [
+            {
+              "label": "Bauhöhe",
+              "value": "85 mm"
+            },
+            {
+              "label": "Spannweite",
+              "value": "spannt auch über 2 m von Pfette zu Pfette"
+            }
+          ],
+          "keySpecs": [],
+          "chips": [],
+          "image": null,
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        },
+        {
+          "id": "schwerer-profilverbinder",
+          "name": "Schwerer Profilverbinder",
+          "layout": "C",
+          "eyebrow": "EasyClick-Klemmsystem",
+          "subtitle": "Innenliegender schwerer Verbinder für AMB-P-85.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Innenliegender Verbinder",
+            "Passend für Modulprofil AMB-P-85"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": null,
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        },
+        {
+          "id": "erdungsklemme",
+          "name": "Erdungsklemme",
+          "layout": "C",
+          "eyebrow": "EasyClick-Klemmsystem",
+          "subtitle": "Zur Verbindung eines Aluminiumrunddrahtes mit unserem Profil.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Zur Verbindung eines Aluminiumrunddrahtes mit unserem Profil"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": null,
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        }
+      ],
+      "notes": "Kein aktueller Flyer für das EasyClick-Kapitel vorhanden — Hauptquelle ist Katalog 2025-1 (S. 4–7), ergänzt um Website-Texte (product-details.json, Seite ergaenzungsprodukte-photovoltaik: Haltekraft 6 kN, Drehmoment ca. 5–10 Nm, FEM-Analyse, Kreuzklemmen-/Profilverbinder-Details). QUELLENKONFLIKT Klemmbereich: Katalog 2025-1 nennt Modulhöhen 28–49 mm (Mittelklemme, Spezial bis 54) bzw. 24–46 mm (Endklemme, Spezial bis 52); die Website nennt für beide \"Klemmbereich von 26-40 mm\"; die 2026er Flyer (AmbiHook V5/V6, AmbiTop) nennen \"Klemmbereich 28 – 45 mm\". Ich habe den Katalog übernommen — bitte mit der Firma klären. QUELLENKONFLIKT AMB-P-40-Längen: Katalog \"240, 360, 480, 595 cm\" vs. Website \"2,40m, 3,60m, 4,40m, 4,80m, 6,20m\" — Katalog übernommen. FEHLENDE BILDER: EasyClick Mittelklemme Power, EasyClick Endklemme Power (ggf. Bilder der klassischen Klemmen als Platzhalter, Eigenschaften laut Katalog identisch), Modulprofil AMB-P-85, Schwerer Profilverbinder, Erdungsklemme. Namenskonflikt: Der Kreuzverbinder heißt auf der Website \"EasyClick Kreuzklemme\" — Katalogbezeichnung \"Kreuzverbinder\" verwendet. Endkappen: Bullet \"**Endkappe** für abgerundeten Look\" stammt aus den 2026er Flyern (AmbiHook V5/AmbiTop), Rest aus Katalog/Website; Website-Tippfehler \"Abschuss\" zu \"Abschluss\" korrigiert. Legierungsangaben (EN AW6063 T66 / EN AW6005-A T6 / A2) gelten laut Katalog für das gesamte EasyClick-System; als Spec bei Mittel- und Endklemme eingetragen. Sehr dünne Quellenlage (je 1 Satz im Katalog): Erdungsklemme (nur 1 Bullet möglich), Schwerer Profilverbinder, Verbinderschrauben. Keine Videos: product-details.json enthält für keines der 12 Kapitel-Produkte ein YouTube-Embed. Kapitel-Intro kombiniert Katalog-S.4-Text (2-Schritt-Montage) mit Website-Text (Einklicken ins Profil, 6 kN, FEM) — wortgetreu übernommen."
+    }
+  },
+  {
+    "kind": "trapez",
+    "data": {
+      "chapterId": "trapez",
+      "title": "Trapezblechsysteme",
+      "intro": "Wir bieten innovative Lösungen für die Installation von Photovoltaik-Systemen auf Trapezblech-Dächern. Unsere Produkte sind speziell entwickelt, um eine schnelle und einfache Installation zu gewährleisten.",
+      "products": [
+        {
+          "id": "ambinano-q",
+          "name": "AmbiNano Q",
+          "layout": "B",
+          "eyebrow": "MONTAGESYSTEM",
+          "subtitle": "Trapezblechsystem für geringste Kosten",
+          "badges": [
+            "SCHNELLSTE MONTAGE",
+            "IDEAL FÜR TRAPEZBLECHDÄCHER",
+            "MIT EASY-CLICK-KLEMME",
+            "IDEAL FÜR QUERMONTAGE"
+          ],
+          "featureSections": [],
+          "bullets": [
+            "**Easy-Click-Klemmen** – spart Zeit und Nerven",
+            "**Enorme Haltekraft** durch die Anordnung der Dünnblechschrauben – kein Vorbohren nötig",
+            "**Schnelle Montage** und hoher Ausgleich von Montagetoleranzen",
+            "Die AmbiNano Q Kurzschienen werden parallel zum Trapezblech auf der Hochsicke montiert, um Quermontage der Module zu ermöglichen.",
+            "**Erhältlich in Schwarz oder Silber** – passend zum Moduldesign",
+            "**Optional mit Erdungspins** – für elektrischen Potenzialausgleich"
+          ],
+          "specs": [],
+          "keySpecs": [
+            {
+              "k": "Montage",
+              "v": "Quermontage",
+              "unit": ""
+            },
+            {
+              "k": "Dünnblechschrauben",
+              "v": "4,5 × 25",
+              "unit": "mm"
+            },
+            {
+              "k": "Bohrungen",
+              "v": "6",
+              "unit": "Stück"
+            }
+          ],
+          "chips": [
+            "EPDM aufgeklebt",
+            "Bei geringen Schneelasten",
+            "Kein Vorbohren nötig"
+          ],
+          "image": "/images/products/ambivolt-ambinano-q-01-02-web.jpg",
+          "photos": [],
+          "video": null,
+          "gapNote": null
+        },
+        {
+          "id": "ambinano-h",
+          "name": "AmbiNano H",
+          "layout": "B",
+          "eyebrow": "MONTAGESYSTEM",
+          "subtitle": "Trapezblechsystem für geringe Kosten",
+          "badges": [
+            "SCHNELLSTE MONTAGE",
+            "IDEAL FÜR TRAPEZBLECHDÄCHER",
+            "MIT EASY-CLICK-KLEMME"
+          ],
+          "featureSections": [],
+          "bullets": [
+            "**Easy-Click-Klemmen** – spart Zeit und Nerven",
+            "**Enorme Haltekraft** durch die Anordnung der Dünnblechschrauben – kein Vorbohren nötig",
+            "Die bis zu 435mm langen Schienen werden horizontal über zwei Hochsicken montiert, um Hochkant-Montage zu ermöglichen.",
+            "Durch die kurzen Profillängen sind häufig keine Dehnungsfugen notwendig.",
+            "Für Dünnblechschrauben 4,5*25",
+            "**Erhältlich in Schwarz oder Silber** – passend zum Moduldesign"
+          ],
+          "specs": [],
+          "keySpecs": [
+            {
+              "k": "Montage",
+              "v": "Hochkant",
+              "unit": ""
+            },
+            {
+              "k": "Bohrungen",
+              "v": "8",
+              "unit": "Stück"
+            },
+            {
+              "k": "Schienenlänge",
+              "v": "bis 435",
+              "unit": "mm"
+            }
+          ],
+          "chips": [
+            "EPDM aufgeklebt",
+            "Kein Vorbohren nötig"
+          ],
+          "image": "/images/products/ambivolt-ambinano-h-01-web.jpg",
+          "photos": [],
+          "video": null,
+          "gapNote": "Hochkant-Details aus Katalog 2025-1 und Website — der Flyer AmbiNano/AmbiU deckt primär die Quermontage ab"
+        },
+        {
+          "id": "ambiu-q",
+          "name": "AmbiU Q",
+          "layout": "C",
+          "eyebrow": "TRAPEZBLECHSYSTEM",
+          "subtitle": "Trapezblechsystem für geringe Kosten bei erhöhtem Aufbau",
+          "badges": [
+            "FÜR MEHR HINTERLÜFTUNG"
+          ],
+          "featureSections": [],
+          "bullets": [
+            "**Optimale Hinterlüftung** durch hohen Abstand zwischen Hochsicke und Modul",
+            "Mit EasyClick System – Quermontage, EPDM aufgeklebt",
+            "6-fach vorgelocht für Dünnblechschrauben 4,5*25",
+            "Bauhöhe 52 mm · Länge 132 mm"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": "/images/products/ambiu-q-01.jpg",
+          "photos": [],
+          "video": null,
+          "gapNote": "Maße aus Katalog 2025-1 — der Flyer AmbiNano/AmbiU nennt für AmbiU nur die Hinterlüftung"
+        },
+        {
+          "id": "ambiu-h",
+          "name": "AmbiU H",
+          "layout": "C",
+          "eyebrow": "TRAPEZBLECHSYSTEM",
+          "subtitle": "Trapezblechsystem für geringe Kosten bei erhöhtem Aufbau",
+          "badges": [
+            "FÜR MEHR HINTERLÜFTUNG"
+          ],
+          "featureSections": [],
+          "bullets": [
+            "8-fach vorgelocht für Dünnblechschrauben 4,5*25",
+            "Bauhöhe 52 mm · Standardmäßig 435 mm Baulänge",
+            "Sonderlösung falls AmbiMicro nicht funktioniert",
+            "Mit EasyClick System – EPDM aufgeklebt"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": "/images/products/AmbiUQ-Bilder-Realistisch_page1_image6.jpg",
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — H-Variante ohne aktuellen Flyer-Inhalt"
+        },
+        {
+          "id": "ambimicro-h",
+          "name": "AmbiMicro H",
+          "layout": "B",
+          "eyebrow": "MONTAGESYSTEM",
+          "subtitle": "Trapezblechsystem mit doppelter Verschraubung",
+          "badges": [
+            "IDEAL FÜR HOCHKANTMONTAGE",
+            "GEEIGNET FÜR TRAPEZBLECHDÄCHER",
+            "MIT EASY-CLICK-KLEMME"
+          ],
+          "featureSections": [],
+          "bullets": [
+            "**Easy-Click-Klemmen** – spart Zeit und Nerven",
+            "**Enorme Haltekraft** durch die Anordnung der Dünnblechschrauben – kein Vorbohren nötig",
+            "Kein Eindringen von Wasser: Vier Bohrungen mit EPDM-Streifen an der Unterseite – auch die beiliegenden Schrauben verfügen über eine Dichtscheibe",
+            "**Optimale Hinterlüftung** durch hohen Abstand zwischen Hochsicke und Modul",
+            "Für Direktverschraubung und mit Profilen",
+            "**Erhältlich in Schwarz oder Silber** – passend zum Moduldesign"
+          ],
+          "specs": [],
+          "keySpecs": [
+            {
+              "k": "Bauhöhe",
+              "v": "50",
+              "unit": "mm"
+            },
+            {
+              "k": "Standard Baulänge",
+              "v": "435",
+              "unit": "mm"
+            },
+            {
+              "k": "Sickenabstände",
+              "v": "207 – 333",
+              "unit": "mm"
+            }
+          ],
+          "chips": [
+            "Doppelter Halt",
+            "Hochkant Montage",
+            "EPDM aufgeklebt"
+          ],
+          "image": "/images/products/ambivolt-ambimicro-h-01-1000x600px.jpg",
+          "photos": [],
+          "video": null,
+          "gapNote": null
+        },
+        {
+          "id": "ambitop",
+          "name": "AmbiTop",
+          "layout": "A",
+          "eyebrow": "MONTAGESYSTEM",
+          "subtitle": "Trapezblech- / Sandwichsystem mit direkter Anbindung an die Pfetten",
+          "badges": [
+            "OPTIMAL FÜR SANDWICH-DÄCHER",
+            "EXTREM TRAGFÄHIG",
+            "MIT EASY-CLICK-KLEMME"
+          ],
+          "featureSections": [
+            {
+              "heading": "FLEXIBILITÄT & OPTIK",
+              "bullets": [
+                "Erhältlich in **Schwarz oder Silber** – passend zum Moduldesign",
+                "**Optional mit Erdungspins** – für elektrischen Potenzialausgleich",
+                "**Endkappe für abgerundeten Look**"
+              ]
+            },
+            {
+              "heading": "MONTAGE LEICHT GEMACHT",
+              "bullets": [
+                "**Easy-Click-Klemmen** – spart Zeit und Nerven",
+                "**Klemmbereich 28 – 45 mm** – für gängige Modultypen optimiert"
+              ]
+            },
+            {
+              "heading": "BESONDERE DACHGEOMETRIEN? KEIN PROBLEM.",
+              "bullets": [
+                "Optimal geeignet für **Sandwich-Dächer**",
+                "**Reduzierte Belastung** der Oberschale durch direkte Anbindung an die Pfette",
+                "Selbst für **hohe Pfettenabstände von 2–3 m** geeignet",
+                "**Schnelle Montage** und hoher Ausgleich von Montagetoleranzen"
+              ]
+            },
+            {
+              "heading": "ZUSÄTZLICHE FEATURES",
+              "bullets": [
+                "Profil in **Schwarz oder Silber** erhältlich",
+                "**Innenliegender Profilverbinder** – robuste Verbindung, unsichtbares Finish",
+                "Äußerst **verwindungs- und biegefest** – für dauerhafte Stabilität"
+              ]
+            }
+          ],
+          "bullets": [
+            "AmbiTop ist speziell dazu entwickelt worden, um bei Isopaneelen eine Unterkonstruktion zu ermöglichen, die sich auf der Pfette abstützt, um nicht das Paneel mit dem gesamten Gewicht zu belasten.",
+            "Hierbei wird die AmbiTop Kurzschiene auf dem Isopaneel über der Pfette abgelegt und mit einer langen Selbstbohrschraube in der Pfette verschraubt.",
+            "In die Kurzschiene wird ein Profil gelegt und mit der bereits vormontierten Schraube befestigt.",
+            "Soll verhindern, dass sich die Trapez-Oberschale durch zu hohe Belastung von der Dämmung löst"
+          ],
+          "specs": [
+            {
+              "label": "Klemmbereich",
+              "value": "28 – 45 mm"
+            },
+            {
+              "label": "Geeignete Pfettenabstände",
+              "value": "hohe Pfettenabstände von 2–3 m"
+            },
+            {
+              "label": "Montage",
+              "value": "Quermontage ideal"
+            },
+            {
+              "label": "Farbvarianten (Klemmen & Profil)",
+              "value": "Schwarz oder Silber"
+            },
+            {
+              "label": "Haltbarkeitsgarantie",
+              "value": "10 Jahre (auf dieses Montagesystem)"
+            },
+            {
+              "label": "Zertifizierung",
+              "value": "ISO 9001 (eingetragene Firma) · Made in Germany"
+            }
+          ],
+          "keySpecs": [],
+          "chips": [],
+          "image": "/images/products/AmbiTop_Landscape-Zusammengebaut2-Layout1_page1_image8.jpg",
+          "photos": [
+            {
+              "src": "/images/products/AmbiTop_Landscape-Zusammengebaut2-Layout1_page1_image7.jpg",
+              "caption": "AmbiTop – Systemdarstellung"
+            },
+            {
+              "src": "/images/products/AmbiTop_Landscape-Zusammengebaut2-Layout1_page1_image3.jpg",
+              "caption": "AmbiTop – Detailansicht"
+            }
+          ],
+          "video": null,
+          "gapNote": null
+        },
+        {
+          "id": "duennblechschraube",
+          "name": "Dünnblechschraube",
+          "layout": "C",
+          "eyebrow": "ZUBEHÖR",
+          "subtitle": "Für alle Trapezblechsysteme verwendbar",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Die Dichtscheibe der Schraube in Verbindung mit der EPDM Schicht der Kurzschiene dichten die Dachdurchdringung optimal ab.",
+            "Bohrt sich spanfrei in das Blech und formt dabei einen Trichter mit enormer Haltekraft.",
+            "Kein Vorbohren nötig"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": "/images/products/ambivolt-duennblechschraube_01.jpg",
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Website — kein aktueller Flyer"
+        }
+      ],
+      "notes": "Quellenkonflikte und Hinweise für den Assembler: (1) Bohrungszahlen widersprechen sich: Der Flyer AmbiNano/AmbiU nennt \"Zwei Bohrungen mit EPDM-Streifen an der Unterseite\", die Website nennt für AmbiNano Q 6 und für AmbiNano H 8 Bohrungen; der Flyer AmbiMicro/AmbiU nennt \"Vier Bohrungen mit EPDM-Streifen\", die Website für AmbiMicro H 16 Bohrungen. In den keySpecs wurden die Website-/Katalogwerte verwendet, der Flyer-Wortlaut nur beim AmbiMicro-Wasser-Bullet übernommen — vermutlich zählt der Flyer anders (z. B. EPDM-Streifen statt Schraubenlöcher). Bitte beim Kunden verifizieren. (2) Katalog 2025-1 listet bei AmbiU H \"Quermontage\", obwohl H bei allen anderen Produkten für Hochkant steht (vermutlich Copy-Paste-Fehler im Original) — dieser Punkt wurde NICHT in die Bullets übernommen; bitte klären. (3) Kein eigenes Bild für AmbiU H vorhanden — ersatzweise AmbiUQ-Bilder-Realistisch_page1_image6.jpg (AmbiU-Q-Aufnahme derselben Produktfamilie) gesetzt. (4) AmbiTop-Foto-Captions sind neutral formuliert (\"Systemdarstellung\"/\"Detailansicht\"), da zu diesen Bilddateien keine Original-Bildunterschriften vorliegen. (5) Keine Montagevideos für Trapezblech-Produkte in product-details.json → video überall null. (6) AmbiMicro-H-Maße (50 mm Bauhöhe, 435 mm Baulänge, Sickenabstände 207–333 mm) stammen aus Katalog 2025-1, Marketinginhalte aus dem Flyer AmbiMicro/AmbiU. (7) AmbiTop-specs kombinieren Flyer (Klemmbereich, Pfettenabstände, Garantie, ISO 9001, Made in Germany) mit Katalog (\"Quermontage ideal\"); die bullets stammen aus Website-Beschreibung und Katalog. (8) Kapitel-Intro stammt von der Website (Trapezblechsysteme-Seite); Katalog 2025-1 hat für Kapitel 5 keinen Einleitungstext. (9) Sandwich-Dächer sind über AmbiTop abgedeckt (Flyer-Badge \"OPTIMAL FÜR SANDWICH-DÄCHER\"); ein separates Sandwich-Produkt existiert in keiner Quelle."
+    }
+  },
+  {
+    "kind": "falz-well",
+    "data": {
+      "chapterId": "falz-well",
+      "title": "Falzblech- & Welldachsysteme",
+      "intro": "Unsere Systeme sind speziell für die Montage auf Falzblechdächern entwickelt worden und bieten eine einfache und schnelle Installation sowie eine hohe Stabilität und Langlebigkeit. Unsere Produkte sind speziell entwickelt, um die Installation von Photovoltaik-Modulen auf Dächern so einfach und effizient wie möglich zu gestalten. Entdecken Sie unsere Montage-System-Produkte für Dächer mit Wellplatten.",
+      "products": [
+        {
+          "id": "falz-falzblechklemme-alu",
+          "name": "Falzblechklemme Alu",
+          "layout": "B",
+          "eyebrow": "FALZBLECHSYSTEME",
+          "subtitle": "Klemmsystem für Falzbleche und Systembleche",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Sehr leicht zu montieren",
+            "Universelle Falzklemme, geeignet für die meisten Rundfalze, sowie Stehfalze",
+            "Über das EasyClick System kompatibel mit dem Profil AMB P 40, sowie mit Modulklemmen",
+            "Längsauslegung mit EasyClick Kreuzklemmen und AMB P 40 Profilen",
+            "Querauslegung auch ohne Profile möglich, mit Modulklemmung direkt am Falz",
+            "Hinweis: Da Falzbleche sehr empfindlich auf Längenausdehnung reagieren, wird empfohlen nach jedem vierten Modul eine Dehnfuge einzubauen."
+          ],
+          "specs": [],
+          "keySpecs": [
+            {
+              "k": "Bauhöhe",
+              "v": "73",
+              "unit": "mm"
+            },
+            {
+              "k": "Innenhöhe (vom Auflager weg gemessen)",
+              "v": "30",
+              "unit": "mm"
+            },
+            {
+              "k": "Innenbreite",
+              "v": "28",
+              "unit": "mm"
+            }
+          ],
+          "chips": [
+            "Quermontage direkt",
+            "Hochkantmontage mit Profilen",
+            "Erhöhte Bodenfreiheit"
+          ],
+          "image": "/images/products/ambivolt-falzblechklemme-alu.jpg",
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 (S. 11) + Website falzblechsysteme — kein aktueller Flyer"
+        },
+        {
+          "id": "well-stockschraube",
+          "name": "Stockschraube",
+          "layout": "A",
+          "eyebrow": "MONTAGESYSTEM",
+          "subtitle": "SCHNELL MONTIERT, DAUERHAFT STARK!",
+          "badges": [
+            "SCHNELL MONTIERBAR",
+            "HOHE MONTAGETOLERANZ",
+            "IDEAL FÜR WELLBLECH"
+          ],
+          "featureSections": [
+            {
+              "heading": "FLEXIBILITÄT & OPTIK",
+              "bullets": [
+                "**Erhältlich in Schwarz oder Silber** – passend zum Moduldesign",
+                "**Optional mit Erdungspins** – für elektrischen Potenzialausgleich",
+                "**Endkappe** für abgerundeten Look"
+              ]
+            },
+            {
+              "heading": "MONTAGE LEICHT GEMACHT",
+              "bullets": [
+                "**Easy-Click-Klemmen** – spart Zeit und Nerven"
+              ]
+            },
+            {
+              "heading": "EXTREM HOHE SCHNEELASTEN? KEIN PROBLEM.",
+              "bullets": [
+                "**Doppelschraubensystem für hochbelastete Dächer** – präzise und sicher montieren",
+                "Mit dem **Easy-Click-Kreuzverbinder** wird nur durch Anziehen einer Schraube das Profil befestigt"
+              ]
+            },
+            {
+              "heading": "OPTIMALER KRAFTFLUSS",
+              "bullets": [
+                "**Noch höhere Tragfähigkeit** durch optimal gewährleisteten Kraftfluss",
+                "**Tragprofil ist direkt über der Stockschraube positionierbar**"
+              ]
+            },
+            {
+              "heading": "ZUSÄTZLICHE FEATURES",
+              "bullets": [
+                "**Nachträglicher Höhenausgleich von bis zu 25 mm**, sogar nach der Montage am Dach",
+                "**Extreme Flexibilität und Tragfähigkeit**",
+                "**Äußerst verwindungs- und biegefest** – für dauerhafte Stabilität",
+                "**Optimale Hinterlüftung**"
+              ]
+            }
+          ],
+          "bullets": [
+            "Geeignet für Welldächer mit normalem Sparrenabstand",
+            "Kompatibel mit unserem Standardprofil AMB P 40",
+            "Abdichtung der Dachdurchdringung mit bereits vormontiertem EPDM Gummi"
+          ],
+          "specs": [
+            {
+              "label": "Nachträglicher Höhenausgleich",
+              "value": "bis zu 25 mm (sogar nach der Montage am Dach)"
+            },
+            {
+              "label": "Profilbefestigung (Easy-Click-Kreuzverbinder)",
+              "value": "durch Anziehen nur einer (1) Schraube"
+            },
+            {
+              "label": "Schraubensystem",
+              "value": "Doppelschraubensystem für hochbelastete Dächer"
+            },
+            {
+              "label": "Farboptionen",
+              "value": "Schwarz oder Silber"
+            },
+            {
+              "label": "Geeignete Dachform",
+              "value": "Wellblech / Welleternit (Welldächer)"
+            },
+            {
+              "label": "Abdichtung Dachdurchdringung",
+              "value": "bereits vormontierter EPDM Gummi"
+            },
+            {
+              "label": "Profilkompatibilität",
+              "value": "Standardprofil AMB P 40"
+            }
+          ],
+          "keySpecs": [],
+          "chips": [],
+          "image": "/images/products/ambivolt-stockschraubenset.jpg",
+          "photos": [
+            {
+              "src": "/images/products/WelldachsetsMontiert-Realistisch_page1_image6.jpg",
+              "caption": "EINFACHE MONTAGE AUF WELLETERNIT"
+            }
+          ],
+          "video": null,
+          "gapNote": null
+        },
+        {
+          "id": "well-welldach-set",
+          "name": "Welldach-Set",
+          "layout": "C",
+          "eyebrow": "WELLDACHSYSTEME",
+          "subtitle": "Geeignet für Welldächer mit hohem Sparrenabstand.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Abdichtung der Dachdurchdringung mit bereits vormontiertem EPDM Gummi",
+            "Kompatibel mit unserem Standardprofil AMB P 40"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": "/images/products/ambivolt-Welldachset.jpg",
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Website welldachsysteme — kein aktueller Flyer, fehlt auch im Katalog 2025-1"
+        }
+      ],
+      "notes": "WICHTIG: Welldach fehlt im alten Katalog 2025-1 KOMPLETT — weder Stockschraube noch Welldach-Set sind dort enthalten (Inhaltsverzeichnis springt von Falzblechklemme S. 11 zu AmbiHook S. 12). Der Soll-Umfang für Welldach ist hier ausschließlich über den neuen Stockschrauben-Flyer (2026) und die Website welldachsysteme abgedeckt. Weitere Hinweise: (1) Namensdifferenz: Flyer nennt das Produkt \"Stockschraube\" (Eyebrow \"MONTAGESYSTEM\"), die Website \"Stockschrauben-Set\" — Flyer-Name verwendet, Website-Features als ergänzende bullets/specs übernommen. (2) Stockschraube: Abschnitt \"MONTAGE LEICHT GEMACHT\" hat quellgetreu nur 1 Bullet; die 5 featureSections stammen wortgetreu aus dem Flyer (Layout-Vorgabe 2-4 Sections bewusst überschritten — bitte selbst kürzen). (3) Foto-Zuordnung Stockschraube: Die Flyer-Bildunterschrift \"EINFACHE MONTAGE AUF WELLETERNIT\" wurde dem verfügbaren Bild WelldachsetsMontiert-Realistisch_page1_image6.jpg zugeordnet (die Original-Flyerfotos wurden nicht extrahiert; das Bild ist auf der Website auch der Stockschrauben-Set-Galerie zugeordnet). (4) Welldach-Set: Website-Galeriebild (…image6.png) ist nicht in der Bildliste — nur Hauptbild ambivolt-Welldachset.jpg verwendet; Website-Subtitle war leer, daher erstes Feature (\"Geeignet für Welldächer mit hohem Sparrenabstand\") als Subtitle gesetzt. (5) Falzblechklemme: Katalog-Name \"Falzblechklemme\", Website-Name \"Falzblechklemme Alu\" (verwendet); Maße aus Katalog S. 11, Features + Dehnfugen-Hinweis von der Website; Chip \"Erhöhte Bodenfreiheit\" ist die gekürzte Katalog-Zeile \"Erhöhte Bodenfreiheit durch 73 mm Bauhöhe\". (6) Keine Videos: Für keines der drei Produkte existiert ein Embed in product-details.json, Stockschrauben-Flyer hat hasMontageVideo=false → video überall null. (7) Kapitel-Intro kombiniert wortgetreu die beiden Website-Kategorie-Intros (falzblechsysteme + welldachsysteme)."
+    }
+  },
+  {
+    "kind": "ambihook",
+    "data": {
+      "chapterId": "ambihook",
+      "title": "AmbiHook – Ziegel- und Steindachsystem",
+      "intro": "AmbiHook aus Aluminium hat eine sehr hohe Tragkraft und zeigt nur geringste Verformungen unter Last. Das Aufsitzen auf dem Ziegel wird dadurch auch unter hoher Last vermieden. Die Profile werden mit AmbiHook über ein einfaches System mit vormontierter Verriegelungsschraube von oben verbunden.",
+      "products": [
+        {
+          "id": "ambihook-v5",
+          "name": "AmbiHook V5",
+          "layout": "A",
+          "eyebrow": "DACHHAKEN",
+          "subtitle": "SCHNELL MONTIERT, DAUERHAFT STARK!",
+          "badges": [
+            "DREIFACH VERSTELLBAR",
+            "EXTREM TRAGFÄHIG",
+            "MIT EASY-CLICK-KLEMME"
+          ],
+          "featureSections": [
+            {
+              "heading": "FLEXIBILITÄT & OPTIK",
+              "bullets": [
+                "Erhältlich in **Schwarz oder Silber** – passend zum Moduldesign",
+                "**Optional mit Erdungspins** – für elektrischen Potenzialausgleich",
+                "**Endkappe** für abgerundeten Look"
+              ]
+            },
+            {
+              "heading": "MONTAGE LEICHT GEMACHT",
+              "bullets": [
+                "**Easy-Click-Klemmen** – spart Zeit und Nerven",
+                "**Nur 1 Werkzeug nötig:** Torx T30 (ggf. zusätzlich 15er Ratschen- oder Gabelschlüssel)",
+                "**Klemmbereich 28 – 45 mm** – für gängige Modultypen optimiert"
+              ]
+            },
+            {
+              "heading": "BESONDERE DACHGEOMETRIEN? KEIN PROBLEM.",
+              "bullets": [
+                "**Sonderzubehör für verwinkelte Dächer** – präzise und sicher montieren",
+                "**Längere Grundplatte** – Haken auch zwischen Sparren einsetzbar"
+              ]
+            },
+            {
+              "heading": "OHNE KREUZVERBUND? GEHT KLAR.",
+              "bullets": [
+                "Dachhaken-Adapter für direkte **senkrechte Schienenmontage**",
+                "Alternativ auch **mit Kreuzverbund** möglich"
+              ]
+            },
+            {
+              "heading": "ZUSÄTZLICHE FEATURES",
+              "bullets": [
+                "Profil in **Schwarz oder Silber** erhältlich",
+                "**Innenliegender Profilverbinder** – robuste Verbindung, unsichtbares Finish",
+                "Äußerst **verwindungs- und biegefest** – für dauerhafte Stabilität"
+              ]
+            }
+          ],
+          "bullets": [
+            "Schnellmontagesystem",
+            "Hohe Tragfähigkeit",
+            "3-fach verstellbar",
+            "aus Aluminium",
+            "mit Bügel 40 mm oder 55 mm für höhere Lasten"
+          ],
+          "specs": [
+            {
+              "label": "Klemmbereich (Modulklemme)",
+              "value": "28 – 45 mm"
+            },
+            {
+              "label": "Benötigtes Werkzeug",
+              "value": "Torx T30 (ggf. zusätzlich 15er Ratschen- oder Gabelschlüssel)"
+            },
+            {
+              "label": "Verstellbarkeit",
+              "value": "dreifach verstellbar"
+            },
+            {
+              "label": "Tragprofil",
+              "value": "V450 (V450 mit Tragprofil und Klemme)"
+            },
+            {
+              "label": "Haltbarkeitsgarantie",
+              "value": "10 Jahre"
+            },
+            {
+              "label": "Farboptionen Haken/Klemmen",
+              "value": "Schwarz oder Silber"
+            },
+            {
+              "label": "Farboptionen Profil",
+              "value": "Schwarz oder Silber"
+            },
+            {
+              "label": "Bügel",
+              "value": "40 mm oder 55 mm für höhere Lasten"
+            },
+            {
+              "label": "Legierungen",
+              "value": "EN AW6063 T66 (Rm ≥ 245 N/mm²; Rp0,2 ≥ 200 N/mm²) · EN AW6082 T6 (Rm ≥ 290 N/mm²; Rp0,2 ≥ 250 N/mm²)"
+            },
+            {
+              "label": "Schrauben",
+              "value": "A2"
+            }
+          ],
+          "keySpecs": [
+            {
+              "k": "Klemmbereich",
+              "v": "28 – 45",
+              "unit": "mm"
+            },
+            {
+              "k": "Verstellbarkeit",
+              "v": "dreifach",
+              "unit": ""
+            },
+            {
+              "k": "Haltbarkeitsgarantie",
+              "v": "10",
+              "unit": "Jahre"
+            }
+          ],
+          "chips": [],
+          "image": "/images/products/ambivolt-schnellmontagesystem-photovoltaik-ambihook-V5-01.jpg",
+          "photos": [
+            {
+              "src": "/images/products/DachhakenV5-Bild-59-111.jpg",
+              "caption": "AmbiHook V5 – Detailansicht"
+            },
+            {
+              "src": "/images/products/DachhakenV5-Bild-59-116.jpg",
+              "caption": "AmbiHook V5 – Detailansicht"
+            }
+          ],
+          "video": "https://youtu.be/gKhsxOPFNvU",
+          "gapNote": null
+        },
+        {
+          "id": "ambihook-v6",
+          "name": "AmbiHook V6",
+          "layout": "A",
+          "eyebrow": "DACHHAKEN",
+          "subtitle": "SCHNELL MONTIERT, DAUERHAFT STARK!",
+          "badges": [
+            "MAXIMALER WIND-WIDERSTAND",
+            "VIERFACH VERSTELLBAR",
+            "MIT EASY-CLICK-KLEMME",
+            "IDEAL FÜR WINDIGE REGIONEN WIE NORD- & OSTSEE"
+          ],
+          "featureSections": [
+            {
+              "heading": "FLEXIBILITÄT & OPTIK",
+              "bullets": [
+                "Erhältlich in Schwarz oder Silber – passend zum Moduldesign",
+                "Optional mit Erdungspins – für elektrischen Potenzialausgleich",
+                "Endkappe für abgerundeten Look"
+              ]
+            },
+            {
+              "heading": "MONTAGE LEICHT GEMACHT",
+              "bullets": [
+                "Easy-Click-Klemmen – spart Zeit und Nerven",
+                "Nur 1 Werkzeug nötig: Torx T30 (ggf. zusätzlich 15er Ratschen- oder Gabelschlüssel)",
+                "Klemmbereich 28 – 45 mm – für gängige Modultypen optimiert"
+              ]
+            },
+            {
+              "heading": "BESONDERE DACHGEOMETRIEN? KEIN PROBLEM.",
+              "bullets": [
+                "Sonderzubehör für verwinkelte Dächer – präzise und sicher montieren",
+                "Längere Grundplatte – Haken auch zwischen Sparren einsetzbar"
+              ]
+            },
+            {
+              "heading": "EXTREM STARKER WIND? GEHT KLAR.",
+              "bullets": [
+                "Optimiert für höchste Windlasten, deshalb ideal für windige Lagen an der Nord- & Ostsee"
+              ]
+            },
+            {
+              "heading": "ZUSÄTZLICHE FEATURES",
+              "bullets": [
+                "Profil in Schwarz oder Silber erhältlich",
+                "Innenliegender Profilverbinder – robuste Verbindung, unsichtbares Finish",
+                "Äußerst verwindungs- und biegefest – für dauerhafte Stabilität"
+              ]
+            }
+          ],
+          "bullets": [
+            "Schnellmontagesystem",
+            "Hohe Tragfähigkeit vor allem bei flacheren Dächern und sehr hohen Windlasten",
+            "4-fach verstellbar",
+            "Auch für etwas längere Ziegel geeignet",
+            "aus Aluminium",
+            "mit Bügel 40 mm oder 55 mm für höhere Lasten"
+          ],
+          "specs": [
+            {
+              "label": "Klemmbereich",
+              "value": "28 – 45 mm (für gängige Modultypen optimiert)"
+            },
+            {
+              "label": "Verstellbarkeit",
+              "value": "Vierfach verstellbar"
+            },
+            {
+              "label": "Montagewerkzeug",
+              "value": "Torx T30 (nur 1 Werkzeug nötig; ggf. zusätzlich 15er Ratschen- oder Gabelschlüssel)"
+            },
+            {
+              "label": "Klemmsystem",
+              "value": "Easy-Click-Klemmen"
+            },
+            {
+              "label": "Farbvarianten Haken",
+              "value": "Schwarz oder Silber"
+            },
+            {
+              "label": "Farbvarianten Profil",
+              "value": "Schwarz oder Silber"
+            },
+            {
+              "label": "Profilverbinder",
+              "value": "Innenliegend (unsichtbares Finish)"
+            },
+            {
+              "label": "Erdungspins",
+              "value": "Optional – für elektrischen Potenzialausgleich"
+            },
+            {
+              "label": "Grundplatte",
+              "value": "Längere Basis-/Grundplatte – auch zwischen Sparren einsetzbar"
+            },
+            {
+              "label": "Bügel",
+              "value": "40 mm oder 55 mm für höhere Lasten"
+            },
+            {
+              "label": "Legierungen",
+              "value": "EN AW6063 T66 (Rm ≥ 245 N/mm²; Rp0,2 ≥ 200 N/mm²) · EN AW6082 T6 (Rm ≥ 290 N/mm²; Rp0,2 ≥ 250 N/mm²)"
+            },
+            {
+              "label": "Schrauben",
+              "value": "A2"
+            }
+          ],
+          "keySpecs": [
+            {
+              "k": "Klemmbereich",
+              "v": "28 – 45",
+              "unit": "mm"
+            },
+            {
+              "k": "Verstellbarkeit",
+              "v": "vierfach",
+              "unit": ""
+            },
+            {
+              "k": "Montagewerkzeug",
+              "v": "Torx T30",
+              "unit": ""
+            }
+          ],
+          "chips": [],
+          "image": null,
+          "photos": [],
+          "video": null,
+          "gapNote": null
+        },
+        {
+          "id": "ambihook-v4",
+          "name": "AmbiHook V4",
+          "layout": "B",
+          "eyebrow": "DACHHAKEN",
+          "subtitle": "AmbiHook V4 ist ein zweifach verstellbarer, selbsttragender Dachhaken mit hoher Tragkraft.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Schnellmontagesystem",
+            "Hohe Tragfähigkeit",
+            "2-fach verstellbar",
+            "aus Aluminium",
+            "mit Bügel 40 mm oder 55 mm für höhere Lasten",
+            "Mit der patentierten, bereits schräg vormontierten Befestigungsschraube im Dachhaken können Sie das Profil einfach in den Haken legen und sofort in einem für den Monteur sehr angenehmen Winkel festschrauben."
+          ],
+          "specs": [],
+          "keySpecs": [
+            {
+              "k": "Verstellbarkeit",
+              "v": "2-fach",
+              "unit": ""
+            },
+            {
+              "k": "Bügel",
+              "v": "40 oder 55",
+              "unit": "mm"
+            },
+            {
+              "k": "Profilbefestigung",
+              "v": "ca. 10",
+              "unit": "Nm"
+            }
+          ],
+          "chips": [
+            "2-fach verstellbar",
+            "Hohe Tragfähigkeit",
+            "Patentiertes Schnellmontage-System"
+          ],
+          "image": "/images/products/ambivolt-schnellmontagesystem-photovoltaik-ambihook-V4-01-1.jpg",
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 + Website — kein aktueller Flyer"
+        },
+        {
+          "id": "sparrenueberspannungsprofil-v4-v5-v6",
+          "name": "Sparrenüberspannungsprofil V4, V5 und V6",
+          "layout": "C",
+          "eyebrow": "ZUBEHÖR",
+          "subtitle": "Grundplatte des Dachhakens in 3 m Länge zur Überspannung von 2 Sparren.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Grundplatte in 3 m Länge",
+            "Zur Überspannung von 2 Sparren",
+            "Passend für AmbiHook V4, V5 und V6"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": null,
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        },
+        {
+          "id": "vertikal-adapter-v5-v6",
+          "name": "Vertikal-Adapter für AmbiHook V5 und V6",
+          "layout": "C",
+          "eyebrow": "ZUBEHÖR",
+          "subtitle": "Schnellmontagesystem zur seitlichen Befestigung von vertikalen Profilen.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Für AmbiHook V5 40 und AmbiHook V5 55 geeignet",
+            "V5-Ausführung: Legierung EN AW6063 T66 (Rm ≥ 245 N/mm²; Rp0,2 ≥ 200 N/mm²), Schrauben: A2",
+            "V6-Ausführung: Breites Oberteil als Ersatz für das normale Oberteil des AmbiHook V6",
+            "Ermöglicht die Montage von vertikalen Profilen"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": null,
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        },
+        {
+          "id": "horizontal-adapter",
+          "name": "Horizontal-Adapter",
+          "layout": "C",
+          "eyebrow": "ZUBEHÖR",
+          "subtitle": "Adapter für horizontale Flächen.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Geeignet für Lehmann Aufdachmodulhalter (nicht HVS)",
+            "Geeignet für Kalzip Befestigungsklemme Typ FS",
+            "Geeignet für viele andere Befestigungsklemmen mit horizontaler Auflagefläche"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": null,
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        },
+        {
+          "id": "vertikal-adapter",
+          "name": "Vertikal-Adapter",
+          "layout": "C",
+          "eyebrow": "ZUBEHÖR",
+          "subtitle": "Adapter für vertikale Flächen mit Riffelung.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Geeignet für vertikale Flächen mit Riffelung",
+            "Geeignet für Lehmann Aufdachmodulhalter HVS"
+          ],
+          "specs": [],
+          "keySpecs": [],
+          "chips": [],
+          "image": null,
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 — kein aktueller Flyer"
+        }
+      ],
+      "notes": "Fehlende Bilder: (1) AmbiHook V6 hat KEIN eigenes Bild im verfügbaren Bestand → image null; der Flyer beschreibt ein Rendering des schwarzen V6-Dachhakens, das nachgeliefert werden müsste. (2) Sparrenüberspannungsprofil, Vertikal-Adapter V5/V6, Horizontal-Adapter und Vertikal-Adapter haben ebenfalls keine Bilder im Bestand (image null). Optional verfügbar: ambihook-produktdetailseite.png (Website-Galeriebild der AmbiHook-Reihe) könnte als Ersatz-/Zusatzbild dienen, wurde aber keinem Produkt fest zugeordnet. — Captions: Für die V5-Photos (DachhakenV5-Bild-59-111/116.jpg) existieren in den Quellen keine Bildunterschriften; neutrale Captions \"AmbiHook V5 – Detailansicht\" vergeben. — Eyebrows: \"DACHHAKEN\" ist das wörtliche Flyer-Kategorielabel (V5/V6, auf V4 übertragen); \"ZUBEHÖR\" bei den C-Karten ist ein redaktionelles Label ohne Quellbeleg. — Quellen/Merge: V5/V6-featureSections, Badges und Specs wortgetreu aus den Flyern; Legierungen (EN AW6063 T66 / EN AW6082 T6), Schrauben A2 und Bügel 40/55 mm aus Katalog 2025-1 ergänzt; V5-bullets = Katalog-Kurzliste. Die V6-Flyer-Bullets liegen in der Extraktion ohne Fett-Auszeichnung vor (anders als V5) und wurden so übernommen. — Umlaute/Sonderzeichen im Katalog-Volltext waren encoding-korrupt (�) und wurden rekonstruiert (z. B. \"Überspannung\", \"N/mm²\"). — V5-Video aus product-details.json (embed gKhsxOPFNvU → https://youtu.be/gKhsxOPFNvU); für V6/V4 kein Video. — Vertikal-Adapter V5 (Katalog 7.4) und V6 (Katalog 7.6) wurden auftragsgemäß zu einer Karte zusammengefasst; Subtitle stammt aus 7.4, die V6-spezifischen Punkte sind als Bullets gekennzeichnet. — Intro stammt von der Website (product-details.json, Kategorie ziegel-und-steindachsysteme); der Katalog selbst hat keinen Kapitel-Einleitungstext. — V4-Galeriebilder V4-03 bis V4-06 aus product-details.json sind NICHT im verfügbaren Bilderbestand, daher nur V4-01-1.jpg verwendet."
+    }
+  },
+  {
+    "kind": "flachdach",
+    "data": {
+      "chapterId": "flachdach",
+      "title": "AmbiLight Flachdach-Systeme",
+      "intro": "Die AmbiLight Familie bietet eine Gruppe von ausgeklügelten und ausgereiften Flachdachgestellen, die praktisch alle Anforderungen abdecken. Selbstverständlich sind alle AmbiLight Systeme im Windkanal getestet. Die individuellen Ballastpläne werden mit mindestens 1,5-facher Sicherheit gegen Abheben gerechnet – und das für die gesamte EU.",
+      "products": [
+        {
+          "id": "ambilight-eco",
+          "name": "AmbiLight Eco",
+          "layout": "A",
+          "eyebrow": "MONTAGESYSTEM",
+          "subtitle": "Ost-West-System für Flachdächer mit geringster Ballastierung.",
+          "badges": [
+            "IDEAL FÜR HÖCHSTE SCHNEE- UND WINDLAST",
+            "GEEIGNET FÜR FLACHDÄCHER",
+            "UNSCHLAGBAR WENIG BALLAST"
+          ],
+          "featureSections": [
+            {
+              "heading": "HÖCHSTER SCHNEEWIDERSTAND",
+              "bullets": [
+                "**Modulklemmung am Viertelspunkt** – auch nach vielen Jahren noch starke Module wie neu trotz maximalem Schnee",
+                "Durchdachte Anordnung",
+                "**Keine Dehnfuge** erforderlich – beliebig große Modulfelder möglich dank integrierter Temperaturausdehnung",
+                "**Einfache Wartung** von beiden Seiten dank 18–32 cm Firstspalt"
+              ]
+            },
+            {
+              "heading": "GERINGE ZULÄSSIGE DACHLAST? KEIN PROBLEM.",
+              "bullets": [
+                "**Superleichte Unterkonstruktion** – ideal für Flachdächer mit geringer zulässiger Dachlast",
+                "**Minimaler Ballast** auch bei hoher Windlast – in den meisten Fällen **unter 20 kg/m²**"
+              ]
+            },
+            {
+              "heading": "MONTAGE LEICHT GEMACHT",
+              "bullets": [
+                "**Extrem schneller Aufbau** dank vormontierter Baugruppen",
+                "**Integrierte Schutzschicht** aus Polyestervlies, geeignet für sämtliche neuartige Kies-, Folien- und Bitumendächer",
+                "**Schonend zur Dämmung** – 15 cm breite Fußprofile"
+              ]
+            }
+          ],
+          "bullets": [
+            "Befestigung am optimalen Klemmpunkt",
+            "Einfache Montage",
+            "Geringer Ballast",
+            "Windkanal getestet",
+            "Wenig Transportvolumen",
+            "Gesicherter Wasserablauf",
+            "Kurze Bauteile",
+            "Unendlich verbaubar"
+          ],
+          "specs": [
+            {
+              "label": "Modulklemmung",
+              "value": "am Viertelspunkt (Viertelpunkt-Klemmung)"
+            },
+            {
+              "label": "Firstspalt (Wartungszugang von beiden Seiten)",
+              "value": "18–32 cm"
+            },
+            {
+              "label": "Ballast (auch bei hoher Windlast, in den meisten Fällen)",
+              "value": "unter 20 kg/m²"
+            },
+            {
+              "label": "Fußprofile (Breite)",
+              "value": "15 cm breit"
+            },
+            {
+              "label": "Integrierte Schutzschicht (Material)",
+              "value": "Polyestervlies"
+            },
+            {
+              "label": "Haltbarkeitsgarantie auf dieses Montagesystem",
+              "value": "10 Jahre"
+            }
+          ],
+          "keySpecs": [
+            {
+              "k": "Ballast",
+              "v": "unter 20",
+              "unit": "kg/m²"
+            },
+            {
+              "k": "Firstspalt",
+              "v": "18–32",
+              "unit": "cm"
+            },
+            {
+              "k": "Fußprofile",
+              "v": "15",
+              "unit": "cm breit"
+            }
+          ],
+          "chips": [],
+          "image": "/images/products/ambivolt-ambilight-eco-1000x600-01-web.jpg",
+          "photos": [
+            {
+              "src": "/images/products/ambivolt-ambilight-eco-neu-01.jpg",
+              "caption": "Vormontiert mit Bautenschutz"
+            },
+            {
+              "src": "/images/products/ambivolt-ambilight-eco-plus-sued-bild01.jpg",
+              "caption": "Ideal für sehr hohe Wind- und Schneelast"
+            }
+          ],
+          "video": null,
+          "gapNote": null
+        },
+        {
+          "id": "ambilight-eco-plus",
+          "name": "AmbiLight EcoPlus",
+          "layout": "A",
+          "eyebrow": "MONTAGESYSTEM",
+          "subtitle": "Ost-West-System für Flachdächer mit geringster Ballastierung.",
+          "badges": [
+            "OST-WEST-ORIENTIERUNG",
+            "IDEAL FÜR FLACHDÄCHER",
+            "UNSCHLAGBAR WENIG BALLAST",
+            "IDEAL FÜR HOHE WINDLAST"
+          ],
+          "featureSections": [
+            {
+              "heading": "MONTAGE LEICHT GEMACHT",
+              "bullets": [
+                "**Extrem schneller Aufbau** dank vormontierter Baugruppen",
+                "Regelmäßige Querschienen – ideal zur **Kabelbefestigung**",
+                "**Keine Dehnfuge** erforderlich – beliebig große Modulfelder möglich dank integrierter Temperaturausdehnung"
+              ]
+            },
+            {
+              "heading": "GERINGE ZULÄSSIGE DACHLAST? KEIN PROBLEM.",
+              "bullets": [
+                "**Minimaler Ballast** auch bei hoher Windlast – praktisch immer **unter 20 kg/m²**",
+                "**Superleichte Unterkonstruktion** – ideal für Flachdächer mit geringer zulässiger Dachlast",
+                "**Integrierte Schutzschicht** aus Polyestervlies, geeignet für sämtliche neuartige Kies-, Folien- und Bitumendächer"
+              ]
+            },
+            {
+              "heading": "ZUSÄTZLICHE FEATURES",
+              "bullets": [
+                "**Schonend zur Dämmung** – 15 cm breite Fußprofile, meterlange Auflage",
+                "**Einfache Wartung** von beiden Seiten dank 18–32 cm Firstspalt"
+              ]
+            }
+          ],
+          "bullets": [
+            "Eckklemmung der Module",
+            "Einfache Montage",
+            "Bester Preis",
+            "Geringer Ballast",
+            "Windkanal getestet",
+            "Wenig Transportvolumen",
+            "Gesicherter Wasserablauf",
+            "Kurze Bauteile",
+            "Unendlich verbaubar"
+          ],
+          "specs": [
+            {
+              "label": "Minimaler Ballast",
+              "value": "praktisch immer unter 20 kg/m²"
+            },
+            {
+              "label": "Breite Fußprofile",
+              "value": "15 cm breit (meterlange Auflage)"
+            },
+            {
+              "label": "Firstspalt (Wartung von beiden Seiten)",
+              "value": "18–32 cm"
+            },
+            {
+              "label": "Orientierung",
+              "value": "Ost-West-Orientierung sowie Süd-Orientierung (EcoPlus – Südorientierung) möglich"
+            },
+            {
+              "label": "Windlastzonen (Karte Deutschland)",
+              "value": "Windzone 1 bis 4"
+            },
+            {
+              "label": "Haltbarkeitsgarantie",
+              "value": "10 Jahre auf dieses Montagesystem"
+            }
+          ],
+          "keySpecs": [
+            {
+              "k": "Ballast",
+              "v": "unter 20",
+              "unit": "kg/m²"
+            },
+            {
+              "k": "Firstspalt",
+              "v": "18–32",
+              "unit": "cm"
+            },
+            {
+              "k": "Fußprofile",
+              "v": "15",
+              "unit": "cm breit"
+            }
+          ],
+          "chips": [],
+          "image": "/images/products/ambilight-eco-plus-1000x600px-01.jpg",
+          "photos": [
+            {
+              "src": "/images/products/ambivolt-ambilight-eco-plus-01.jpg",
+              "caption": "Ost-West-Orientierung"
+            }
+          ],
+          "video": "https://youtu.be/PP9YPLN4-3E",
+          "gapNote": null
+        },
+        {
+          "id": "ambilight-eco-plus-sued",
+          "name": "AmbiLight Eco Plus Süd",
+          "layout": "B",
+          "eyebrow": "MONTAGESYSTEM",
+          "subtitle": "Süd-System für Flachdächer mit geringster Ballastierung.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Hervorragende Modulauslastung für maximalen Ertrag pro Modul",
+            "Einzigartiger Firstspalt zwischen Modul und Windblech – bestmögliche aerodynamische Eigenschaften für geringste Ballastierung",
+            "Eckklemmung der Module",
+            "Einfache Montage",
+            "Windkanal getestet",
+            "Unendlich verbaubar"
+          ],
+          "specs": [],
+          "keySpecs": [
+            {
+              "k": "Ausrichtung",
+              "v": "Süd",
+              "unit": ""
+            },
+            {
+              "k": "Klemmung",
+              "v": "Eckklemmung",
+              "unit": ""
+            },
+            {
+              "k": "Ballastierung",
+              "v": "geringste",
+              "unit": ""
+            }
+          ],
+          "chips": [
+            "Geringer Ballast",
+            "Gesicherter Wasserablauf",
+            "Kurze Bauteile"
+          ],
+          "image": "/images/products/ambivolt-ambilight-eco-plus-sued-1000x600px-01.jpg",
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 + Website — kein aktueller Flyer"
+        },
+        {
+          "id": "ambilight-opti",
+          "name": "AmbiLight Opti",
+          "layout": "B",
+          "eyebrow": "OST-WEST-MONTAGESYSTEM",
+          "subtitle": "AmbiLight Opti bietet bei einem guten Preis beste aerodynamische Eigenschaften und damit geringsten Ballast, ist sowohl bei hohen Schneelasten als auch in Küstennähe geeignet und erhält durch das Top Path System die Zugänglichkeit zu Ihrem Dach.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "Optimale Selbstreinigung mit Wasserablauf über die Modulecke – noch geringere Verschmutzungsanfälligkeit",
+            "Fußverlauf parallel zur Modullängskante – optimal bei den meisten Dachverhältnissen",
+            "Real Protect: Füße mit einer auf das jeweilige Dach abgestimmten Schutzlage ausgestattet",
+            "Gefaste Kanten der Füße runden das System hinsichtlich dauerhaftem Schutz Ihres Daches ab",
+            "Variabler Befestigungsabstand der Modulklemmen – für die meisten Module keine Einzelfreigabe notwendig",
+            "Keine Systemunterbrechung für Dilatationsausgleich oder Wartungsgänge – beides bereits im System integriert"
+          ],
+          "specs": [],
+          "keySpecs": [
+            {
+              "k": "Max. Bauhöhe (40-mm-Modul)",
+              "v": "293",
+              "unit": "mm"
+            },
+            {
+              "k": "Neigungswinkel",
+              "v": "10",
+              "unit": "°"
+            },
+            {
+              "k": "Fußfläche",
+              "v": "11,0",
+              "unit": "% der Modulfläche"
+            }
+          ],
+          "chips": [
+            "Top Path",
+            "Real Protect",
+            "Windkanal getestet"
+          ],
+          "image": null,
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Broschüre — kein aktueller Flyer"
+        },
+        {
+          "id": "ambilight-opti-plus",
+          "name": "AmbiLight Opti Plus",
+          "layout": "B",
+          "eyebrow": "OST-WEST-MONTAGESYSTEM",
+          "subtitle": "AmbiLight Opti Plus bietet bei einem guten Preis beste aerodynamische Eigenschaften und damit geringsten Ballast, ist sowohl bei hohen Schneelasten als auch in Küstennähe geeignet und erhält durch das Top Path System die Zugänglichkeit zu Ihrem Dach.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "AmbiLight Opti Plus ist extrem preisgünstig und enthält gleichzeitig die neuen Eigenschaften Top Path und Real Protect",
+            "Optimale Selbstreinigung mit Wasserablauf über die Modulecke",
+            "Fußverlauf parallel zur Modullängskante – optimal bei den meisten Dachverhältnissen",
+            "Real Protect: Füße mit einer auf das jeweilige Dach abgestimmten Schutzlage ausgestattet",
+            "Gefaste Kanten der Füße runden das System hinsichtlich dauerhaftem Schutz Ihres Daches ab",
+            "Für AmbiLight Opti Plus ist evtl. eine Einzelfreigabe des Modulherstellers notwendig"
+          ],
+          "specs": [],
+          "keySpecs": [
+            {
+              "k": "Max. Bauhöhe (40-mm-Modul)",
+              "v": "293",
+              "unit": "mm"
+            },
+            {
+              "k": "Neigungswinkel",
+              "v": "10",
+              "unit": "°"
+            },
+            {
+              "k": "Fußfläche",
+              "v": "11,0",
+              "unit": "% der Modulfläche"
+            }
+          ],
+          "chips": [
+            "Extrem preisgünstig",
+            "Top Path",
+            "Real Protect"
+          ],
+          "image": null,
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Broschüre — kein aktueller Flyer"
+        }
+      ],
+      "notes": "Hinweise an den Assembler: (1) Kapitel-Intro stammt wortgetreu aus der AmbiLight-Broschüre (Abschnitte \"Die AmbiLight Familie\" + \"Windkanaltest & Lastreserve\"); der alte Katalog hat für Kapitel 8 keinen Einleitungstext. (2) Schreibweisen-Konflikt: Der Flyer setzt \"AmbiLight EcoPlus\" (zusammen), Katalog 2025-1 und Website schreiben \"AmbiLight Eco Plus\"; ich habe für das Flyer-Produkt die Flyer-Schreibweise verwendet, für das Süd-System die Katalog-/Website-Schreibweise \"Eco Plus Süd\". (3) Für AmbiLight Opti und Opti Plus existiert KEIN Bild in der verfügbaren Bildliste (image: null) — die Broschüre enthält Renderings, die nicht extrahiert wurden. (4) Die Systemvergleichstabelle der Broschüre ist im Volltext teilweise spaltenverschoben extrahiert; für Opti/Opti Plus habe ich nur eindeutig zuordenbare Werte übernommen (Bauhöhe 293 mm, Neigungswinkel 10°, Fußfläche 11,0 %). Schneelastwerte (z. B. 680 kg/m² bei EPS für Opti) sind wegen Spaltenverschiebung unsicher und wurden weggelassen. (5) EcoPlus hat in product-details.json ein zweites Video (https://youtu.be/hrdhgZ7xh7U); im video-Feld steht das vom Task vorgegebene Montagevideo PP9YPLN4-3E. (6) Foto-Caption \"Ost-West-Orientierung\" beim EcoPlus-Galeriebild ist vom wörtlichen Flyer-Badge abgeleitet, da das Website-Bild keine Original-Caption hat. (7) Eco-Photos wie angewiesen zugeordnet: Caption \"Ideal für sehr hohe Wind- und Schneelast\" stammt vom Eco-Flyer (Badge bei der Schneelastzonen-Karte), das Bild selbst ist das Website-Bild des Eco Plus Süd. (8) Die Eco-Flyer-Badges enthalten zwei nahezu identische Windlast-Badges (\"IDEAL FÜR HÖCHSTE SCHNEE- UND WINDLAST\" und \"IDEAL FÜR SEHR HOHE WIND- UND SCHNEELAST\"); nur das erste wurde als Badge übernommen, das zweite dient als Foto-Caption. (9) bullets bei Layout-A-Produkten sind die ergänzenden Katalog-2025-1-Aufzählungen (S. 16) — falls das A-Template keine bullets rendert, können sie entfallen; alle Flyer-Inhalte stecken in featureSections/specs. Quellen: C:\\Users\\ambiv\\ambi-relaunch\\docs\\research\\flyer-inhalte.json, katalog-2026-1-volltext.txt, broschuere-volltext.txt, C:\\Users\\ambiv\\ambi-relaunch\\src\\content\\product-details.json."
+    }
+  },
+  {
+    "kind": "gruen-frei",
+    "data": {
+      "chapterId": "gruen-frei",
+      "title": "Gründachsysteme & Freilandanlagen",
+      "intro": "",
+      "products": [
+        {
+          "id": "gd-ambilight-gruendach-ow",
+          "name": "AmbiLight Gründach OW",
+          "layout": "A",
+          "eyebrow": "MONTAGESYSTEM",
+          "subtitle": "Gründachsystem für Flachdächer in Ost-West-Ausrichtung.",
+          "badges": [
+            "OST-WEST-ORIENTIERUNG",
+            "IDEAL FÜR GRÜNDÄCHER",
+            "MINIMALER BALLAST",
+            "IDEAL FÜR HOHE WINDLAST"
+          ],
+          "featureSections": [
+            {
+              "heading": "MONTAGE LEICHT GEMACHT",
+              "bullets": [
+                "Extrem schneller Aufbau dank vormontierter Baugruppen → siehe Montagevideo",
+                "In der Regel ist keine Dehnfuge erforderlich – beliebig große Modulfelder möglich",
+                "Regelmäßige Querschienen zur Kabelbefestigung",
+                "In Längsrichtung sehr breite Kabelkanäle für Ordnung auf dem Dach"
+              ]
+            },
+            {
+              "heading": "GERINGE ZULÄSSIGE DACHLAST? KEIN PROBLEM.",
+              "bullets": [
+                "Durchdringungsfreie Befestigung – geeignet für extensive und intensive Gründächer",
+                "Minimaler Ballast auch bei hoher Windlast – in den meisten Fällen unter 20 kg/m²"
+              ]
+            },
+            {
+              "heading": "ZUSÄTZLICHE FEATURES",
+              "bullets": [
+                "Pflegefreundlich – 50–70 cm Firstspalt für gute Erreichbarkeit des Gründachs",
+                "Ballastierung wahlweise mit Granulat oder Ballaststeinen"
+              ]
+            }
+          ],
+          "bullets": [
+            "Weitgehend vormontiert",
+            "Einfache Montage",
+            "Windkanal getestet",
+            "Gesicherter Wasserablauf",
+            "Kurze Bauteile",
+            "Gute Zugänglichkeit",
+            "Wunschhöhe",
+            "Wunschwinkel",
+            "Ohne Unterbrechung unendlich verbaubar",
+            "Fußverlauf quer zur Modullängskante",
+            "Schwimmende Verlegung der Module"
+          ],
+          "specs": [
+            {
+              "label": "Ausrichtung",
+              "value": "Ost-West-Orientierung (auch mit Südorientierung möglich)"
+            },
+            {
+              "label": "Ballast (auch bei hoher Windlast)",
+              "value": "in den meisten Fällen unter 20 kg/m²"
+            },
+            {
+              "label": "Firstspalt",
+              "value": "50–70 cm (für gute Erreichbarkeit/Pflege des Gründachs)"
+            },
+            {
+              "label": "Dehnfuge",
+              "value": "in der Regel nicht erforderlich – beliebig große Modulfelder möglich"
+            },
+            {
+              "label": "Befestigung",
+              "value": "durchdringungsfrei"
+            },
+            {
+              "label": "Ballastierung",
+              "value": "wahlweise mit Granulat oder Ballaststeinen"
+            },
+            {
+              "label": "Geeignete Gründächer",
+              "value": "extensiv und intensiv"
+            }
+          ],
+          "keySpecs": [],
+          "chips": [],
+          "image": "/images/products/ambivolt-ambilight-gruendachsystem-OW-1000x600px-01.jpg",
+          "photos": [
+            {
+              "src": "/images/products/ambivolt-ambilight-gruendachsystem-GD-OW-01.jpg",
+              "caption": "Gründachsystem AmbiLight GD OW"
+            }
+          ],
+          "video": "https://youtu.be/4k-6rLaxiV8",
+          "gapNote": null
+        },
+        {
+          "id": "gd-ambilight-gd-sued",
+          "name": "AmbiLight GD Süd",
+          "layout": "B",
+          "eyebrow": "GRÜNDACHSYSTEM",
+          "subtitle": "Gründachsystem für Flachdächer in Süd-Ausrichtung.",
+          "badges": [
+            "AUCH MIT SÜDORIENTIERUNG"
+          ],
+          "featureSections": [],
+          "bullets": [
+            "Weitgehend vormontiert",
+            "Einfache Montage",
+            "Höherer Ballast",
+            "Gesicherter Wasserablauf",
+            "Kurze Bauteile",
+            "Windkanal getestet",
+            "Gute Zugänglichkeit",
+            "Wunschhöhe",
+            "Wunschwinkel",
+            "Bedingt unendlich verbaubar"
+          ],
+          "specs": [],
+          "keySpecs": [
+            {
+              "k": "Ausrichtung",
+              "v": "Süd",
+              "unit": ""
+            },
+            {
+              "k": "Ballast",
+              "v": "höher (als GD OW)",
+              "unit": ""
+            },
+            {
+              "k": "Verbaubarkeit",
+              "v": "bedingt unendlich",
+              "unit": ""
+            }
+          ],
+          "chips": [
+            "Windkanal getestet",
+            "Weitgehend vormontiert",
+            "Gute Zugänglichkeit"
+          ],
+          "image": null,
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 (S. 18) — kein eigener Flyer; Badge \"AUCH MIT SÜDORIENTIERUNG\" aus dem aktuellen Gründach-Flyer"
+        },
+        {
+          "id": "frei-einschiebe-hochkant-flexibel",
+          "name": "Einschiebesystem Hochkant Flexibel",
+          "layout": "B",
+          "eyebrow": "FREILANDANLAGEN",
+          "subtitle": "Einschiebesystem für Freilandanlagen mit 2–4 Modulen übereinander.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "2–4 Module übereinander",
+            "Sehr schnelle Montage",
+            "Sehr flexibel, auch für stark unterschiedliches Gelände",
+            "Überbaut Gruben und Sickerflächen problemlos",
+            "Hohe Flexibilität durch zweiteilige Pfosten",
+            "Einfaches Rammen durch zweiteilige Pfosten",
+            "Gute Positionsfindung durch optimale Pfostengeometrie",
+            "Kein Zurückschnappen des Pfostens",
+            "Modulklemmung von unten"
+          ],
+          "specs": [],
+          "keySpecs": [
+            {
+              "k": "Module übereinander",
+              "v": "2–4",
+              "unit": ""
+            },
+            {
+              "k": "Pfosten",
+              "v": "zweiteilig",
+              "unit": ""
+            },
+            {
+              "k": "Modulklemmung",
+              "v": "von unten",
+              "unit": ""
+            }
+          ],
+          "chips": [
+            "Sehr schnelle Montage",
+            "Sehr flexibel",
+            "Überbaut Gruben und Sickerflächen"
+          ],
+          "image": null,
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 (S. 20) — kein aktueller Flyer"
+        },
+        {
+          "id": "frei-einschiebe-6-reihig-quer",
+          "name": "Einschiebesystem 6-reihig Quer",
+          "layout": "B",
+          "eyebrow": "FREILANDANLAGEN",
+          "subtitle": "Einschiebesystem für Freilandanlagen, 6-reihig in Quermontage.",
+          "badges": [],
+          "featureSections": [],
+          "bullets": [
+            "6-reihig Quer",
+            "Sehr schnelle Montage",
+            "Pfosten setzen mit GPS geführter Ramme",
+            "Anzahl Pfosten je nach Gelände"
+          ],
+          "specs": [],
+          "keySpecs": [
+            {
+              "k": "Anordnung",
+              "v": "6-reihig",
+              "unit": "quer"
+            },
+            {
+              "k": "Pfostensetzung",
+              "v": "GPS-geführte Ramme",
+              "unit": ""
+            },
+            {
+              "k": "Anzahl Pfosten",
+              "v": "je nach Gelände",
+              "unit": ""
+            }
+          ],
+          "chips": [
+            "Sehr schnelle Montage",
+            "GPS-geführte Ramme"
+          ],
+          "image": null,
+          "photos": [],
+          "video": null,
+          "gapNote": "Quelle: Katalog 2025-1 (S. 21) — kein aktueller Flyer"
+        }
+      ],
+      "notes": "FEHLENDE BILDER: (1) Beide Freiland-Systeme haben KEIN Bild im Bestand → image null. (2) AmbiLight GD Süd hat kein eigenes Bild — die beiden vorhandenen Gründach-Bilder sind explizit als OW gelabelt (ambivolt-ambilight-gruendachsystem-OW-1000x600px-01.jpg als Hero, GD-OW-01.jpg als Zweitfoto beim OW-Produkt); bewusst nicht für Süd zweitverwendet. QUELLENKONFLIKTE: (a) Alter Katalog nennt für GD OW \"Mittlerer Ballast\", der aktuelle Flyer \"MINIMALER BALLAST / in den meisten Fällen unter 20 kg/m²\" — Flyer priorisiert, Katalog-Bullet \"Mittlerer Ballast\" deshalb nicht übernommen. (b) Katalog-Untertitel für GD Süd lautet wörtlich \"West System für Flachdächer.\" — vermutlich Tippfehler (Süd-System); Subtitle deshalb analog zur GD-OW-Formulierung gesetzt (\"in Süd-Ausrichtung\"). BADGES: Der Gründach-Flyer (\"Ambivolt-Gruendach-S-W\") trägt 6 Badges; auf 4 gekürzt — \"SEHR BREITE KABELKANÄLE\" steckt inhaltlich in den featureSections, \"AUCH MIT SÜDORIENTIERUNG\" wurde gemäß Auftrag dem GD Süd zugeordnet. FORMATIERUNG: Die Gründach-Flyer-Bullets enthalten im Original keine Fett-Auszeichnung (anders als andere Flyer) — so übernommen. Beim OW-Produkt stammen featureSections/specs/badges/video aus dem Flyer; die ergänzenden bullets aus Katalog 2025-1 (8.4) + Website (product-details.json), der Assembler kann sie bei Platzmangel streichen. SUBTITLES Freiland: Der Katalog liefert nur Stichpunkte, keinen Fließtext — Subtitles minimal aus den Katalog-Bullets abgeleitet. INTRO: In keiner Quelle existiert ein Kapitel-Einleitungstext für Gründach/Freiland → intro leer. Umlaute aus dem Katalog-Volltext (Encoding-Ersatzzeichen) wurden rekonstruiert. Video nur für GD OW vorhanden (embed/4k-6rLaxiV8 → https://youtu.be/4k-6rLaxiV8)."
+    }
+  },
+  {
+    "kind": "meta",
+    "data": {
+      "unternehmen": "Als innovativer Hersteller von Montagesystemen bieten wir neben unseren Produkten für Flach-, Ziegel- und Blechdächer auch individuelle Lösungen für größere Projekte. Unsere Systeme werden nach neuestem Stand der Technik in Deutschland entwickelt und gefertigt. Durch unsere ständige Forschung und Weiterentwicklung sind wir häufig Trendsetter. Mit unseren Produkten zeigen wir, dass uns die dauerhafte Funktionsfähigkeit Ihres Daches und Ihrer Photovoltaikanlage gleichermaßen wichtig sind.",
+      "sicherheit": "Beachten Sie bitte sämtliche einschlägigen Sicherheitsbestimmungen.\nKlären Sie bitte die Schnittstelle zwischen Dach und PV Anlage insbesondere im Hinblick auf die Krafteinleitung in das Dach und Materialverträglichkeit zur Dachhaut hin ab.\nBeachten Sie bitte auch die Bestimmungen zu den übrigen Bauteilen.",
+      "easyclickIntro": "EasyClick – Klemmsystem\n\nDas Easy Click System von AmbiVolt — Montage in 2 Schritten:\n1) Schräg ansetzen\n2) Einfach Reindrehen\n\nLegierungen:\n- EN AW6063 T66 (Rm >= 245 N/mm²); Rp0,2 >= 200 N/mm²\n- EN AW6005-A T6 (Rm >= 255 N/mm²); Rp0,2 >= 215 N/mm²\n- A2",
+      "legierungen": [
+        "EasyClick-Klemmsystem – Legierungen: EN AW6063 T66 (Rm >= 245 N/mm²); Rp0,2 >= 200 N/mm²",
+        "EasyClick-Klemmsystem – Legierungen: EN AW6005-A T6 (Rm >= 255 N/mm²); Rp0,2 >= 215 N/mm²",
+        "EasyClick-Klemmsystem – Legierungen: A2 (Edelstahl-Schrauben)",
+        "EasyClick Mittelklemme / Endklemme: Fressen unmöglich durch galvanisierte Edelstahlschrauben",
+        "AmbiHook V5 – Legierungen: EN AW6063 T66 (Rm >= 245 N/mm²); Rp0,2 >= 200 N/mm²",
+        "AmbiHook V5 – Legierungen: EN AW6082 T6 (Rm >= 290 N/mm²); Rp0,2 >= 250 N/mm²",
+        "AmbiHook V5 – Schrauben: A2",
+        "Vertikal-Adapter für AmbiHook V5 – Legierungen: EN AW6063 T66 (Rm >= 245 N/mm²); Rp0,2 >= 200 N/mm²",
+        "Vertikal-Adapter für AmbiHook V5 – Schrauben: A2",
+        "AmbiHook V6 – Legierungen: EN AW6063 T66 (Rm >= 245 N/mm²); Rp0,2 >= 200 N/mm²",
+        "AmbiHook V6 – Legierungen: EN AW6082 T6 (Rm >= 290 N/mm²); Rp0,2 >= 250 N/mm²",
+        "AmbiHook V6 – Schrauben: A2",
+        "AmbiHook V4, V5, V6: aus Aluminium; mit Bügel 40 mm oder 55 mm für höhere Lasten"
+      ],
+      "kontakt": {
+        "firma": "AmbiVolt Energietechnik GmbH",
+        "strasse": "Oberalmsham 1",
+        "ort": "84140 Gangkofen",
+        "tel": "+49 8722 966 8577",
+        "mail": "anfrage@ambivolt.de",
+        "web": "www.ambivolt.de"
+      },
+      "notes": "Quelle: C:\\Users\\ambiv\\ambi-relaunch\\docs\\research\\katalog-2026-1-volltext.txt (Titel im Dokument: \"Produktkatalog 2025-1\", Revision 17.04.2025, 21 Seiten). WICHTIG — Encoding: Die Datei ist Windows-1252-kodiert; das Read-Tool zeigt Umlaute als \"�\". Alle Texte hier wurden über die korrekte Codepage (1252) wiederhergestellt und sind wortgetreu inkl. Umlauten. Details: (1) Der Gedankenstrich in \"EasyClick – Klemmsystem\" ist in der Rohdatei ein Soft-Hyphen-Byte (0xAD) aus der PDF-Extraktion; als \"–\" interpretiert. (2) Kontakt: Der Katalog nennt \"E-Mail anfrage@ambivolt.com\" und auf dem Deckblatt \"www.ambivolt.com\", im Fußblock aber \"www.ambivolt.de\"; gemäß Vorgabe wurden anfrage@ambivolt.de und www.ambivolt.de als kanonisch gesetzt (die Broschüre bestätigt beide: \"Email: anfrage@ambivolt.de | Web: www.ambivolt.de\"). Telefon wortgetreu aus dem Katalog: \"+49 8722 966 8577\". (3) Im Katalog steht \">=\" (ASCII), nicht \"≥\"; N/mm² mit hochgestelltem ². Im Original teils ohne Leerzeichen (\"200N/mm²\") — hier zu \"200 N/mm²\" normalisiert. (4) Die 2-Schritt-Montage steht im Katalog direkt unter der Kapitelüberschrift als \"1) Schräg ansetzen / 2) Einfach Reindrehen\"; die Flyer (flyer-inhalte.json) formulieren dieselben Schritte als \"1 Schräg ansetzen / 2 Einfach reindrehen (Die Easy-Click-Klemme von AmbiVolt)\". (5) Kein Legierungshinweis in Broschüre oder product-details.json gefunden — der Katalog ist die einzige Quelle für Materialangaben. (6) Kuriosum im Katalog-TOC/Kapiteln: Nummerierung 4.1–4.3 kommt doppelt vor (Druckfehler im Original)."
+    }
+  },
+  {
+    "kind": "vergleich",
+    "data": {
+      "systemvergleich": {
+        "columns": [
+          "AmbiLight Opti",
+          "AmbiLight Opti Plus",
+          "AmbiLight Eco",
+          "AmbiLight Eco Plus"
+        ],
+        "rows": [
+          {
+            "label": "Spezifika",
+            "values": [
+              "Optimal bei den meisten Dachverhältnissen; Optimale Selbstreinigung; Fußverlauf parallel zur Modullängskante",
+              "Optimal bei den meisten Dachverhältnissen; Optimale Selbstreinigung; Fußverlauf parallel zur Modullängskante. Preisgünstig",
+              "Fußverlauf quer zur Modullängskante. Preisgünstig",
+              "Fußverlauf quer zur Modullängskante. Hervorragender Preis"
+            ]
+          },
+          {
+            "label": "Keine Maßzuschnitte erforderlich",
+            "values": [
+              "+",
+              "+",
+              "+",
+              "+"
+            ]
+          },
+          {
+            "label": "Integrierter Dilatationsausgleich",
+            "values": [
+              "+",
+              "+",
+              "+",
+              "+"
+            ]
+          },
+          {
+            "label": "Selbstreinigung",
+            "values": [
+              "Optimiert über die Modulecke",
+              "Optimiert über die Modulecke",
+              "Über die Modullängskante",
+              "Über die Modullängskante"
+            ]
+          },
+          {
+            "label": "AmbiLight Real Protect",
+            "values": [
+              "+",
+              "+",
+              "+",
+              "+"
+            ]
+          },
+          {
+            "label": "AmbiLight Top Path",
+            "values": [
+              "+",
+              "+",
+              "+",
+              "+"
+            ]
+          },
+          {
+            "label": "Belegung",
+            "values": [
+              "90%",
+              "90%",
+              "90%",
+              "90%"
+            ]
+          },
+          {
+            "label": "Meist nur Ballastierung der Eckmodule (auch in Küstennähe)",
+            "values": [
+              "+",
+              "+",
+              "+",
+              "+"
+            ]
+          },
+          {
+            "label": "Zugänglichkeit von Dach und Kabeln nach dem Verbauen",
+            "values": [
+              "+",
+              "+",
+              "+",
+              "+"
+            ]
+          },
+          {
+            "label": "Fußfläche in % der Modulfläche (Modul 165 * 99 cm)",
+            "values": [
+              "11,0%",
+              "11,0%",
+              "15,4%",
+              "7,7%"
+            ]
+          },
+          {
+            "label": "Füße je Mittelmodul (Randmodule haben mehr Füße)",
+            "values": [
+              "Ein Fuß mit 149 * 12 cm",
+              "Ein Fuß mit 149 cm * 12 cm",
+              "Zwei halbe Füße mit 210 cm * 12 cm",
+              "Ein halber Fuß mit 210 cm * 12 cm"
+            ]
+          },
+          {
+            "label": "Maximale Schneelast (kg/m²) bei Beton",
+            "values": [
+              "Praktisch unbegrenzt; Modul abhängig",
+              "Praktisch unbegrenzt; Modul abhängig",
+              "Praktisch unbegrenzt; Modul abhängig",
+              "Praktisch unbegrenzt; Modul abhängig"
+            ]
+          },
+          {
+            "label": "Maximale Schneelast (kg/m²) bei EPS (Druckstabilität 6200 kg/m²)",
+            "values": [
+              "680",
+              "680",
+              "950",
+              "480"
+            ]
+          },
+          {
+            "label": "Maximale Schneelast (kg/m²) bei Mineralwolldämmung (Druckstabilität 1100 kg/m²) ohne Verwendung von Zusatzfüßen",
+            "values": [
+              "107",
+              "107",
+              "155",
+              "71"
+            ]
+          },
+          {
+            "label": "Sonderfreigabe",
+            "values": [
+              "Nicht notwendig",
+              "Notwendig",
+              "Nicht notwendig",
+              "Notwendig"
+            ]
+          },
+          {
+            "label": "Geeignete Module",
+            "values": [
+              "ca. 100 cm Breite; Länge beliebig; 27 – 50 mm Rahmenhöhe",
+              "ca. 100 cm Breite; Länge beliebig; 27 – 50 mm Rahmenhöhe",
+              "ca. 100 cm Breite; Länge beliebig; 27 – 50 mm Rahmenhöhe",
+              "ca. 100 cm Breite; Länge beliebig; 27 – 50 mm Rahmenhöhe"
+            ]
+          },
+          {
+            "label": "Maximale Bauhöhe bei 40 mm Modul (mm)",
+            "values": [
+              "293",
+              "293",
+              "253",
+              "253"
+            ]
+          },
+          {
+            "label": "Neigungswinkel der Module gegen die Aufstellebene",
+            "values": [
+              "10°",
+              "10°",
+              "10°",
+              "10°"
+            ]
+          },
+          {
+            "label": "Größe Modulfeld entlang kurzer Modulkante",
+            "values": [
+              "220 – 230,0 cm für 2 Module; bauseits einstellbar",
+              "220 – 230,0 cm für 2 Module; bauseits einstellbar",
+              "220 – 230,0 cm für 2 Module; bauseits einstellbar",
+              "220 – 230,0 cm für 2 Module; bauseits einstellbar"
+            ]
+          },
+          {
+            "label": "Größe Modulfeld entlang langer Modulkante",
+            "values": [
+              "Modullänge + 2 cm",
+              "Modullänge + 2 cm",
+              "Modullänge + 2 cm",
+              "Modullänge + 2 cm"
+            ]
+          }
+        ]
+      },
+      "ertragsvergleich": {
+        "intro": "Ost-West-Aufständerung – Die optimale Flächenausnutzung. Vergleich Ost-West Montage vs. Süd- und Süd-West Aufständerung (jeweils 1.000 m² Dachfläche). Durch die sinkenden Modulpreise und den steigenden Wert der Dachflächen gewinnt AmbiLight immer mehr an Bedeutung. Mit AmbiLight Systemen nutzen Sie mit minimalem Kosten- und Montageaufwand eine Fläche maximal aus.",
+        "rows": [
+          {
+            "label": "Ausrichtung",
+            "ow": "10° O/W AmbiLight",
+            "sued": "30° S aufgeständert / 30° S/W aufgeständert"
+          },
+          {
+            "label": "Fläche",
+            "ow": "1.000 m²",
+            "sued": "1.000 m²"
+          },
+          {
+            "label": "Modulanzahl",
+            "ow": "482 Stück",
+            "sued": "241 Stück"
+          },
+          {
+            "label": "Leistung",
+            "ow": "118 kWp",
+            "sued": "59 kWp"
+          },
+          {
+            "label": "Spez. Ertrag",
+            "ow": "856 kWh/kWp a",
+            "sued": "S: 998 kWh/kWp a · S/W: 939 kWh/kWp a"
+          },
+          {
+            "label": "Jahresertrag gesamt",
+            "ow": "101.008 kWh/a",
+            "sued": "S: 58.882 kWh/a · S/W: 55.401 kWh/a"
+          },
+          {
+            "label": "Jahresertrag/m²",
+            "ow": "101 kWh/m²",
+            "sued": "S: 59 kWh/m² · S/W: 55 kWh/m²"
+          }
+        ],
+        "vorteile": [
+          "Ballastarm bis ballastfrei",
+          "Geringes Eigengewicht",
+          "Ungehinderter Regenablauf auf dem Dach",
+          "Minimaler Montageaufwand",
+          "Optimale Zugänglichkeit",
+          "Durchdringungsfreie Montage für Flach- und Foliendächer",
+          "Konventionelle Montage auf flachen Metalldächern",
+          "Vormontierte Klemmen von oben verschraubbar (top-to-bottom-mounting)",
+          "Für rahmenlose und gerahmte Module",
+          "Windkanal getestet und zertifiziert durch das Institut für Industrieaerodynamik",
+          "Geringe Bauhöhe",
+          "Prämiert mit dem Innovationsgutschein des Bayerischen Staatsministeriums für Technologie",
+          "Gebrauchsmusterschutz",
+          "Zum Patent angemeldet",
+          "Auf Wunsch auch inkl. Montage"
+        ]
+      },
+      "mengenermittlung": {
+        "intro": "Mengenermittlung für AmbiLight Eco (Plus) und Opti (Plus). Die Katalogseite (S. 19) stellt beispielhafte Modulfelder (Spalte „Modulfeld\") den jeweils benötigten Komponenten (Spalte „Ergebnis\") gegenüber: Jedes Modulfeld wird grafisch in die sechs nummerierten Komponenten aufgeschlüsselt, daneben steht die Stückzahl je Komponente. Die Beispielrechnung des Katalogs ergibt in der Summe-Zeile: 70 Modulplätze, 24 Nordabschlüsse (kurz), 15 Ostabschlüsse (lang), 13 Außenecken, 5 Innenecken und 6 Versteifungen für Einzelreihen (Summe: 70 / 24 / 15 / 13 / 5 / 6).",
+        "legende": [
+          {
+            "nr": "1",
+            "name": "Modulplatz"
+          },
+          {
+            "nr": "2",
+            "name": "Nordabschluß (kurz)"
+          },
+          {
+            "nr": "3",
+            "name": "Ostabschluß (lang)"
+          },
+          {
+            "nr": "4",
+            "name": "Aussenecke"
+          },
+          {
+            "nr": "5",
+            "name": "Innenecke"
+          },
+          {
+            "nr": "6",
+            "name": "Versteifung für Einzelreihen"
+          }
+        ]
+      },
+      "familienFeatures": [
+        {
+          "heading": "Die AmbiLight Familie",
+          "bullets": [
+            "Die AmbiLight Familie bietet eine Gruppe von ausgeklügelten und ausgereiften Flachdachgestellen, die praktisch alle Anforderungen abdecken."
+          ]
+        },
+        {
+          "heading": "AmbiLight Top Path",
+          "bullets": [
+            "Bei AmbiLight Top Path ist der Firstspalt der Module (bauseits einstellbar) auf 25 – 32 cm verbreitert. Hierdurch haben Sie folgende Vorteile:",
+            "Optimale Zugänglichkeit der Dachhaut",
+            "Optimale Zugänglichkeit der Verkabelung",
+            "Optimale Zugänglichkeit zur Modulreinigung",
+            "Der AmbiLight Top Path ist bei den neuen Systemen AmbiLight Opti, AmbiLight Opti Plus, AmbiLight Eco und AmbiLight Eco Plus enthalten."
+          ]
+        },
+        {
+          "heading": "AmbiLight Real Protect",
+          "bullets": [
+            "AmbiLight Real Protect bietet den maximalen Schutz Ihrer Dachhaut und ist bei den neuen Systemen Opti, Eco und Eco Plus als Standard enthalten. Besonders hervorzuheben sind:",
+            "2 mm Radius an der Längskante der Füße",
+            "Kurze Kanten der Füße gefast",
+            "Schutzlage aus PVC, Vliesbeschichtetem PVC oder EPDM auf die jeweilige Dachfolie angepasst.",
+            "Dauerhaft UV stabile Schutzlage",
+            "Keinerlei Weichmacherübertragung in die Schutzlage hinein.",
+            "Schutzlage bereits auf die Füße werksseitig aufgeklebt. Dadurch sehr schnelles Verbauen und kein Nachjustieren der Schutzlage, wenn das Gestell nochmals minimal verschoben werden muß.",
+            "Wasserfester Kleber für die Schutzlage. Dadurch Verrutschfestigkeit auf sehr lange Sicht."
+          ]
+        },
+        {
+          "heading": "Windkanaltest & Lastreserve",
+          "bullets": [
+            "Selbstverständlich sind alle AmbiLight Systeme im Windkanal getestet.",
+            "Die individuellen Ballastpläne werden mit mindestens 1,5-facher Sicherheit gegen Abheben gerechnet – und das für die gesamte EU.",
+            "Die neuen AmbiLight TopPath Systeme haben eine einzigartig gute Aerodynamik. Sie sind in den Windzonen 1 und 2 bis 15 m Gebäudehöhe komplett ballastfrei und leichter als 15 kg/m².",
+            "Selbst in der Windzone 4 sind bei 15 m Gebäudehöhe und Geländekategorie III immer noch 20 kg/m² Lastreserve ausreichend."
+          ]
+        },
+        {
+          "heading": "Wartungsgänge und Längenausgleich",
+          "bullets": [
+            "Die Systeme AmbiLight Opti, AmbiLight Opti Plus, AmbiLight Eco und AmbiLight Eco Plus bieten durch das Top Path Design bei sehr guter Platzausnutzung einen optimalen Zugang zu Dach und PV Anlage.",
+            "Sie benötigen auch keine Systemunterbrechung für Dilatationsausgleich oder Wartungsgänge, da beides bereits im System integriert ist."
+          ]
+        },
+        {
+          "heading": "Preis / Leistung",
+          "bullets": [
+            "AmbiLight Opti Plus ist extrem preisgünstig und enthält gleichzeitig die neuen Eigenschaften Top Path und Real Protect."
+          ]
+        },
+        {
+          "heading": "Selbstreinigung",
+          "bullets": [
+            "Bei AmbiLight Opti findet der Wasserablauf in den meisten Einbausituationen über die Modulecke und nicht über die Modulkante statt.",
+            "Somit ergibt sich eine noch geringere Verschmutzungsanfälligkeit."
+          ]
+        },
+        {
+          "heading": "Transport und Montage",
+          "bullets": [
+            "Die neuen Systeme AmbiLight Opti, AmbiLight Opti Plus, AmbiLight Eco und AmbiLight Eco Plus bestehen aus Bauteilen von maximal 2,1 m Länge. Dadurch ergibt sich ein leichter Transport auf Straße, Lager und Dach.",
+            "Die Montage erfolgt durch einfaches Ineinanderschieben der Profile. Eine Anpassung der Profile in der Länge ist nicht notwendig.",
+            "Umplanungen auf dem Dach sind einfach möglich ohne Anpassung der Profile, auch wenn z.B. sich eine Lichtkuppel nicht an dem vermuteten Platz befindet.",
+            "Aufgrund des integrierten Längenausgleiches sind keine aufwendigen Dilatationsfugen notwendig."
+          ]
+        },
+        {
+          "heading": "Wasserablauf",
+          "bullets": [
+            "Alle AmbiLight Systeme stehen auf großen Füßen, die ausreichend Abstand zueinander haben, so daß der Wasserablauf auch dann gewährleistet ist, wenn sich etwas Laub oder Schmutz auf dem Dach befindet."
+          ]
+        }
+      ],
+      "notes": "QUELLEN: Systemvergleich, Ertragsvergleich und Familien-Features aus C:\\Users\\ambiv\\ambi-relaunch\\docs\\research\\broschuere-volltext.txt (AmbiLight-Broschüre S. 2, 5, 6); Mengenermittlung aus C:\\Users\\ambiv\\ambi-relaunch\\docs\\research\\katalog-2026-1-volltext.txt (S. 19/21, \"Produktkatalog 2025-1\", Revision 17.04.2025). Umlaute waren in beiden Textdateien als \"�\" kodiert und wurden wiederhergestellt; Silbentrennungen (z. B. \"Dilata-tionsfugen\") aufgelöst.\n\nSYSTEMVERGLEICH — Rekonstruktionshinweise: (1) Die PDF-Extraktion war zeilenverschoben (Werte standen eine Zeile über ihrem Label); die Zuordnung wurde rekonstruiert und rechnerisch verifiziert: Fußfläche 149*12 cm = 11,0 % eines 165*99-cm-Moduls, zwei halbe Füße 210*12 cm = 15,4 %, ein halber Fuß = 7,7 % — passt exakt zu den Spalten. Die in der Extraktion nach oben verrutschten Eco-Plus-Werte 480 (EPS) und 71 (Mineralwolle) sind durch die Flächenverhältnisse bestätigt (480/680 ≈ 71/107 ≈ Fußflächenverhältnis 0,70; 950/680 ≈ 1,41). (2) Original-Spaltenreihenfolge der Broschüre: Opti, Eco, Opti Plus, Eco Plus — hier wie angefordert umsortiert zu Opti, Opti Plus, Eco, Eco Plus. Tabellenüberschrift im Original: \"AmbiLight Ost-West Montagesysteme\". (3) Die Zeilen \"Keine Maßzuschnitte erforderlich\" bis \"Zugänglichkeit von Dach und Kabeln nach dem Verbauen\" stehen im Original unter der Gruppenüberschrift \"Vorteile\". (4) Die Mineralwolle-Zeile trägt im Original zusätzlich den Vermerk \"Zusatzfüße möglich\"; der Opti/Opti-Plus-Wert erscheint in der Extraktion als \"107,\" (evtl. abgeschnittene Dezimalstelle) und wurde als 107 übernommen. (5) Die Zeilen \"Maximale Schneelast bei Beton\", \"Geeignete Module\" und beide \"Größe Modulfeld\"-Zeilen sind im Original spaltenübergreifende Zellen (ein Wert für alle vier Systeme). (6) Sonderfreigabe: \"Nicht notwendig\" spannt im Original über Opti+Eco, \"Notwendig\" über Opti Plus+Eco Plus — deckungsgleich mit den Produkttexten (Opti/Eco: variabler Klemmen-Befestigungsabstand, daher meist keine Einzelfreigabe; Opti Plus/Eco Plus: evtl. Einzelfreigabe des Modulherstellers nötig). (7) Eine Zeile \"Grundsätzlicher Aufbau\" enthält im Original nur Schemazeichnungen, keine Textwerte — nicht übernommen. (8) Fußnote unter der Tabelle: \"Technische Änderungen vorbehalten\".\n\nERTRAGSVERGLEICH: Die Originaltabelle hat DREI Wertespalten: \"30° S/W Aufgeständert\", \"30° S Aufgeständert\", \"10° O/W AmbiLight\" (Gradzeichen in der Extraktion als \"300\"/\"100\" verstümmelt). Schema-bedingt (nur ow/sued) wurden S- und S/W-Werte im Feld \"sued\" kombiniert (\"S: … · S/W: …\"). Abschlussabsatz der Seite (fürs Layout ggf. nutzbar): \"AmbiVolt ist der Photovoltaik-Spezialist für Flach- und Foliendächer. Durch langjährige Erfahrung in der Errichtung von Photovoltaikanlagen auf großen Industriedächern garantiert AmbiVolt die optimale Ausnutzung Ihrer Dachfläche für maximale Rendite.\"\n\nDISKREPANZ FIRSTSPALT: Broschüre (Top Path): 25 – 32 cm; die neuen 2026-Flyer (AmbiLight Eco und EcoPlus, höchste Priorität lt. Vorgabe) nennen 18 – 32 cm Firstspalt. Für den neuen Katalog empfehle ich den Flyer-Wert 18 – 32 cm als aktuellen Stand; der Broschüren-Block oben ist wortgetreu mit 25 – 32 cm wiedergegeben. Weitere Broschüren-Eigenheit wortgetreu belassen: Real Protect wird als Standard \"bei den neuen Systemen Opti, Eco und Eco Plus\" genannt (Opti Plus fehlt an dieser Stelle, wird aber unter \"Preis / Leistung\" ausdrücklich mit Real Protect genannt; im Systemvergleich haben alle vier Systeme \"+\" bei Real Protect). Alte Schreibweisen (\"muß\", \"so daß\", \"Nordabschluß\", \"Aussenecke\") wortgetreu beibehalten.\n\nMENGENERMITTLUNG: Die Katalogseite besteht überwiegend aus einer Grafik (Beispiel-Modulfelder mit eingetragenen Komponenten-Nummern) plus Legende und Summenzeile; einziger Fließtext ist die Überschrift \"Mengenermittlung für AmbiLight Eco (Plus) und Opti (Plus)\" mit den Spaltenköpfen \"Modulfeld\" und \"Ergebnis\". Die Zahlenkolonnen der Beispiel-Ergebnisse (z. B. \"12 12 2 4 0 1\", Summe \"70 24 15 13 5 6\") sind Stückzahlen je Komponente 1–6.\n\nBILD-/DOWNLOAD-PFADE (aus C:\\Users\\ambiv\\ambi-relaunch\\src\\content\\product-details.json, Seite \"flachdachsysteme\"): Broschüren-PDF /dokumente/Ambivolt-AmbiLight-Broschuere_Web_DINA4.pdf, Planungshilfe /dokumente/Ambivolt-AmbiLight-Planungshilfe.pdf, Systemauswahl /dokumente/Ambivolt-AmbiLight-Systemauswahl.pdf, Windlastauslegung Opti und Eco /dokumente/Ambivolt-Amiblight-Windlastauslegung-Opti-und-Eco.pdf, Planungsleitfaden /dokumente/Ambivolt-AmbiLight-Planungsleitfaden.pdf, Fragebogen /dokumente/Ambivolt-AmbiLight_fragebogen.xls; Produktbilder z. B. /images/products/ambivolt-ambilight-eco-1000x600-01-web.jpg (Eco), /images/products/ambilight-eco-plus-1000x600px-01.jpg (Eco Plus), /images/products/ambivolt-ambilight-eco-plus-sued-1000x600px-01.jpg (Eco Plus Süd), /images/products/ambivolt-ambilight-gruendachsystem-OW-1000x600px-01.jpg (Gründach OW)."
+    }
+  }
+]
