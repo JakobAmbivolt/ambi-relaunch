@@ -55,6 +55,12 @@ m2-*.jpeg
 /*.png
 redesign-*.png
 
-# Katalog-/Flyer-Quell-PDFs (Recherchematerial, ~166 MB — zu groß für Git, nur lokal halten & separat sichern)
-/docs/katalog/
+# Katalog: Bau-Skripte, Doku & Schrift (fonts/) WERDEN versioniert — siehe docs/katalog/README.md.
+# Grosse & generierte Artefakte bleiben lokal (zu gross fuer Git, separat sichern):
+#   Original-Flyer + fertige Kataloge ~166 MB, Vorschauen, generierte HTML/JSON.
+/docs/katalog/*.pdf
+/docs/katalog/*.html
+/docs/katalog/flyer-pdfs/
+/docs/katalog/previews/
+/docs/katalog/katalog-daten.json
 /docs/katalog-muster/

@@ -1,0 +1,9 @@
+/* Switzer (Indian Type Foundry / Fontshare) — ITF Free Font License.
+   Eine der beiden Original-Flyer-Schriften (frei einbettbar).
+   Pfade relativ zu docs/katalog/ (die CSS wird inline in vorspann.html gesetzt). */
+@font-face{font-family:"Switzer";font-weight:400;font-style:normal;src:url("fonts/switzer/Switzer-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"Switzer";font-weight:500;font-style:normal;src:url("fonts/switzer/Switzer-Medium.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"Switzer";font-weight:600;font-style:normal;src:url("fonts/switzer/Switzer-Semibold.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"Switzer";font-weight:700;font-style:normal;src:url("fonts/switzer/Switzer-Bold.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"Switzer";font-weight:800;font-style:normal;src:url("fonts/switzer/Switzer-Extrabold.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"Switzer";font-weight:900;font-style:normal;src:url("fonts/switzer/Switzer-Black.woff2") format("woff2");font-display:swap}
