@@ -13,6 +13,7 @@ const routes = [
   "/produkte/falzblechsysteme/",
   "/produkte/welldachsysteme/",
   "/produkte/ergaenzungsprodukte-photovoltaik/",
+  "/produktkatalog/",
   "/unternehmen/",
   "/unsere-solarprojekte/",
   "/jobs-und-stellenangebote/",

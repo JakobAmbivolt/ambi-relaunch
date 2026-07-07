@@ -6,6 +6,7 @@ import { ParallaxLayer } from "@/components/ui/ParallaxLayer";
 import { PageHero } from "@/components/sections/PageHero";
 import { ProductCard } from "@/components/sections/ProductCard";
 import { BeratungsCtaBand } from "@/components/sections/BeratungsCtaBand";
+import { Button } from "@/components/ui/Button";
 import { productCategories, produkteOverview } from "@/content/products";
 
 export const metadata: Metadata = {
@@ -28,7 +29,13 @@ export default function ProduktePage() {
             {produkteOverview.titleLine2}
           </>
         }
-      />
+      >
+        <div className="mt-8">
+          <Button href="/produktkatalog/" variant="secondary">
+            Produktkatalog ansehen
+          </Button>
+        </div>
+      </PageHero>
 
       <section className="relative overflow-hidden bg-white py-20 md:py-28">
         <ParallaxLayer from={70} to={-70}>
