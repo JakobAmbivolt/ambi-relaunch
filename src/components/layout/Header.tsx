@@ -22,8 +22,8 @@ export function Header() {
           />
         </Link>
         <DesktopNav />
-        {/* Mobil: Projektanfrage-CTA immer sichtbar in der Kopfzeile neben dem Burger */}
-        <div className="flex shrink-0 items-center gap-1.5 lg:hidden">
+        {/* Mobil/Tablet: Projektanfrage-CTA immer sichtbar in der Kopfzeile neben dem Burger */}
+        <div className="flex shrink-0 items-center gap-1.5 xl:hidden">
           <Button
             href={projectInquiry.href}
             variant="darkAccent"

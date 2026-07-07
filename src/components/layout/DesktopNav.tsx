@@ -28,7 +28,7 @@ export function DesktopNav() {
     href === pathname || (href !== "/" && pathname.startsWith(href));
 
   return (
-    <nav className="hidden items-center gap-8 lg:flex" aria-label="Hauptnavigation">
+    <nav className="hidden items-center gap-8 xl:flex" aria-label="Hauptnavigation">
       {mainNav.map((item) => {
         const active = isActive(item.href);
 
